@@ -1,0 +1,146 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Quem Somos",
+    "services": "Área de Atuação",
+    "cases": "Cases",
+    "contact": "Contato"
+  },
+  "header": {
+    "cta": "Solicite um Orçamento"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  },
+  "hero": {
+    "title": "A expansão do seu negócio acontece aqui",
+    "subtitle": "Conheça nossos casos de sucesso",
+    "description": "A SLR Engenharia é a escolha certa para concretizar seus projetos com rapidez e excelência, atuando nos modelos Design & Build e Turn Key, entregando soluções completas do início ao fim.",
+    "years": "Anos de atuação",
+    "projects": "Obras Realizadas",
+    "countries": "Países de Atuação",
+    "m2": "m² Reformados"
+  },
+  "about": {
+    "badge": "Quem Somos",
+    "title": "Construímos",
+    "highlight1": "experiências,",
+    "highlight2": "Entregamos resultados.",
+    "subtitle": "Do conceito à entrega, somos movidos por transformar espaços.",
+    "description": "Na SLR Engenharia, nosso propósito é garantir que cada cliente viva uma experiência completa, segura e tranquila durante toda a jornada de obra, do conceito ao espaço pronto. Especialistas em varejo, lajes corporativas e franquias, atuamos com protagonismo nos modelos Design & Build e Turn Key, gerenciando todas as etapas com precisão: aprovações, desenvolvimento de projeto, execução, suprimentos e gestão de terceiros. ",
+    "description2": "Unimos excelência técnica, agilidade e responsabilidade para transformar ideias em ambientes prontos para operar, com um só contrato, um só parceiro e o compromisso de entregar mais do que o combinado.",
+    "cta": "Conheça nossos cases de sucesso",
+    "card1": {
+      "year": "2018",
+      "title": "Fundação",
+      "subtitle": "Nasce a SLR Engenharia.",
+      "description": "Iniciamos nossa jornada com foco em qualidade, agilidade e compromisso, atuando em projetos residenciais, comerciais e corporativos."
+    },
+    "card2": {
+      "year": "2020",
+      "title": "Estruturação e Consolidação.",
+      "subtitle": "Mais de 120 obras entregues no Brasil.",
+      "description": "Com equipe técnica qualificada e processos otimizados, consolidamos nossa operação em diversos segmentos."
+    },
+    "card3": {
+      "year": "2022",
+      "title": "Foco Total em B2B.",
+      "subtitle": "Especialistas em varejo e corporativo.",
+      "description": "A SLR passa a atuar exclusivamente no mercado B2B, entregando lojas e escritórios de alto padrão em todo o país."
+    },
+    "card4": {
+      "year": "2024",
+      "title": "Expansão Internacional.",
+      "subtitle": "Chegamos à América Latina e Europa.",
+      "description": "SLR vai além das fronteiras! Levamos nosso modelo ágil e eficiente para Argentina, Chile, Uruguai e Portugal, atendendo o varejo internacional."
+    },
+    "card5": {
+      "year": "2025",
+      "title": "Presença nos EUA.",
+      "subtitle": "Atuação internacional consolidada.",
+      "description": "Expandimos para os Estados Unidos, executando obras para marcas brasileiras e globais."
+    },
+    "card6": {
+      "year": "2030",
+      "title": "Presença Global.",
+      "subtitle": "SLR nas Américas e Europa.",
+      "description": "Com capacidade para 300 obras por ano, seguimos crescendo com foco em projetos B2B, varejo e corporativo, por toda a América do Sul, Central, do Norte e Europa.."
+    }
+  },
+  "values": {
+    "title": "Nosso Valores",
+    "intelligence-quotient": {
+      "title": "Meta sem método é só loucura",
+      "description": "Aqui, cada ambição é acompanhada de processo, inteligência e execução impecável."
+    },
+    "passion": {
+      "title": "Paixão por desafios",
+      "description": "Não nos movemos pelo fácil. Somos movidos pelo novo, pelo grande e pelo difícil. Transformamos ideias em realidade com criatividade, curiosidade e determinação. Buscamos sempre o melhor resultado – com garra, excelência técnica e coragem para sair do óbvio."
+    },
+    "warning": {
+      "title": "Senso de urgência e consistência",
+      "description": "Agilidade com inteligência. Velocidade com critério. Antecipamos necessidades, prevemos problemas e agimos com empatia, disciplina e método. Para nós, cada decisão conta – em tempo, custo e impacto."
+    },
+    "teamwork": {
+      "title": "Colaboração que entrega",
+      "description": "Nenhum resultado sólido se constrói sozinho. Agimos como um só time, com diálogo, transparência e foco no cliente. Juntos, entregamos mais do que o combinado – no prazo, com qualidade e responsabilidade."
+    },
+    "superhero": {
+      "title": "Excelência com atitude de protagonista",
+      "description": "Agimos com compromisso genuíno. Planejamos com precisão, executamos com competência e corrigimos com agilidade. Assumimos responsabilidade por cada entrega, porque sabemos que ela representa a nossa marca, a confiança do cliente – e o futuro da nossa empresa."
+    },
+    "title2": "Áreas de Atuação",
+    "subtitle2": "Seguimentos SLR",
+    "description2": "Atuamos em projetos de construção e reforma para escritórios, lojas de varejo e redes de franquias em todo o território nacional.",
+    "seguimento1": "Varejo",
+    "seguimento2": "Corporativo"
+  },
+  "cases": {
+    "title": "Cases",
+    "subtitle": "Obras que constroem resultados",
+    "subtitle2": "sem fronteiras",
+    "description": "Nossos projetos vão além da entrega física, eles transformam espaços em ativos estratégicos. Com mais de 1.000 obras entregues no Brasil e América Latina, expandimos nossa atuação para os Estados Unidos, sempre com foco em eficiência, prazos agressivos e excelência técnica. Especialistas em obras corporativas e de varejo, atendemos empresas que buscam agilidade, padronização e qualidade para crescer com segurança, escala e previsibilidade.",
+    "cta": "Conheça nossos cases de sucesso",
+    "title2": "Seu espaço corporativo, sua próxima conquista",
+    "cta2": "Descubra como transformamos este escritório",
+    "case1": {
+      "title": "V4 Company",
+      "description": "Transformação do ambiente de trabalho para V4 Company: mais produtividade e conforto.",
+      "description2": "O projeto envolveu a reforma de um escritório de 1.200 m², com foco em áreas de reunião, sala de espera e áreas de trabalho. A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa.",
+      "img": "/case1.png"
+    },
+    "case2": {
+      "title": "V4 Company",
+      "description": "Transformação do ambiente de trabalho para V4 Company: mais produtividade e conforto.",
+      "description2": "O projeto envolveu a reforma de um escritório de 1.200 m², com foco em áreas de reunião, sala de espera e áreas de trabalho. A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa.",
+      "img": "/case1.png"
+    },
+    "case3": {
+      "title": "V4 Company",
+      "description": "Transformação do ambiente de trabalho para V4 Company: mais produtividade e conforto.",
+      "description2": "O projeto envolveu a reforma de um escritório de 1.200 m², com foco em áreas de reunião, sala de espera e áreas de trabalho. A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa.",
+      "img": "/case1.png"
+    }
+  },
+  "depoimentos": {
+    "title": "O que dizem sobre a ",
+    "subtitle": "SLR Engenharia",
+    "depoimento1": {
+      "name": "João da Silva",
+      "empresa": "Empresa 1",
+      "description": "A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa."
+    },
+    "depoimento2": {
+      "name": "João da Silva",
+      "empresa": "Empresa 2",
+      "description": "A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa."
+    },
+    "depoimento3": {
+      "name": "João da Silva",
+      "empresa": "Empresa 3",
+      "description": "A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Quienes Somos",
+    "services": "Área de Actuación",
+    "cases": "Casos",
+    "contact": "Contacto"
+  },
+  "header": {
+    "cta": "Solicite un Presupuesto"
+  },
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  },
+  "hero": {
+    "title": "La expansión de tu negocio sucede aquí",
+    "subtitle": "Conoce nuestros casos de éxito",
+    "description": "SLR Ingeniería es la elección correcta para materializar tus proyectos con rapidez y excelencia, operando en modelos Design & Build y Turn Key, entregando soluciones completas de principio a fin.",
+    "years": "Años de operación",
+    "projects": "Proyectos Realizados",
+    "countries": "Países de Operación",
+    "m2": "m² Renovados"
+  },
+  "about": {
+    "badge": "Quienes Somos",
+    "title": "Construimos",
+    "highlight1": "experiencias,",
+    "highlight2": "Entregamos resultados.",
+    "subtitle": "Del concepto a la entrega, nos movemos por transformar espacios.",
+    "description": "En SLR Ingeniería, nuestro propósito es garantizar que cada cliente viva una experiencia completa, segura y tranquila durante toda la jornada de obra, del concepto al espacio listo. Especialistas en retail, pisos corporativos y franquicias, actuamos con protagonismo en los modelos Design & Build y Turn Key, gestionando todas las etapas con precisión: aprobaciones, desarrollo de proyecto, ejecución, suministros y gestión de terceros. ",
+    "description2": "Unimos excelencia técnica, agilidad y responsabilidad para transformar ideas en ambientes listos para operar, con un solo contrato, un solo socio y el compromiso de entregar más de lo acordado.",
+    "cta": "Conoce nuestros casos de éxito",
+    "card1": {
+      "year": "2018",
+      "title": "Fundación",
+      "subtitle": "Nace SLR Ingeniería.",
+      "description": "Iniciamos nuestro camino enfocados en calidad, agilidad y compromiso, trabajando en proyectos residenciales, comerciales y corporativos."
+    },
+    "card2": {
+      "year": "2020",
+      "title": "Estructuración y Consolidación.",
+      "subtitle": "Más de 120 obras entregadas en Brasil.",
+      "description": "Con equipo técnico calificado y procesos optimizados, consolidamos nuestra operación en diversos segmentos."
+    },
+    "card3": {
+      "year": "2022",
+      "title": "Enfoque Total en B2B.",
+      "subtitle": "Especialistas en retail y corporativo.",
+      "description": "SLR pasa a actuar exclusivamente en el mercado B2B, entregando tiendas y oficinas de alto estándar en todo el país."
+    },
+    "card4": {
+      "year": "2024",
+      "title": "Expansión Internacional.",
+      "subtitle": "Llegamos a América Latina y Europa.",
+      "description": "¡SLR va más allá de las fronteras! Llevamos nuestro modelo ágil y eficiente a Argentina, Chile, Uruguay y Portugal, atendiendo el retail internacional."
+    },
+    "card5": {
+      "year": "2025",
+      "title": "Presencia en EE.UU.",
+      "subtitle": "Operación internacional consolidada.",
+      "description": "Expandimos a Estados Unidos, ejecutando obras para marcas brasileñas y globales."
+    },
+    "card6": {
+      "year": "2030",
+      "title": "Presencia Global.",
+      "subtitle": "SLR en las Américas y Europa.",
+      "description": "Con capacidad para 300 obras por año, seguimos creciendo con enfoque en proyectos B2B, retail y corporativo, por toda América del Sur, Central, del Norte y Europa."
+    }
+  }
+}
