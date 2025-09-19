@@ -1,10 +1,15 @@
 {
   "navigation": {
     "home": "Inicio",
+    "lin-home": "/",
     "about": "Quienes Somos",
+    "lin-about": "/quienes-somos",
     "services": "Área de Actuación",
+    "lin-services": "/area-de-actuacion",
     "cases": "Casos",
-    "contact": "Contacto"
+    "lin-cases": "/casos",
+    "contact": "Contacto",
+    "lin-contact": "/contacto"
   },
   "header": {
     "cta": "Solicite un Presupuesto"
@@ -67,6 +72,127 @@
       "title": "Presencia Global.",
       "subtitle": "SLR en las Américas y Europa.",
       "description": "Con capacidad para 300 obras por año, seguimos creciendo con enfoque en proyectos B2B, retail y corporativo, por toda América del Sur, Central, del Norte y Europa."
+    }
+  },
+  "values": {
+    "title": "Nuestros Valores",
+    "intelligence-quotient": {
+      "title": "Meta sin método es solo locura",
+      "description": "Aquí, cada ambición es acompañada de proceso, inteligencia y ejecución impecable."
+    },
+    "passion": {
+      "title": "Pasión por los desafíos",
+      "description": "No nos movemos por lo fácil. Somos movidos por lo nuevo, lo grande y lo difícil. Transformamos ideas en realidad con creatividad, curiosidad y determinación. Buscamos siempre el mejor resultado – con garra, excelencia técnica y coraje para salir de lo obvio."
+    },
+    "warning": {
+      "title": "Sentido de urgencia y consistencia",
+      "description": "Agilidad con inteligencia. Velocidad con criterio. Anticipamos necesidades, prevemos problemas y actuamos con empatía, disciplina y método. Para nosotros, cada decisión cuenta – en tiempo, costo e impacto."
+    },
+    "teamwork": {
+      "title": "Colaboración que entrega",
+      "description": "Ningún resultado sólido se construye solo. Actuamos como un solo equipo, con diálogo, transparencia y enfoque en el cliente. Juntos, entregamos más de lo acordado – a tiempo, con calidad y responsabilidad."
+    },
+    "superhero": {
+      "title": "Excelencia con actitud de protagonista",
+      "description": "Actuamos con compromiso genuino. Planeamos con precisión, ejecutamos con competencia y corregimos con agilidad. Asumimos responsabilidad por cada entrega, porque sabemos que representa nuestra marca, la confianza del cliente – y el futuro de nuestra empresa."
+    },
+    "title2": "Áreas de Actuación",
+    "subtitle2": "Segmentos SLR",
+    "description2": "Trabajamos en proyectos de construcción y renovación para oficinas, tiendas de retail y redes de franquicias en todo el territorio nacional.",
+    "seguimento1": "Retail",
+    "seguimento2": "Corporativo"
+  },
+  "cases": {
+    "title": "Casos",
+    "subtitle": "Obras que construyen resultados",
+    "subtitle2": "sin fronteras",
+    "description": "Nuestros proyectos van más allá de la entrega física, transforman espacios en activos estratégicos. Con más de 1.000 obras entregadas en Brasil y América Latina, expandimos nuestra actuación a Estados Unidos, siempre con enfoque en eficiencia, plazos agresivos y excelencia técnica. Especialistas en obras corporativas y de retail, atendemos empresas que buscan agilidad, estandarización y calidad para crecer con seguridad, escala y predictibilidad.",
+    "cta": "Conoce nuestros casos de éxito",
+    "title2": "Tu espacio corporativo, tu próxima conquista",
+    "cta2": "Descubre cómo transformamos esta oficina",
+    "case1": {
+      "title": "V4 Company",
+      "description": "Transformación del ambiente de trabajo para V4 Company: más productividad y confort.",
+      "description2": "El proyecto involucró la renovación de una oficina de 1.200 m², enfocándose en áreas de reunión, sala de espera y áreas de trabajo. SLR Ingeniería entregó un ambiente moderno, funcional y acogedor, con materiales de alta calidad y diseño atemporal. El resultado fue una transformación completa del espacio, con un ambiente que refleja la marca y la cultura de la empresa.",
+      "img": "/case1.png"
+    },
+    "case2": {
+      "title": "V4 Company",
+      "description": "Transformación del ambiente de trabajo para V4 Company: más productividad y confort.",
+      "description2": "El proyecto involucró la renovación de una oficina de 1.200 m², enfocándose en áreas de reunión, sala de espera y áreas de trabajo. SLR Ingeniería entregó un ambiente moderno, funcional y acogedor, con materiales de alta calidad y diseño atemporal. El resultado fue una transformación completa del espacio, con un ambiente que refleja la marca y la cultura de la empresa.",
+      "img": "/case1.png"
+    },
+    "case3": {
+      "title": "V4 Company",
+      "description": "Transformación del ambiente de trabajo para V4 Company: más productividad y confort.",
+      "description2": "El proyecto involucró la renovación de una oficina de 1.200 m², enfocándose en áreas de reunión, sala de espera y áreas de trabajo. SLR Ingeniería entregó un ambiente moderno, funcional y acogedor, con materiales de alta calidad y diseño atemporal. El resultado fue una transformación completa del espacio, con un ambiente que refleja la marca y la cultura de la empresa.",
+      "img": "/case1.png"
+    }
+  },
+  "depoimentos": {
+    "title": "Lo que dicen sobre ",
+    "subtitle": "SLR Ingeniería",
+    "depoimento1": {
+      "name": "Juan Silva",
+      "empresa": "Empresa 1",
+      "description": "SLR Ingeniería entregó un ambiente moderno, funcional y acogedor, con materiales de alta calidad y diseño atemporal. El resultado fue una transformación completa del espacio, con un ambiente que refleja la marca y la cultura de la empresa."
+    },
+    "depoimento2": {
+      "name": "Juan Silva",
+      "empresa": "Empresa 2",
+      "description": "SLR Ingeniería entregó un ambiente moderno, funcional y acogedor, con materiales de alta calidad y diseño atemporal. El resultado fue una transformación completa del espacio, con un ambiente que refleja la marca y la cultura de la empresa."
+    },
+    "depoimento3": {
+      "name": "Juan Silva",
+      "empresa": "Empresa 3",
+      "description": "SLR Ingeniería entregó un ambiente moderno, funcional y acogedor, con materiales de alta calidad y diseño atemporal. El resultado fue una transformación completa del espacio, con un ambiente que refleja la marca y la cultura de la empresa."
+    }
+  },
+  "form": {
+    "title": "Ponte en Contacto",
+    "description": "Completa el formulario a continuación y nuestro equipo se pondrá en contacto contigo pronto.",
+    "fields": {
+      "nome": "Nombre Completo",
+      "telefone": "Teléfono",
+      "email": "Correo Electrónico",
+      "cidade": "Ciudad",
+      "empresa": "Empresa",
+      "mensagem": "Mensaje"
+    },
+    "placeholders": {
+      "nome": "Ingresa tu nombre completo",
+      "telefone": "(555) 123-4567",
+      "email": "tu@email.com",
+      "cidade": "Ingresa tu ciudad",
+      "empresa": "Nombre de tu empresa",
+      "mensagem": "Cuéntanos sobre tu proyecto..."
+    },
+    "submit": "Enviar Mensaje",
+    "sending": "Enviando..."
+  },
+  "footer": {
+    "description": "SLR Ingeniería es la elección correcta para materializar tus proyectos con rapidez y excelencia, operando en modelos Design & Build y Turn Key, entregando soluciones completas de principio a fin.",
+    "links": {
+      "title": "Empresa",
+      "link1": "Inicio",
+      "link2": "Quienes Somos",
+      "link3": "Área de Actuación",
+      "link4": "Casos",
+      "link5": "Contacto"
+    },
+    "links2": {
+      "title": "Servicios",
+      "link1": "Design & Build",
+      "link2": "Turn Key",
+      "link3": "Retail",
+      "link4": "Corporativo"
+    },
+    "links3": {
+      "title": "Contacto",
+      "link2": "Email",
+      "link1": "Teléfono",
+      "link3": "Instagram",
+      "link4": "Dirección"
     }
   }
 }

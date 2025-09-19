@@ -1,10 +1,15 @@
 {
   "navigation": {
     "home": "Home",
+    "lin-home": "/",
     "about": "About Us",
+    "lin-about": "/about-us",
     "services": "Services",
+    "lin-services": "/services",
     "cases": "Cases",
-    "contact": "Contact"
+    "lin-cases": "/cases",
+    "contact": "Contact",
+    "lin-contact": "/contact"
   },
   "header": {
     "cta": "Request a Quote"
@@ -67,6 +72,127 @@
       "title": "Global Presence.",
       "subtitle": "SLR in the Americas and Europe.",
       "description": "With capacity for 300 projects per year, we continue growing with focus on B2B, retail and corporate projects, throughout South, Central, North America and Europe."
+    }
+  },
+  "values": {
+    "title": "Our Values",
+    "intelligence-quotient": {
+      "title": "Goal without method is just madness",
+      "description": "Here, every ambition is accompanied by process, intelligence and impeccable execution."
+    },
+    "passion": {
+      "title": "Passion for challenges",
+      "description": "We don't move for the easy. We are moved by the new, the big and the difficult. We transform ideas into reality with creativity, curiosity and determination. We always seek the best result – with grit, technical excellence and courage to get out of the obvious."
+    },
+    "warning": {
+      "title": "Sense of urgency and consistency",
+      "description": "Agility with intelligence. Speed with criteria. We anticipate needs, foresee problems and act with empathy, discipline and method. For us, every decision counts – in time, cost and impact."
+    },
+    "teamwork": {
+      "title": "Collaboration that delivers",
+      "description": "No solid result is built alone. We act as one team, with dialogue, transparency and focus on the client. Together, we deliver more than agreed – on time, with quality and responsibility."
+    },
+    "superhero": {
+      "title": "Excellence with protagonist attitude",
+      "description": "We act with genuine commitment. We plan with precision, execute with competence and correct with agility. We take responsibility for each delivery, because we know it represents our brand, the client's trust – and the future of our company."
+    },
+    "title2": "Areas of Operation",
+    "subtitle2": "SLR Segments",
+    "description2": "We work on construction and renovation projects for offices, retail stores and franchise networks throughout the national territory.",
+    "seguimento1": "Retail",
+    "seguimento2": "Corporate"
+  },
+  "cases": {
+    "title": "Cases",
+    "subtitle": "Projects that build results",
+    "subtitle2": "without borders",
+    "description": "Our projects go beyond physical delivery, they transform spaces into strategic assets. With more than 1,000 projects delivered in Brazil and Latin America, we expanded our operations to the United States, always focusing on efficiency, aggressive deadlines and technical excellence. Specialists in corporate and retail projects, we serve companies that seek agility, standardization and quality to grow with security, scale and predictability.",
+    "cta": "Discover our success cases",
+    "title2": "Your corporate space, your next achievement",
+    "cta2": "Discover how we transformed this office",
+    "case1": {
+      "title": "V4 Company",
+      "description": "Workplace transformation for V4 Company: more productivity and comfort.",
+      "description2": "The project involved the renovation of a 1,200 m² office, focusing on meeting areas, waiting room and work areas. SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture.",
+      "img": "/case1.png"
+    },
+    "case2": {
+      "title": "V4 Company",
+      "description": "Workplace transformation for V4 Company: more productivity and comfort.",
+      "description2": "The project involved the renovation of a 1,200 m² office, focusing on meeting areas, waiting room and work areas. SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture.",
+      "img": "/case1.png"
+    },
+    "case3": {
+      "title": "V4 Company",
+      "description": "Workplace transformation for V4 Company: more productivity and comfort.",
+      "description2": "The project involved the renovation of a 1,200 m² office, focusing on meeting areas, waiting room and work areas. SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture.",
+      "img": "/case1.png"
+    }
+  },
+  "depoimentos": {
+    "title": "What they say about ",
+    "subtitle": "SLR Engineering",
+    "depoimento1": {
+      "name": "John Silva",
+      "empresa": "Company 1",
+      "description": "SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture."
+    },
+    "depoimento2": {
+      "name": "John Silva",
+      "empresa": "Company 2",
+      "description": "SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture."
+    },
+    "depoimento3": {
+      "name": "John Silva",
+      "empresa": "Company 3",
+      "description": "SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture."
+    }
+  },
+  "form": {
+    "title": "Get in Touch",
+    "description": "Fill out the form below and our team will contact you soon.",
+    "fields": {
+      "nome": "Full Name",
+      "telefone": "Phone",
+      "email": "Email",
+      "cidade": "City",
+      "empresa": "Company",
+      "mensagem": "Message"
+    },
+    "placeholders": {
+      "nome": "Enter your full name",
+      "telefone": "(555) 123-4567",
+      "email": "your@email.com",
+      "cidade": "Enter your city",
+      "empresa": "Your company name",
+      "mensagem": "Tell us about your project..."
+    },
+    "submit": "Send Message",
+    "sending": "Sending..."
+  },
+  "footer": {
+    "description": "SLR Engineering is the right choice to materialize your projects with speed and excellence, operating in Design & Build and Turn Key models, delivering complete solutions from start to finish.",
+    "links": {
+      "title": "Company",
+      "link1": "Home",
+      "link2": "About Us",
+      "link3": "Services",
+      "link4": "Cases",
+      "link5": "Contact"
+    },
+    "links2": {
+      "title": "Services",
+      "link1": "Design & Build",
+      "link2": "Turn Key",
+      "link3": "Retail",
+      "link4": "Corporate"
+    },
+    "links3": {
+      "title": "Contact",
+      "link2": "Email",
+      "link1": "Phone",
+      "link3": "Instagram",
+      "link4": "Address"
     }
   }
 }

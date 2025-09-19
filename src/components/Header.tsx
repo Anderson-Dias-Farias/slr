@@ -7,11 +7,11 @@ import {
   SelectItem,
   SelectTrigger,
 } from "@/components/ui/select";
+import { Link, usePathname, useRouter } from "@/i18n/routing";
 import { AnimatePresence, motion } from "framer-motion";
 import { Globe, Menu, X } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
-import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function Header() {
@@ -23,12 +23,23 @@ export default function Header() {
   const pathname = usePathname();
 
   const menuItems = [
-    { name: t("navigation.home"), href: "#home" },
-    { name: t("navigation.about"), href: "#quem-somos" },
-    { name: t("navigation.services"), href: "#area-atuacao" },
-    { name: t("navigation.cases"), href: "#cases" },
-    { name: t("navigation.contact"), href: "#contato" },
+    { name: t("navigation.home"), href: "/" },
+    { name: t("navigation.about"), href: "/about" },
+    { name: t("navigation.services"), href: "/services" },
+    { name: t("navigation.cases"), href: "/cases" },
+    { name: t("navigation.contact"), href: "/contact" },
   ];
+
+  const url =
+    pathname === "/" || pathname.split("/")[1] === "about" ? true : false;
+
+  // Função para verificar se um item do menu está ativo
+  const isActiveRoute = (href: string) => {
+    if (href === "/") {
+      return pathname === "/";
+    }
+    return pathname.startsWith(href);
+  };
 
   const languages = [
     { code: "pt-br", name: t("languages.pt") },
@@ -41,10 +52,9 @@ export default function Header() {
   };
 
   const handleLanguageChange = (newLocale: string) => {
-    const segments = pathname.split("/");
-    segments[1] = newLocale;
-    const newPath = segments.join("/");
-    router.push(newPath);
+    // Usa o router do next-intl que gerencia automaticamente as traduções
+
+    router.push(pathname, { locale: newLocale });
   };
 
   useEffect(() => {
@@ -54,8 +64,8 @@ export default function Header() {
         document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercent = (scrollTop / documentHeight) * 100;
 
-      // Ativa o background quando o scroll for 20% ou mais
-      setIsScrolled(scrollPercent >= 20);
+      // Ativa o background quando o scroll for 5% ou mais
+      setIsScrolled(scrollPercent >= 2);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -65,7 +75,7 @@ export default function Header() {
   return (
     <header
       className={`${
-        isScrolled ? "bg-black/95" : "bg-transparent"
+        isScrolled ? (url ? "bg-black/95" : "bg-white") : "bg-transparent"
       } shadow-sm border-b fixed top-0 z-50 w-full py-2 transition-all duration-300`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -73,12 +83,18 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <div className="w-20 h-10 rounded-lg flex items-center justify-center relative">
+              <div
+                className={`rounded-lg flex items-center justify-center relative ${
+                  url ? "h-10 w-20 " : "h-15 w-25"
+                }`}
+              >
                 <Image
-                  src="/logo.svg"
+                  src={url ? "/logo.svg" : "/logo-preto.png"}
                   alt="SLR"
                   fill
-                  className="object-cover bg-black"
+                  className={`object-cover bg-black ${
+                    url ? "bg-black" : "bg-white"
+                  }`}
                   priority
                 />
               </div>
@@ -86,15 +102,28 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex space-x-8">
+          <nav className="hidden lg:flex 2xl:space-x-8 xl:space-x-4 space-x-2">
             {menuItems.map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.href}
-                className="text-white hover:text-yellow-600 px-3 py-2 text-sm  transition-colors duration-200 uppercase"
+                href={
+                  item.href as
+                    | "/"
+                    | "/about"
+                    | "/services"
+                    | "/cases"
+                    | "/contact"
+                }
+                className={`px-3 py-2 text-sm transition-colors duration-200 uppercase ${
+                  isActiveRoute(item.href)
+                    ? "text-yellow-600"
+                    : url
+                    ? "text-white hover:text-yellow-600"
+                    : "text-black hover:text-yellow-600"
+                }`}
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </nav>
 
@@ -102,9 +131,21 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-4 gap-4">
             {/* Language Selector */}
             <Select value={locale} onValueChange={handleLanguageChange}>
-              <SelectTrigger className="w-24 h-9 text-white">
-                <div className="flex items-center text-white">
-                  <Globe className="w-4 h-4 mr-2 text-white" />
+              <SelectTrigger
+                className={`w-24 h-9 text-white ${
+                  url ? "text-white" : "text-black"
+                }`}
+              >
+                <div
+                  className={`flex items-center ${
+                    url ? "text-white" : "text-black"
+                  }`}
+                >
+                  <Globe
+                    className={`w-4 h-4 mr-2 ${
+                      url ? "text-white" : "text-black"
+                    }`}
+                  />
                   {languages.find((lang) => lang.code === locale)?.code}
                 </div>
               </SelectTrigger>
@@ -136,9 +177,13 @@ export default function Header() {
                 transition={{ duration: 0.2 }}
               >
                 {isMobileMenuOpen ? (
-                  <X className="h-6 w-6 text-white" />
+                  <X
+                    className={`h-6 w-6  ${url ? "text-white" : "text-black"}`}
+                  />
                 ) : (
-                  <Menu className="h-6 w-6 text-white" />
+                  <Menu
+                    className={`h-6 w-6  ${url ? "text-white" : "text-black"}`}
+                  />
                 )}
               </motion.div>
             </Button>
@@ -153,21 +198,39 @@ export default function Header() {
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-              className="lg:hidden border-t border-white border-l border-r bg-black"
+              className={`lg:hidden border-t border-white border-l border-r ${
+                url ? "bg-black" : "bg-white"
+              }`}
             >
               <div className="px-2 pt-2 pb-3 space-y-1">
                 {menuItems.map((item, index) => (
-                  <motion.a
+                  <motion.div
                     key={item.name}
-                    href={item.href}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
-                    className="block px-3 py-2 text-base font-medium text-white hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
+                    className={`block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200 ${
+                      isActiveRoute(item.href)
+                        ? "text-yellow-600 bg-yellow-600/10"
+                        : url
+                        ? "text-white hover:text-yellow-600 hover:bg-gray-50"
+                        : "text-black hover:text-yellow-600 hover:bg-gray-50"
+                    }`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    {item.name}
-                  </motion.a>
+                    <Link
+                      href={
+                        item.href as
+                          | "/"
+                          | "/about"
+                          | "/services"
+                          | "/cases"
+                          | "/contact"
+                      }
+                    >
+                      {item.name}
+                    </Link>
+                  </motion.div>
                 ))}
 
                 {/* Mobile Language Selector */}
@@ -178,9 +241,15 @@ export default function Header() {
                   className="px-3 py-2"
                 >
                   <Select value={locale} onValueChange={handleLanguageChange}>
-                    <SelectTrigger className="w-full text-white">
+                    <SelectTrigger
+                      className={`w-full ${url ? "text-white" : "text-black"}`}
+                    >
                       <div className="flex items-center">
-                        <Globe className="w-4 h-4 mr-2 text-white" />
+                        <Globe
+                          className={`w-4 h-4 mr-2 ${
+                            url ? "text-white" : "text-black"
+                          }`}
+                        />
                         {languages.find((lang) => lang.code === locale)?.code}
                       </div>
                     </SelectTrigger>
@@ -201,7 +270,7 @@ export default function Header() {
                   transition={{ delay: (menuItems.length + 1) * 0.1 }}
                   className="px-3 py-2"
                 >
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                  <Button className="w-full bg-yellow-600 hover:bg-yellow-700 text-black">
                     {t("header.cta")}
                   </Button>
                 </motion.div>

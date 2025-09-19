@@ -142,5 +142,156 @@
       "empresa": "Empresa 3",
       "description": "A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa."
     }
+  },
+  "form-contato": {
+    "badge": "Contato",
+    "title": "Vamos construir o futuro da sua empresa.",
+    "subtitle": "Juntos.",
+    "description": "Converse com um dos nossos especialistas e inicie seu projeto hoje mesmo.",
+    "description2": "Precisa construir, reformar ou expandir sua operação? Seja uma nova construção, reforma ou expansão, a equipe da SLR Engenharia está pronta para entender suas necessidades e entregar a melhor solução.",
+    "description3": "Preencha o formulário ao lado ou entre em contato por um dos nossos canais."
+  },
+  "form": {
+    "title": "Entre em Contato",
+    "fields": {
+      "nome": "Nome Completo",
+      "telefone": "Telefone",
+      "email": "E-mail",
+      "cidade": "Cidade",
+      "empresa": "Empresa"
+    },
+    "placeholders": {
+      "nome": "Digite seu nome completo",
+      "telefone": "(11) 99999-9999",
+      "email": "seu@email.com",
+      "cidade": "Digite sua cidade",
+      "empresa": "Nome da sua empresa"
+    },
+    "submit": "Quero falar com um especialista",
+    "sending": "Enviando Mensagem..."
+  },
+  "footer": {
+    "description": "A SLR Engenharia é a escolha certa para concretizar seus projetos com rapidez e excelência, atuando nos modelos Design & Build e Turn Key, entregando soluções completas do início ao fim.",
+    "links": {
+      "title": "Empresa",
+      "link1": "Home",
+      "link2": "Quem Somos",
+      "link3": "Área de Atuação",
+      "link4": "Cases",
+      "link5": "Contato"
+    },
+    "links2": {
+      "title": "Serviços",
+      "link1": "Design & Build",
+      "link2": "Turn Key",
+      "link3": "Varejo",
+      "link4": "Corporativo"
+    },
+    "links3": {
+      "title": "Contato",
+      "link2": "Email",
+      "link1": "Telefone",
+      "link3": "Instagram",
+      "link4": "Endereço"
+    }
+  },
+  "about-us": {
+    "hero": "Somos o elo ",
+    "hero2": "que conecta e orienta.",
+    "title": "Construindo ideias.",
+    "title2": "Entregando resultados.",
+    "description": "(Criar texto sobre a SLR: mais detalhes sobre atuação e locais onde está presente.) Exemplo de texto: Nossos projetos partem de uma narrativa que começa no campo das ideias, e se conclui no instante em que o espaço respira pela primeira vez. Na SLR Engenharia, além de entregarmos espaços completamente finalizados, conduzimos toda a jornada dos nossos clientes. Do conceito ao resultado, desenhamos processos para que cada cliente atravesse sua obra com segurança, clareza e tranquilidade. ",
+    "description2": "Somos especialistas em varejo, lajes corporativas e franquias. Atuamos com protagonismo nos modelos Design & Build e Turn Key, orquestrando cada etapa como: aprovações, projetos, execução, suprimentos e gestão de terceiros. ",
+    "description3": "Unimos precisão técnica, agilidade e responsabilidade. Transformamos ideias em espaços prontos para operar, com um único contrato, um único parceiro e a certeza de entregar sempre além.",
+    "link": "CTA",
+    "visao": "Visão",
+    "visao-description": "Ser reconhecidos como uma empresa líder em engenharia na América Latina, entregando soluções inovadoras e sustentáveis que superem as expectativas de nossos clientes.",
+    "missao": "Missão",
+    "missao-description": "Proporcionar serviços de engenharia de alta qualidade, desde o design até a construção, garantindo a total satisfação de nossos clientes por meio de uma abordagem integral, eficiente e sustentável.",
+    "valores": "Valores",
+    "valores-description": "Paixão pelos desafios, que nos impulsiona a buscar soluções inovadoras; trabalho colaborativo, promovendo união e sinergia em nossa equipe; senso de urgência e importância, garantindo que entregamos resultados no tempo certo; e excelência, comprometidos com a qualidade em tudo o que fazemos.",
+    "title3": "Nosso Time",
+    "description4": "[Adicionar texto sobre o time de forma geral]: Nossos projetos partem de uma narrativa que começa no campo das ideias, e se conclui no instante em que o espaço respira pela primeira vez. Na SLR Engenharia, além de entregarmos espaços completamente finalizados, conduzimos toda a jornada dos nossos clientes. Do conceito ao resultado, desenhamos processos para que cada cliente atravesse sua obra com segurança, clareza e tranquilidade. ",
+    "cta3": "Conheça nossos cases de sucesso"
+  },
+  "atuacao": {
+    "title": "Área de Atuação",
+    "badge": "Turn Key e Design-Build",
+    "turn-key": {
+      "title": "Turn Key",
+      "subtitle": "for Retail & Office",
+      "description": "O modelo Turn Key é ideal para projetos que requerem uma gestão total do processo de construção, desde a concepção até a entrega final. Nossa equipe assume toda a responsabilidade, desde a aprovação do projeto até a entrega do espaço pronto para operação.",
+      "title2": "Gestão Integrada",
+      "description2": "O modelo Turn Key leva a integração a um patamar em que cada detalhe da obra é centralizado em um único parceiro. Toda a cadeia, projeto executivo, suprimentos, gestão de terceiros, execução e acabamentos finais, é conduzida sob uma coordenação única, o que elimina pontos de decisão dispersos e reduz riscos de falhas. O cliente recebe um ambiente concluído, tecnicamente validado e pronto para iniciar operação no prazo definido. Essa abordagem oferece máxima simplicidade, com prazos previsíveis, custos controlados e a segurança de que o espaço será entregue exatamente conforme planejado, já apto para funcionar desde o primeiro dia.",
+      "title3": "Centralização Total",
+      "description3": "Um único parceiro coordena todas as etapas: projeto, suprimentos, execução e gestão de terceiros. Eliminação de múltiplos pontos de decisão e redução de riscos.",
+      "title4": "Entrega Pronta para Operar",
+      "description4": "Espaço finalizado, validado tecnicamente e apto para funcionamento imediato. Prazos e custos definidos com previsibilidade.",
+      "title5": "Segurança e Simplicidade",
+      "description5": "Controle único garante qualidade e conformidade em cada fase. O cliente recebe a obra concluída sem esforço adicional de gestão.",
+      "example": "Esse modelo é especialmente estratégico para empresas em expansão, redes de varejo e franquias, pois permite replicar unidades com consistência e previsibilidade, reduzindo o tempo entre a decisão de abrir uma nova operação e o início efetivo das atividades."
+    },
+    "design-build": {
+      "title": "Design-Build",
+      "title2": "for Retail & Office",
+      "description": "O modelo Design & Build integra projeto e execução em um único contrato. Isso significa que planejamento, arquitetura, engenharia, suprimentos e obra são conduzidos de forma coordenada, reduzindo riscos, prazos e custos. Esse modelo assegura que o ambiente esteja pronto para operar desde o primeiro dia, alinhado à marca e à experiência do consumidor, além de permitir expansão escalável e padronizada do negócio.",
+      "subtitle": "Benefícios diretos para o cliente:",
+      "benefits": {
+        "benefit1": {
+          "title": "Viabilidade",
+          "description": "Briefings detalhados para assegurar decisões técnicas e financeiras corretas."
+        },
+        "benefit2": {
+          "title": "Projeto",
+          "description": "Soluções personalizadas que traduzem a identidade da marca."
+        },
+        "benefit3": {
+          "title": "Obra",
+          "description": "Gestão completa de canteiros e fornecedores, garantindo previsibilidade."
+        },
+        "benefit4": {
+          "title": "Retrofit",
+          "description": "Modernização de espaços em operação com mínimo impacto."
+        },
+        "benefit5": {
+          "title": "Sucesso do cliente",
+          "description": "Suporte contínuo até a entrega operacional."
+        }
+      }
+    }
+  },
+  "cases-page": {
+    "title": "Cases",
+    "badge1": "Corporativo",
+    "badge2": "Varejo",
+    "badge3": "Case Anterior",
+    "badge4": "Case Próximo",
+    "itens": {
+      "item1": {
+        "company": "V4 Company",
+        "type": "Corporativo",
+        "logo": "/cases/v4-logo.png",
+        "description": "[Inserir breve texto sobre os Cases]) Exemplo de texto: Nossos projetos partem de uma narrativa que começa no campo das ideias, e se conclui no instante em que o espaço respira pela primeira vez. Na SLR Engenharia, além de entregarmos espaços completamente finalizados, conduzimos toda a jornada dos nossos clientes. Do conceito ao resultado, desenhamos processos para que cada cliente atravesse sua obra com segurança, clareza e tranquilidade.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Brasil, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Marketing"
+          }
+        }
+      }
+    }
   }
 }
