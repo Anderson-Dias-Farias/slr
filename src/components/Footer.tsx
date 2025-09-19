@@ -70,7 +70,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-full border-b bg-white" />
     </footer>
   );
 }

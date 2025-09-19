@@ -76,7 +76,7 @@ export default function Header() {
     <header
       className={`${
         isScrolled ? (url ? "bg-black/95" : "bg-white") : "bg-transparent"
-      } shadow-sm border-b fixed top-0 z-50 w-full py-2 transition-all duration-300`}
+      }  fixed top-0 z-50 w-full py-2 transition-all duration-300`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
