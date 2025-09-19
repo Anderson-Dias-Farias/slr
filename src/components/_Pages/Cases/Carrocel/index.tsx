@@ -95,13 +95,13 @@ export default function Carrocel({ item }: CarrocelProps) {
                 alt={item.company}
                 width={40}
                 height={40}
-                className="object-cover"
+                className="object-cover sm:h-10 sm:w-10 h-8 w-8"
               />
               <div className="flex items-center justify-between gap-2 w-full px-2">
-                <h2 className="text-gray-800 text-3xl font-normal">
+                <h2 className="text-gray-800 sm:text-3xl text-2xl font-normal">
                   {item.company}
                 </h2>
-                <p className="text-gray-600 border-1 border-gray-300 rounded-full px-6 py-1 text-lg">
+                <p className="text-gray-600 border-1 border-gray-300 rounded-full px-6 py-1 sm:text-lg text-base">
                   {item.type}
                 </p>
               </div>

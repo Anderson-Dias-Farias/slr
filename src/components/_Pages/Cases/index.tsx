@@ -616,11 +616,11 @@ export default function Cases() {
     >
       <TabsList
         ref={ref}
-        className="w-full h-full  py-20 flex flex-col gap-2 bg-white overflow-hidden items-center justify-center"
+        className="w-full h-full  md:py-20 py-00 flex flex-col gap-2 bg-white overflow-hidden items-center justify-center"
       >
-        <div className="w-full h-full max-w-7xl mx-auto flex flex-col md:flex-row gap-10 items-center justify-between pt-20 pb-2 px-4 mt-20">
+        <div className="w-full h-full max-w-7xl mx-auto flex  gap-10 items-center justify-between pt-20 pb-2 px-4 md:mt-20 mt-10">
           <motion.h1
-            className="sm:text-6xl text-3xl font-semibold text-gray-800 w-auto text-center"
+            className="md:text-6xl sm:text-4xl text-2xl font-semibold text-gray-800 w-auto text-center"
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.8 }}
@@ -629,11 +629,11 @@ export default function Cases() {
           </motion.h1>
           <div className="flex  gap-4">
             <motion.h2
-              className={`sm:text-lg text-base font-normal ${
+              className={`md:text-lg sm:text-base text-sm font-normal ${
                 tab !== "corporativo"
                   ? "text-gray-500 bg-white"
                   : "text-yellow-500 bg-[#414141]"
-              } w-auto text-center rounded-full px-6  border-1 border-gray-300`}
+              } w-auto text-center rounded-full md:px-6 sm:px-4 px-2  border-1 border-gray-300`}
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -646,16 +646,19 @@ export default function Cases() {
                   }`,
                   color: `${tab === "corporativo" ? "#FFBE00" : "#414141"}`,
                 }}
+                className="md:text-lg sm:text-base text-sm font-normal"
               >
-                {t("badge1")}
+                <span className="md:text-lg sm:text-base text-[12px]  font-normal">
+                  {t("badge1")}
+                </span>
               </TabsTrigger>
             </motion.h2>
             <motion.h2
-              className={`sm:text-lg text-base font-normal ${
+              className={`md:text-lg sm:text-base text-sm font-normal ${
                 tab !== "varejo"
                   ? "text-gray-500 bg-white"
                   : "text-yellow-500 bg-[#414141]"
-              } w-auto text-center rounded-full px-6  border-1 border-gray-300`}
+              } w-auto text-center rounded-full md:px-6 sm:px-4 px-2  border-1 border-gray-300`}
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -669,12 +672,14 @@ export default function Cases() {
                   color: `${tab === "varejo" ? "#FFBE00" : "#414141"}`,
                 }}
               >
-                {t("badge2")}
+                <span className="md:text-lg sm:text-base text-[12px]  font-normal">
+                  {t("badge2")}
+                </span>
               </TabsTrigger>
             </motion.h2>
           </div>
         </div>
-        <div className="border-b-2 border-gray-300 w-full h-full relative z-1"></div>
+        <div className="border-b-2 border-gray-300 w-full h-full relative z-1 mb-6 md:mb-0"></div>
       </TabsList>
       <TabsContent value="corporativo">
         <div className="w-full h-full max-w-7xl mx-auto flex flex-col items-center justify-center">
