@@ -12,6 +12,7 @@ export default async function Page({
   const { slug } = await params;
 
   const url = slug[0];
+  console.log(url);
 
   // Páginas de "Quem Somos" / "About Us" / "Quienes Somos"
   if (url === "quem-somos" || url === "about-us" || url === "quienes-somos") {

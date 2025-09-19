@@ -24,14 +24,14 @@ export default function Header() {
 
   const menuItems = [
     { name: t("navigation.home"), href: "/" },
-    { name: t("navigation.about"), href: "/about" },
+    { name: t("navigation.about"), href: "/abt" },
     { name: t("navigation.services"), href: "/services" },
     { name: t("navigation.cases"), href: "/cases" },
     { name: t("navigation.contact"), href: "/contact" },
   ];
 
   const url =
-    pathname === "/" || pathname.split("/")[1] === "about" ? true : false;
+    pathname === "/" || pathname.split("/")[1] === "abt" ? true : false;
 
   // Função para verificar se um item do menu está ativo
   const isActiveRoute = (href: string) => {
@@ -109,7 +109,7 @@ export default function Header() {
                 href={
                   item.href as
                     | "/"
-                    | "/about"
+                    | "/abt"
                     | "/services"
                     | "/cases"
                     | "/contact"
@@ -222,7 +222,7 @@ export default function Header() {
                       href={
                         item.href as
                           | "/"
-                          | "/about"
+                          | "/abt"
                           | "/services"
                           | "/cases"
                           | "/contact"
