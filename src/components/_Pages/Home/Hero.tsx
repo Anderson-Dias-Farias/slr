@@ -3,23 +3,44 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useCounterAnimation } from "../../../hooks/useCounterAnimation";
+
+// Componente para estatísticas com animação de contador
+function StatisticCounter({
+  targetValue,
+  suffix = "",
+  text,
+  delay = 0,
+}: {
+  targetValue: number;
+  suffix?: string;
+  text: string;
+  delay?: number;
+}) {
+  const { count } = useCounterAnimation({
+    targetValue,
+    duration: 2000,
+    startDelay: delay,
+  });
+
+  return (
+    <motion.div
+      className="flex items-center gap-2 flex-col justify-center text-center"
+      initial={{ opacity: 0, x: -20 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.8, delay: 0.8 + delay / 1000 }}
+    >
+      <p className="text-white md:text-4xl sm:text-3xl text-base font-semibold">
+        {count}
+        {suffix}
+      </p>
+      <p className="text-white md:text-xl text-[10px]">{text}</p>
+    </motion.div>
+  );
+}
 
 export default function Hero() {
   const t = useTranslations();
-
-  // Animação para mobile (só opacidade)
-  const mobileAnimation = {
-    initial: { opacity: 0 },
-    animate: { opacity: 1 },
-    transition: { duration: 0.8 },
-  };
-
-  // Animação para desktop (opacidade + movimento do eixo X)
-  const desktopAnimation = {
-    initial: { opacity: 0, x: -50 },
-    animate: { opacity: 1, x: 0 },
-    transition: { duration: 0.8 },
-  };
 
   return (
     <div>
@@ -74,25 +95,30 @@ export default function Hero() {
 
           {/* Estatísticas */}
           <div className="flex items-start justify-between gap-4 max-w-7xl mx-auto left-0  w-full sm:pb-10 pb-15 md:px-8 px-2">
-            {[
-              { number: "7+", text: t("hero.years") },
-              { number: "1.000+", text: t("hero.projects") },
-              { number: "5+", text: t("hero.countries") },
-              { number: "+300Mil", text: t("hero.m2") },
-            ].map((stat, index) => (
-              <motion.div
-                key={index}
-                className="flex items-center gap-2 flex-col justify-center text-center"
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: 0.8 + index * 0.1 }}
-              >
-                <p className="text-white md:text-4xl sm:text-3xl text-base font-semibold">
-                  {stat.number}
-                </p>
-                <p className="text-white md:text-xl text-[10px]">{stat.text}</p>
-              </motion.div>
-            ))}
+            <StatisticCounter
+              targetValue={7}
+              suffix="+"
+              text={t("hero.years")}
+              delay={400}
+            />
+            <StatisticCounter
+              targetValue={1000}
+              suffix="+"
+              text={t("hero.projects")}
+              delay={200}
+            />
+            <StatisticCounter
+              targetValue={5}
+              suffix="+"
+              text={t("hero.countries")}
+              delay={400}
+            />
+            <StatisticCounter
+              targetValue={300}
+              suffix="Mil"
+              text={t("hero.m2")}
+              delay={600}
+            />
           </div>
 
           {/* Linhas de borda */}
