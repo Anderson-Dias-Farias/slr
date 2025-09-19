@@ -60,13 +60,13 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      const documentHeight =
-        document.documentElement.scrollHeight - window.innerHeight;
-      const scrollPercent = (scrollTop / documentHeight) * 100;
-
-      // Ativa o background quando o scroll for 5% ou mais
-      setIsScrolled(scrollPercent >= 2);
+      // Ativa o background quando o scroll for maior que 50px
+      setIsScrolled(scrollTop > 50);
     };
+
+    // Verifica a posição inicial quando o componente monta
+    const initialScroll = window.scrollY;
+    setIsScrolled(initialScroll > 50);
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);

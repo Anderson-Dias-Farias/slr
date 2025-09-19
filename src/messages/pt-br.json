@@ -268,10 +268,10 @@
     "badge4": "Case Próximo",
     "itens": {
       "item1": {
-        "company": "V4 Company",
+        "company": "V4 - Flagship",
         "type": "Corporativo",
         "logo": "/cases/v4-logo.png",
-        "description": "[Inserir breve texto sobre os Cases]) Exemplo de texto: Nossos projetos partem de uma narrativa que começa no campo das ideias, e se conclui no instante em que o espaço respira pela primeira vez. Na SLR Engenharia, além de entregarmos espaços completamente finalizados, conduzimos toda a jornada dos nossos clientes. Do conceito ao resultado, desenhamos processos para que cada cliente atravesse sua obra com segurança, clareza e tranquilidade.",
+        "description": "Transformação completa do ambiente corporativo para V4 Flagship, entregando um espaço moderno e funcional que reflete a identidade da marca.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -280,7 +280,7 @@
         "list": {
           "localizacao": {
             "title": "Localização",
-            "description": "Brasil, SP"
+            "description": "São Paulo, SP"
           },
           "frente": {
             "title": "Frente",
@@ -289,6 +289,556 @@
           "nicho": {
             "title": "Nicho",
             "description": "Marketing"
+          }
+        }
+      },
+      "item2": {
+        "company": "V4 - Matriz",
+        "type": "Corporativo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Reforma completa da matriz V4 em Campinas, criando um ambiente corporativo de 6.500m² com foco em produtividade e bem-estar.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Campinas, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Marketing"
+          }
+        }
+      },
+      "item3": {
+        "company": "Levis",
+        "type": "Corporativo",
+        "logo": "/cases/levis-logo.png",
+        "description": "Projeto corporativo para Levis, transformando o espaço em um ambiente moderno e funcional para o segmento de vestuário.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Vestuário"
+          }
+        }
+      },
+      "item4": {
+        "company": "Iplace - Milan Head Office",
+        "type": "Corporativo",
+        "logo": "/cases/iplace-logo.png",
+        "description": "Reforma do escritório corporativo da Iplace, criando um ambiente tecnológico e inovador para o segmento de tecnologia.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Tecnologia"
+          }
+        }
+      },
+      "item5": {
+        "company": "Humanitare",
+        "type": "Corporativo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto corporativo para Humanitare, transformando o espaço em um ambiente profissional e acolhedor para consultoria.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Consultoria"
+          }
+        }
+      },
+      "item6": {
+        "company": "HM",
+        "type": "Corporativo",
+        "logo": "/cases/hm-logo.png",
+        "description": "Reforma corporativa para HM, criando um ambiente moderno e funcional para o segmento de construção civil.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Campinas, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Construtora"
+          }
+        }
+      },
+      "item7": {
+        "company": "Nava",
+        "type": "Corporativo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto corporativo para Nava, transformando o espaço em um ambiente tecnológico e inovador para empresa de tecnologia.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Barueri, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Tecnologia"
+          }
+        }
+      },
+      "item8": {
+        "company": "Habras",
+        "type": "Corporativo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Reforma corporativa para Habras, criando um ambiente moderno e funcional para o segmento de construção civil.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Corporativo"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Construtora"
+          }
+        }
+      },
+      "item9": {
+        "company": "Uultis",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Uultis em Miami, criando um ambiente moderno e atrativo para o segmento de móveis.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Miami, FL"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Móveis"
+          }
+        }
+      },
+      "item10": {
+        "company": "Reserva",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Reserva, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Porto Alegre, RS"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Vestuário"
+          }
+        }
+      },
+      "item11": {
+        "company": "Sirene",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Sirene, criando um ambiente moderno e atrativo para o segmento alimentício.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Alimentício"
+          }
+        }
+      },
+      "item12": {
+        "company": "Plié",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Plié, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Rio de Janeiro, RJ"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Vestuário"
+          }
+        }
+      },
+      "item13": {
+        "company": "Oficina",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Oficina, criando um ambiente moderno e atrativo para o segmento de vestuário.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Duque de Caxias, RJ"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Vestuário"
+          }
+        }
+      },
+      "item14": {
+        "company": "Live!",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Live!, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Guarulhos, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Vestuário"
+          }
+        }
+      },
+      "item15": {
+        "company": "Livo",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Livo, criando um ambiente moderno e atrativo para o segmento de acessórios.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Acessórios"
+          }
+        }
+      },
+      "item16": {
+        "company": "Levis - São Roque",
+        "type": "Varejo",
+        "logo": "/cases/levis-logo.png",
+        "description": "Projeto de varejo para Levis, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Roque, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Vestuário"
+          }
+        }
+      },
+      "item17": {
+        "company": "Iplace - Batel",
+        "type": "Varejo",
+        "logo": "/cases/iplace-logo.png",
+        "description": "Projeto de varejo para Iplace, criando um ambiente moderno e atrativo para o segmento de tecnologia.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Curitiba, PR"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Tecnologia"
+          }
+        }
+      },
+      "item18": {
+        "company": "Gua.co - Santana",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Gua.co, transformando o espaço em um ambiente moderno e atrativo para o segmento alimentício.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Alimentício"
+          }
+        }
+      },
+      "item19": {
+        "company": "Gua.co - Campinas",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Gua.co, criando um ambiente moderno e atrativo para o segmento alimentício.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "Campinas, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Alimentício"
+          }
+        }
+      },
+      "item20": {
+        "company": "Gua.co - Perdizes",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Gua.co, transformando o espaço em um ambiente moderno e atrativo para o segmento alimentício.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Alimentício"
+          }
+        }
+      },
+      "item21": {
+        "company": "Bandai",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Bandai, criando um ambiente moderno e atrativo para o segmento de entretenimento.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Entretenimento"
+          }
+        }
+      },
+      "item22": {
+        "company": "Boger Burguer",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Boger Burguer, transformando o espaço em um ambiente moderno e atrativo para o segmento alimentício.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Alimentício"
+          }
+        }
+      },
+      "item23": {
+        "company": "Bom Beef Burguer",
+        "type": "Varejo",
+        "logo": "/cases/v4-logo.png",
+        "description": "Projeto de varejo para Bom Beef Burguer, criando um ambiente moderno e atrativo para o segmento alimentício.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Localização",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Frente",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Nicho",
+            "description": "Alimentício"
           }
         }
       }

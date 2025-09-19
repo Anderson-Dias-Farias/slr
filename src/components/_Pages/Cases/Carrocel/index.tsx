@@ -1,6 +1,6 @@
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
-import { useRef } from "react";
+import { useEffect, useState } from "react";
 
 interface CarrocelProps {
   item: {
@@ -31,36 +31,30 @@ interface CarrocelProps {
 }
 
 export default function Carrocel({ item }: CarrocelProps) {
-  const ref1 = useRef(null);
-  const ref2 = useRef(null);
-  const ref3 = useRef(null);
+  const [animationKey, setAnimationKey] = useState(0);
+  const [shouldAnimate, setShouldAnimate] = useState(true);
 
-  const isInView1 = useInView(ref1, {
-    once: false,
-    amount: 0.2,
-    margin: "0px",
-  });
+  // Força as animações toda vez que o item mudar
+  useEffect(() => {
+    setAnimationKey((prev) => prev + 1);
+    setShouldAnimate(false);
 
-  const isInView2 = useInView(ref2, {
-    once: false,
-    amount: 0.2,
-    margin: "0px",
-  });
+    // Pequeno delay para garantir que a animação seja disparada
+    const timer = setTimeout(() => {
+      setShouldAnimate(true);
+    }, 50);
 
-  const isInView3 = useInView(ref3, {
-    once: false,
-    amount: 0.2,
-    margin: "0px",
-  });
+    return () => clearTimeout(timer);
+  }, [item.company, item.type, item.description]);
 
   return (
     <section className="w-full px-4">
       <div className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center relative gap-10 pb-20">
         <motion.div
-          ref={ref1}
+          key={`image-${animationKey}`}
           className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] overflow-hidden rounded-sm md:rounded-none"
           initial={{ opacity: 0 }}
-          animate={isInView1 ? { opacity: 1 } : { opacity: 0 }}
+          animate={shouldAnimate ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.8 }}
         >
           <Image
@@ -72,10 +66,10 @@ export default function Carrocel({ item }: CarrocelProps) {
           />
         </motion.div>
         <motion.div
-          ref={ref2}
+          key={`info-${animationKey}`}
           className="w-full h-full mx-auto flex flex-col md:flex-row items-start lg:gap-20 gap-10 justify-center relative"
           initial={{ opacity: 0 }}
-          animate={isInView2 ? { opacity: 1 } : { opacity: 0 }}
+          animate={shouldAnimate ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <div className="w-full h-full flex flex-col items-center justify-center md:max-w-1/2 border-t border-gray-300 py-5">
@@ -116,10 +110,10 @@ export default function Carrocel({ item }: CarrocelProps) {
           </div>
         </motion.div>
         <motion.div
-          ref={ref3}
+          key={`gallery-${animationKey}`}
           className="w-full h-full flex flex-col md:flex-row items-center justify-between gap-5"
           initial={{ opacity: 0 }}
-          animate={isInView3 ? { opacity: 1 } : { opacity: 0 }}
+          animate={shouldAnimate ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <div className="w-full h-full flex flex-col items-center justify-center min-h-[421] relative">
