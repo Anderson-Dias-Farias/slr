@@ -22,6 +22,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SLR - Soluções em Tecnologia",
   description: "Soluções tecnológicas inovadoras para seu negócio",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default async function LocaleLayout({

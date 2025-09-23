@@ -97,7 +97,7 @@ export default function Cases() {
           </motion.p>
           <Link
             href="/cases"
-            className="text-black uppercase rounded-full px-4 py-2 border-1  bg-amber-500 hover:bg-amber-600 transition-all duration-300 font-semibold w-full text-center sm:max-w-[440px]"
+            className="text-black uppercase rounded-full px-4 py-2 border-1  bg-[#FFBE00] hover:bg-yellow-700 transition-all duration-300 font-semibold w-full text-center sm:max-w-[440px]"
           >
             {t("cta")}
           </Link>

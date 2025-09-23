@@ -1,15 +1,10 @@
 {
   "navigation": {
     "home": "Home",
-    "lin-home": "/",
     "about": "About Us",
-    "lin-about": "/about-us",
     "services": "Services",
-    "lin-services": "/services",
     "cases": "Cases",
-    "lin-cases": "/cases",
-    "contact": "Contact",
-    "lin-contact": "/contact"
+    "contact": "Contact"
   },
   "header": {
     "cta": "Request a Quote"
@@ -148,27 +143,32 @@
       "description": "SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture."
     }
   },
+  "form-contato": {
+    "badge": "Contact",
+    "title": "Let's build the future of your company.",
+    "subtitle": "Together.",
+    "description": "Talk to one of our specialists and start your project today.",
+    "description2": "Need to build, renovate or expand your operation? Whether it's a new construction, renovation or expansion, the SLR Engineering team is ready to understand your needs and deliver the best solution.",
+    "description3": "Fill out the form on the side or contact us through one of our channels."
+  },
   "form": {
     "title": "Get in Touch",
-    "description": "Fill out the form below and our team will contact you soon.",
     "fields": {
       "nome": "Full Name",
       "telefone": "Phone",
       "email": "Email",
       "cidade": "City",
-      "empresa": "Company",
-      "mensagem": "Message"
+      "empresa": "Company"
     },
     "placeholders": {
       "nome": "Enter your full name",
       "telefone": "(555) 123-4567",
       "email": "your@email.com",
       "cidade": "Enter your city",
-      "empresa": "Your company name",
-      "mensagem": "Tell us about your project..."
+      "empresa": "Your company name"
     },
-    "submit": "Send Message",
-    "sending": "Sending..."
+    "submit": "I want to talk to a specialist",
+    "sending": "Sending Message..."
   },
   "footer": {
     "description": "SLR Engineering is the right choice to materialize your projects with speed and excellence, operating in Design & Build and Turn Key models, delivering complete solutions from start to finish.",
@@ -193,6 +193,655 @@
       "link1": "Phone",
       "link3": "Instagram",
       "link4": "Address"
+    }
+  },
+  "about-us": {
+    "hero": "We are the link ",
+    "hero2": "that connects and guides.",
+    "title": "Building ideas.",
+    "title2": "Delivering results.",
+    "description": "(Create text about SLR: more details about operation and places where it is present.) Example text: Our projects start from a narrative that begins in the field of ideas, and concludes at the moment when the space breathes for the first time. At SLR Engineering, in addition to delivering completely finished spaces, we conduct our clients' entire journey. From concept to result, we design processes so that each client goes through their construction with security, clarity and tranquility. ",
+    "description2": "We are specialists in retail, corporate floors and franchises. We act with protagonism in Design & Build and Turn Key models, orchestrating each stage such as: approvals, projects, execution, supplies and third-party management. ",
+    "description3": "We combine technical precision, agility and responsibility. We transform ideas into spaces ready to operate, with a single contract, a single partner and the certainty of always delivering beyond.",
+    "link": "CTA",
+    "visao": "Vision",
+    "visao-description": "To be recognized as a leading engineering company in Latin America, delivering innovative and sustainable solutions that exceed our clients' expectations.",
+    "missao": "Mission",
+    "missao-description": "To provide high-quality engineering services, from design to construction, ensuring total satisfaction of our clients through an integral, efficient and sustainable approach.",
+    "valores": "Values",
+    "valores-description": "Passion for challenges, which drives us to seek innovative solutions; collaborative work, promoting union and synergy in our team; sense of urgency and importance, ensuring we deliver results at the right time; and excellence, committed to quality in everything we do.",
+    "title3": "Our Team",
+    "description4": "[Add text about the team in general]: Our projects start from a narrative that begins in the field of ideas, and concludes at the moment when the space breathes for the first time. At SLR Engineering, in addition to delivering completely finished spaces, we conduct our clients' entire journey. From concept to result, we design processes so that each client goes through their construction with security, clarity and tranquility. ",
+    "cta3": "Discover our success cases"
+  },
+  "atuacao": {
+    "title": "Areas of Operation",
+    "badge": "Turn Key and Design-Build",
+    "turn-key": {
+      "title": "Turn Key",
+      "subtitle": "for Retail & Office",
+      "description": "The Turn Key model is ideal for projects that require total management of the construction process, from conception to final delivery. Our team assumes all responsibility, from project approval to delivery of the space ready for operation.",
+      "title2": "Integrated Management",
+      "description2": "The Turn Key model takes integration to a level where every detail of the work is centralized in a single partner. The entire chain, executive project, supplies, third-party management, execution and final finishes, is conducted under a single coordination, which eliminates dispersed decision points and reduces failure risks. The client receives a completed environment, technically validated and ready to start operation on the defined deadline. This approach offers maximum simplicity, with predictable deadlines, controlled costs and the security that the space will be delivered exactly as planned, already ready to function from the first day.",
+      "title3": "Total Centralization",
+      "description3": "A single partner coordinates all stages: project, supplies, execution and third-party management. Elimination of multiple decision points and risk reduction.",
+      "title4": "Ready-to-Operate Delivery",
+      "description4": "Finished space, technically validated and ready for immediate operation. Deadlines and costs defined with predictability.",
+      "title5": "Security and Simplicity",
+      "description5": "Single control ensures quality and compliance at each stage. The client receives the completed work without additional management effort.",
+      "example": "This model is especially strategic for expanding companies, retail networks and franchises, as it allows replicating units with consistency and predictability, reducing the time between the decision to open a new operation and the effective start of activities."
+    },
+    "design-build": {
+      "title": "Design-Build",
+      "title2": "for Retail & Office",
+      "description": "The Design & Build model integrates project and execution in a single contract. This means that planning, architecture, engineering, supplies and construction are conducted in a coordinated way, reducing risks, deadlines and costs. This model ensures that the environment is ready to operate from the first day, aligned with the brand and consumer experience, in addition to allowing scalable and standardized business expansion.",
+      "subtitle": "Direct benefits for the client:",
+      "benefits": {
+        "benefit1": {
+          "title": "Feasibility",
+          "description": "Detailed briefings to ensure correct technical and financial decisions."
+        },
+        "benefit2": {
+          "title": "Project",
+          "description": "Personalized solutions that translate the brand identity."
+        },
+        "benefit3": {
+          "title": "Construction",
+          "description": "Complete management of construction sites and suppliers, ensuring predictability."
+        },
+        "benefit4": {
+          "title": "Retrofit",
+          "description": "Modernization of spaces in operation with minimal impact."
+        },
+        "benefit5": {
+          "title": "Client success",
+          "description": "Continuous support until operational delivery."
+        }
+      }
+    }
+  },
+  "cases-page": {
+    "title": "Cases",
+    "badge1": "Corporate",
+    "badge2": "Retail",
+    "badge3": "Previous Case",
+    "badge4": "Next Case",
+    "itens": {
+      "item1": {
+        "company": "V4 - Flagship",
+        "type": "Corporate",
+        "logo": "/cases/v4-logo.png",
+        "description": "Complete transformation of the corporate environment for V4 Flagship, delivering a modern and functional space that reflects the brand identity.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Marketing"
+          }
+        }
+      },
+      "item2": {
+        "company": "V4 - Headquarters",
+        "type": "Corporate",
+        "logo": "/cases/v4-logo.png",
+        "description": "Complete renovation of V4 headquarters in Campinas, creating a 6,500m² corporate environment focused on productivity and well-being.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Campinas, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Marketing"
+          }
+        }
+      },
+      "item3": {
+        "company": "Levis",
+        "type": "Corporate",
+        "logo": "/cases/levis-logo.png",
+        "description": "Corporate project for Levis, transforming the space into a modern and functional environment for the clothing segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Clothing"
+          }
+        }
+      },
+      "item4": {
+        "company": "Iplace - Milan Head Office",
+        "type": "Corporate",
+        "logo": "/cases/iplace-logo.png",
+        "description": "Renovation of Iplace's corporate office, creating a technological and innovative environment for the technology segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Technology"
+          }
+        }
+      },
+      "item5": {
+        "company": "Humanitare",
+        "type": "Corporate",
+        "logo": "/cases/v4-logo.png",
+        "description": "Corporate project for Humanitare, transforming the space into a professional and welcoming environment for consulting.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Consulting"
+          }
+        }
+      },
+      "item6": {
+        "company": "HM",
+        "type": "Corporate",
+        "logo": "/cases/hm-logo.png",
+        "description": "Corporate renovation for HM, creating a modern and functional environment for the civil construction segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Campinas, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Construction"
+          }
+        }
+      },
+      "item7": {
+        "company": "Nava",
+        "type": "Corporate",
+        "logo": "/cases/v4-logo.png",
+        "description": "Corporate project for Nava, transforming the space into a technological and innovative environment for technology company.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Barueri, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Technology"
+          }
+        }
+      },
+      "item8": {
+        "company": "Habras",
+        "type": "Corporate",
+        "logo": "/cases/v4-logo.png",
+        "description": "Corporate renovation for Habras, creating a modern and functional environment for the civil construction segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Corporate"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Construction"
+          }
+        }
+      },
+      "item9": {
+        "company": "Uultis",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Uultis in Miami, creating a modern and attractive environment for the furniture segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Miami, FL"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Furniture"
+          }
+        }
+      },
+      "item10": {
+        "company": "Reserva",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Reserva, transforming the space into a modern and attractive store for the clothing segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Porto Alegre, RS"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Clothing"
+          }
+        }
+      },
+      "item11": {
+        "company": "Sirene",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Sirene, creating a modern and attractive environment for the food segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Food"
+          }
+        }
+      },
+      "item12": {
+        "company": "Plié",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Plié, transforming the space into a modern and attractive store for the clothing segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Rio de Janeiro, RJ"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Clothing"
+          }
+        }
+      },
+      "item13": {
+        "company": "Oficina",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Oficina, creating a modern and attractive environment for the clothing segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Duque de Caxias, RJ"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Clothing"
+          }
+        }
+      },
+      "item14": {
+        "company": "Live!",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Live!, transforming the space into a modern and attractive store for the clothing segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Guarulhos, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Clothing"
+          }
+        }
+      },
+      "item15": {
+        "company": "Livo",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Livo, creating a modern and attractive environment for the accessories segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Accessories"
+          }
+        }
+      },
+      "item16": {
+        "company": "Levis - São Roque",
+        "type": "Retail",
+        "logo": "/cases/levis-logo.png",
+        "description": "Retail project for Levis, transforming the space into a modern and attractive store for the clothing segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Roque, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Clothing"
+          }
+        }
+      },
+      "item17": {
+        "company": "Iplace - Batel",
+        "type": "Retail",
+        "logo": "/cases/iplace-logo.png",
+        "description": "Retail project for Iplace, creating a modern and attractive environment for the technology segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Curitiba, PR"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Technology"
+          }
+        }
+      },
+      "item18": {
+        "company": "Gua.co - Santana",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Gua.co, transforming the space into a modern and attractive environment for the food segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Food"
+          }
+        }
+      },
+      "item19": {
+        "company": "Gua.co - Campinas",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Gua.co, creating a modern and attractive environment for the food segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "Campinas, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Food"
+          }
+        }
+      },
+      "item20": {
+        "company": "Gua.co - Perdizes",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Gua.co, transforming the space into a modern and attractive environment for the food segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Food"
+          }
+        }
+      },
+      "item21": {
+        "company": "Bandai",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Bandai, creating a modern and attractive environment for the entertainment segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Entertainment"
+          }
+        }
+      },
+      "item22": {
+        "company": "Boger Burguer",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Boger Burguer, transforming the space into a modern and attractive environment for the food segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Food"
+          }
+        }
+      },
+      "item23": {
+        "company": "Bom Beef Burguer",
+        "type": "Retail",
+        "logo": "/cases/v4-logo.png",
+        "description": "Retail project for Bom Beef Burguer, creating a modern and attractive environment for the food segment.",
+        "img": {
+          "img": "/cases/v4-1.png",
+          "img2": "/cases/v4-2.png",
+          "img3": "/cases/v4-3.png"
+        },
+        "list": {
+          "localizacao": {
+            "title": "Location",
+            "description": "São Paulo, SP"
+          },
+          "frente": {
+            "title": "Front",
+            "description": "Retail"
+          },
+          "nicho": {
+            "title": "Niche",
+            "description": "Food"
+          }
+        }
+      }
     }
   }
 }

@@ -141,7 +141,7 @@ export default function QuemSomos() {
         </motion.div>
       </div>
       <motion.div
-        className="w-full h-full max-w-7xl mx-auto grid xl:grid-cols-6 md:grid-cols-3 grid-cols-2  mt-10 p-2"
+        className="w-full h-full max-w-7xl mx-auto grid xl:grid-cols-6 md:grid-cols-3 grid-cols-2  mt-30 p-2"
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.8, delay: 0.6 }}
