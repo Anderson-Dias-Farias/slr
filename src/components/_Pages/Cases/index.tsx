@@ -3,19 +3,40 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion, useInView } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useRef, useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import Carrocel from "./Carrocel";
 
 export default function Cases() {
+  const searchParams = useSearchParams();
+  const company = searchParams.get("company");
+  const service = searchParams.get("service");
   const [tab, setTab] = useState("corporativo");
   const [currentSlide, setCurrentSlide] = useState(0);
   const t = useTranslations("cases-page");
   const ref = useRef(null);
+
   const isInView = useInView(ref, {
     once: false,
     amount: 0.2,
     margin: "0px",
   });
+
+  // Valores traduzidos para comparação
+  const corporativoValue = t("badge1").toLowerCase();
+  const varejoValue = t("badge2").toLowerCase();
+
+  // Inicializar tab baseada no service traduzido
+  useEffect(() => {
+    if (service) {
+      const serviceLower = service.toLowerCase();
+      if (serviceLower === corporativoValue) {
+        setTab("corporativo");
+      } else if (serviceLower === varejoValue) {
+        setTab("varejo");
+      }
+    }
+  }, [service, corporativoValue, varejoValue]);
 
   const itensCorporativo = [
     {
@@ -218,9 +239,6 @@ export default function Cases() {
         },
       },
     },
-  ];
-
-  const itensVarejo = [
     {
       company: t("itens.item9.company"),
       logo: t("itens.item9.logo"),
@@ -421,6 +439,9 @@ export default function Cases() {
         },
       },
     },
+  ];
+
+  const itensVarejo = [
     {
       company: t("itens.item17.company"),
       logo: t("itens.item17.logo"),
@@ -597,13 +618,63 @@ export default function Cases() {
       },
     },
   ];
+  const scrollToTop = () => {
+    const isMobile = window.innerWidth < 768;
+    const scrollPosition = isMobile ? 100 : 250;
+    window.scrollTo({ top: scrollPosition, behavior: "smooth" });
+  };
+
   const nextSlide = (values: number) => {
     setCurrentSlide((prev) => (prev + 1) % values);
+    scrollToTop();
   };
 
   const prevSlide = (values: number) => {
     setCurrentSlide((prev) => (prev - 1 + values) % values);
+    scrollToTop();
   };
+  const pathname = usePathname();
+
+  // Filtrar casos baseado na company se fornecida
+  const filteredCorporativo = company
+    ? itensCorporativo.filter(
+        (item) =>
+          item.company.toLowerCase().replace(/\s+/g, "-") ===
+          company.toLowerCase()
+      )
+    : itensCorporativo;
+
+  const filteredVarejo = company
+    ? itensVarejo.filter(
+        (item) =>
+          item.company.toLowerCase().replace(/\s+/g, "-") ===
+          company.toLowerCase()
+      )
+    : itensVarejo;
+
+  // Usar os arrays filtrados
+  const currentCorporativo =
+    filteredCorporativo.length > 0 ? filteredCorporativo : itensCorporativo;
+  const currentVarejo =
+    filteredVarejo.length > 0 ? filteredVarejo : itensVarejo;
+
+  // Ajustar slide inicial se uma empresa específica foi encontrada
+  useEffect(() => {
+    if (company) {
+      const currentArray =
+        tab === "corporativo" ? currentCorporativo : currentVarejo;
+      const foundIndex = currentArray.findIndex(
+        (item) =>
+          item.company.toLowerCase().replace(/\s+/g, "-") ===
+          company.toLowerCase()
+      );
+      if (foundIndex !== -1) {
+        setCurrentSlide(foundIndex);
+      }
+    }
+  }, [company, tab, currentCorporativo, currentVarejo]);
+
+  console.log(pathname, { company, service });
 
   return (
     <Tabs
@@ -611,6 +682,7 @@ export default function Cases() {
       onValueChange={(value) => {
         setTab(value);
         setCurrentSlide(0);
+        scrollToTop();
       }}
       className="bg-white pb-20"
     >
@@ -683,11 +755,11 @@ export default function Cases() {
       </TabsList>
       <TabsContent value="corporativo">
         <div className="w-full h-full max-w-7xl mx-auto flex flex-col items-center justify-center">
-          <Carrocel item={itensCorporativo[currentSlide]} />
+          <Carrocel item={currentCorporativo[currentSlide]} />
           <div className="flex items-center justify-between w-full px-4">
             <button
               onClick={() => {
-                prevSlide(itensCorporativo.length);
+                prevSlide(currentCorporativo.length);
               }}
               className="p-2 cursor-pointer flex items-center justify-center gap-2"
             >
@@ -697,10 +769,13 @@ export default function Cases() {
 
             {/* Indicadores */}
             <div className="flex space-x-2">
-              {itensCorporativo.map((_, index) => (
+              {currentCorporativo.map((_, index) => (
                 <button
                   key={index}
-                  onClick={() => setCurrentSlide(index)}
+                  onClick={() => {
+                    setCurrentSlide(index);
+                    scrollToTop();
+                  }}
                   className={`w-2 h-2 rounded-full transition-colors ${
                     index === currentSlide ? "bg-yellow-500" : "bg-gray-300"
                   }`}
@@ -710,7 +785,7 @@ export default function Cases() {
 
             <button
               onClick={() => {
-                nextSlide(itensCorporativo.length);
+                nextSlide(currentCorporativo.length);
               }}
               className="p-2 cursor-pointer flex items-center justify-center gap-2"
             >
@@ -722,11 +797,11 @@ export default function Cases() {
       </TabsContent>
       <TabsContent value="varejo">
         <div className="w-full h-full max-w-7xl mx-auto flex flex-col items-center justify-center">
-          <Carrocel item={itensVarejo[currentSlide]} />
+          <Carrocel item={currentVarejo[currentSlide]} />
           <div className="flex items-center justify-between w-full px-4">
             <button
               onClick={() => {
-                prevSlide(itensVarejo.length);
+                prevSlide(currentVarejo.length);
               }}
               className="p-2 cursor-pointer flex items-center justify-center gap-2"
             >
@@ -736,10 +811,13 @@ export default function Cases() {
 
             {/* Indicadores */}
             <div className="flex space-x-2">
-              {itensVarejo.map((_, index) => (
+              {currentVarejo.map((_, index) => (
                 <button
                   key={index}
-                  onClick={() => setCurrentSlide(index)}
+                  onClick={() => {
+                    setCurrentSlide(index);
+                    scrollToTop();
+                  }}
                   className={`w-2 h-2 rounded-full transition-colors ${
                     index === currentSlide ? "bg-yellow-500" : "bg-gray-300"
                   }`}
@@ -749,7 +827,7 @@ export default function Cases() {
 
             <button
               onClick={() => {
-                nextSlide(itensVarejo.length);
+                nextSlide(currentVarejo.length);
               }}
               className="p-2 cursor-pointer flex items-center justify-center gap-2"
             >

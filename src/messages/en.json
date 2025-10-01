@@ -152,7 +152,8 @@
     "description3": "Fill out the form on the side or contact us through one of our channels."
   },
   "form": {
-    "title": "Get in Touch",
+    "title": "Get in Touch or",
+    "title2": "Work with us",
     "fields": {
       "nome": "Full Name",
       "telefone": "Phone",
@@ -167,7 +168,22 @@
       "cidade": "Enter your city",
       "empresa": "Your company name"
     },
+    "workFields": {
+      "nome": "Full Name",
+      "telefone": "Phone",
+      "email": "Email",
+      "curriculo": "Resume",
+      "mensagem": "Message"
+    },
+    "workPlaceholders": {
+      "nome": "Enter your full name",
+      "telefone": "(555) 123-4567",
+      "email": "your@email.com",
+      "curriculo": "Select your resume (PDF, DOC, DOCX)",
+      "mensagem": "Tell us about your experience and interest in the position"
+    },
     "submit": "I want to talk to a specialist",
+    "workSubmit": "Submit Application",
     "sending": "Sending Message..."
   },
   "footer": {
@@ -203,6 +219,10 @@
     "description": "(Create text about SLR: more details about operation and places where it is present.) Example text: Our projects start from a narrative that begins in the field of ideas, and concludes at the moment when the space breathes for the first time. At SLR Engineering, in addition to delivering completely finished spaces, we conduct our clients' entire journey. From concept to result, we design processes so that each client goes through their construction with security, clarity and tranquility. ",
     "description2": "We are specialists in retail, corporate floors and franchises. We act with protagonism in Design & Build and Turn Key models, orchestrating each stage such as: approvals, projects, execution, supplies and third-party management. ",
     "description3": "We combine technical precision, agility and responsibility. We transform ideas into spaces ready to operate, with a single contract, a single partner and the certainty of always delivering beyond.",
+    "badge": "Our",
+    "badge-visao": "Our",
+    "badge-missao": "Our",
+    "badge-valores": "Our",
     "link": "CTA",
     "visao": "Vision",
     "visao-description": "To be recognized as a leading engineering company in Latin America, delivering innovative and sustainable solutions that exceed our clients' expectations.",

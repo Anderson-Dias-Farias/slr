@@ -1,9 +1,9 @@
 "use client";
 
+import { Link } from "@/i18n/routing";
 import { motion, useInView } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 import { useRef } from "react";
 
 export default function QuemSomos() {
@@ -116,7 +116,7 @@ export default function QuemSomos() {
           >
             <Link
               href="/cases"
-              className="bg-[#2C2C2C] w-full mx-auto text-white px-4 py-4 rounded-full max-w-[500px]  uppercase text-center lg:text-base md:text-sm text-xs ml-1"
+              className="bg-[#2C2C2C] w-full mx-auto hover:bg-[#FFBE00] hover:text-[#2C2C2C]  hover:border-[#2C2C2C] border border-transparent transition-all duration-300 text-white px-4 py-4 rounded-full max-w-[500px]  uppercase text-center lg:text-base md:text-sm text-xs ml-1"
             >
               {t("cta")}
             </Link>

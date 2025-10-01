@@ -95,7 +95,9 @@
     "subtitle2": "Seguimentos SLR",
     "description2": "Atuamos em projetos de construção e reforma para escritórios, lojas de varejo e redes de franquias em todo o território nacional.",
     "seguimento1": "Varejo",
-    "seguimento2": "Corporativo"
+    "seguimento1-link": "/services",
+    "seguimento2": "Corporativo",
+    "seguimento2-link": "/services"
   },
   "cases": {
     "title": "Cases",
@@ -105,24 +107,8 @@
     "cta": "Conheça nossos cases de sucesso",
     "title2": "Seu espaço corporativo, sua próxima conquista",
     "cta2": "Descubra como transformamos este escritório",
-    "case1": {
-      "title": "V4 Company",
-      "description": "Transformação do ambiente de trabalho para V4 Company: mais produtividade e conforto.",
-      "description2": "O projeto envolveu a reforma de um escritório de 1.200 m², com foco em áreas de reunião, sala de espera e áreas de trabalho. A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa.",
-      "img": "/case1.png"
-    },
-    "case2": {
-      "title": "V4 Company",
-      "description": "Transformação do ambiente de trabalho para V4 Company: mais produtividade e conforto.",
-      "description2": "O projeto envolveu a reforma de um escritório de 1.200 m², com foco em áreas de reunião, sala de espera e áreas de trabalho. A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa.",
-      "img": "/case1.png"
-    },
-    "case3": {
-      "title": "V4 Company",
-      "description": "Transformação do ambiente de trabalho para V4 Company: mais produtividade e conforto.",
-      "description2": "O projeto envolveu a reforma de um escritório de 1.200 m², com foco em áreas de reunião, sala de espera e áreas de trabalho. A SLR Engenharia entregou um ambiente moderno, funcional e acolhedor, com materiais de alta qualidade e design atemporal. O resultado foi uma transformação completa do espaço, com um ambiente que reflete a marca e a cultura da empresa.",
-      "img": "/case1.png"
-    }
+    "sub1": "Transformação do ambiente de trabalho para",
+    "sub2": ": mais produtividade e conforto."
   },
   "depoimentos": {
     "title": "O que dizem sobre a ",
@@ -152,7 +138,8 @@
     "description3": "Preencha o formulário ao lado ou entre em contato por um dos nossos canais."
   },
   "form": {
-    "title": "Entre em Contato",
+    "title": "Entre em Contato ou",
+    "title2": "Trabalhe conosco",
     "fields": {
       "nome": "Nome Completo",
       "telefone": "Telefone",
@@ -167,8 +154,28 @@
       "cidade": "Digite sua cidade",
       "empresa": "Nome da sua empresa"
     },
+    "workFields": {
+      "nome": "Nome Completo",
+      "telefone": "Telefone",
+      "email": "E-mail",
+      "curriculo": "Currículo",
+      "mensagem": "Mensagem"
+    },
+    "workPlaceholders": {
+      "nome": "Digite seu nome completo",
+      "telefone": "(11) 99999-9999",
+      "email": "seu@email.com",
+      "curriculo": "Selecione seu currículo (PDF, DOC, DOCX)",
+      "mensagem": "Conte-nos sobre sua experiência e interesse na vaga"
+    },
     "submit": "Quero falar com um especialista",
-    "sending": "Enviando Mensagem..."
+    "workSubmit": "Enviar Candidatura",
+    "sending": "Enviando Mensagem...",
+    "workSending": "Enviando Candidatura...",
+    "workSuccess": "Candidatura enviada com sucesso!",
+    "workError": "Erro ao enviar candidatura. Tente novamente.",
+    "sendError": "Erro ao enviar mensagem. Tente novamente.",
+    "sendSuccess": "Mensagem enviada com sucesso!"
   },
   "footer": {
     "description": "A SLR Engenharia é a escolha certa para concretizar seus projetos com rapidez e excelência, atuando nos modelos Design & Build e Turn Key, entregando soluções completas do início ao fim.",
@@ -200,10 +207,29 @@
     "hero2": "que conecta e orienta.",
     "title": "Construindo ideias.",
     "title2": "Entregando resultados.",
-    "description": "(Criar texto sobre a SLR: mais detalhes sobre atuação e locais onde está presente.) Exemplo de texto: Nossos projetos partem de uma narrativa que começa no campo das ideias, e se conclui no instante em que o espaço respira pela primeira vez. Na SLR Engenharia, além de entregarmos espaços completamente finalizados, conduzimos toda a jornada dos nossos clientes. Do conceito ao resultado, desenhamos processos para que cada cliente atravesse sua obra com segurança, clareza e tranquilidade. ",
-    "description2": "Somos especialistas em varejo, lajes corporativas e franquias. Atuamos com protagonismo nos modelos Design & Build e Turn Key, orquestrando cada etapa como: aprovações, projetos, execução, suprimentos e gestão de terceiros. ",
-    "description3": "Unimos precisão técnica, agilidade e responsabilidade. Transformamos ideias em espaços prontos para operar, com um único contrato, um único parceiro e a certeza de entregar sempre além.",
-    "link": "CTA",
+    "description": "Uma das principais empresas de engenharia do Brasil, especializada em soluções completas que vão do design à construção, sempre com foco em qualidade, eficiência e inovação.",
+    "description2": "Com mais de 1.000 projetos realizados em toda a América Latina, transformar ideias em realidade é a essência do nosso trabalho. Nosso processo começa com uma consultoria personalizada, segue com uma execução integrada de design e construção e culmina na entrega final — pronta para gerar valor.",
+    "description3": "Na SLR Engenharia, cada detalhe do seu projeto é conduzido com eficiência, transparência e excelência. Vamos construir juntos?",
+    "why-choose": "Por que escolher a SLR Engenharia?",
+    "benefits": {
+      "benefit1": {
+        "title": "Soluções Integradas",
+        "description": "serviços completos em um único contrato."
+      },
+      "benefit2": {
+        "title": "Foco no Cliente",
+        "description": "cada projeto é único, desenvolvido lado a lado com você."
+      },
+      "benefit3": {
+        "title": "Qualidade e Excelência",
+        "description": "compromisso desde a escolha dos materiais até a entrega final."
+      }
+    },
+    "badge": "Nossa",
+    "badge-visao": "Nossa",
+    "badge-missao": "Nossa",
+    "badge-valores": "Nossos",
+    "link": "Entrar em contato",
     "visao": "Visão",
     "visao-description": "Ser reconhecidos como uma empresa líder em engenharia na América Latina, entregando soluções inovadoras e sustentáveis que superem as expectativas de nossos clientes.",
     "missao": "Missão",
@@ -211,7 +237,7 @@
     "valores": "Valores",
     "valores-description": "Paixão pelos desafios, que nos impulsiona a buscar soluções inovadoras; trabalho colaborativo, promovendo união e sinergia em nossa equipe; senso de urgência e importância, garantindo que entregamos resultados no tempo certo; e excelência, comprometidos com a qualidade em tudo o que fazemos.",
     "title3": "Nosso Time",
-    "description4": "[Adicionar texto sobre o time de forma geral]: Nossos projetos partem de uma narrativa que começa no campo das ideias, e se conclui no instante em que o espaço respira pela primeira vez. Na SLR Engenharia, além de entregarmos espaços completamente finalizados, conduzimos toda a jornada dos nossos clientes. Do conceito ao resultado, desenhamos processos para que cada cliente atravesse sua obra com segurança, clareza e tranquilidade. ",
+    "description4": "Nosso time transforma planejamento em resultado. Especialistas, gestores e profissionais de campo trabalham juntos com foco absoluto em entregar resultados. Unimos experiência, diversidade de competências e paixão pelo que fazemos, garantindo que cada projeto seja conduzido com precisão, segurança e excelência. Nossas equipes são dedicadas exclusivamente a cada projeto, assegurando atenção total e soluções personalizadas. Transformamos processos complexos em experiências claras, seguras e fluidas para nossos clientes. Nossa atuação ultrapassa fronteiras: além de todo o território brasileiro, estamos presentes na América Latina e América do Norte, coordenando projetos e obras com agilidade, integração e responsabilidade.",
     "cta3": "Conheça nossos cases de sucesso"
   },
   "atuacao": {
@@ -271,11 +297,11 @@
         "company": "V4 - Flagship",
         "type": "Corporativo",
         "logo": "/cases/v4-logo.png",
-        "description": "Transformação completa do ambiente corporativo para V4 Flagship, entregando um espaço moderno e funcional que reflete a identidade da marca.",
+        "description": "No coração da Cidade Monções, polo corporativo de São Paulo, a V4 Company encontrou o espaço ideal para seu escritório flagship.\n\nA SLR Engenharia foi responsável por toda a jornada da obra no 6º andar do Edifício Ronaldo Sampaio Ferreira: projetos complementares, execução completa e entrega turnkey. Em 700m², transformamos conceito em resultado, coordenando cada etapa para que a V4 pudesse operar em um ambiente pronto, funcional e alinhado à sua identidade inovadora no marketing.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.16.jpeg",
+          "img2": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.17.jpeg",
+          "img3": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.38.jpeg"
         },
         "list": {
           "localizacao": {
@@ -296,11 +322,11 @@
         "company": "V4 - Matriz",
         "type": "Corporativo",
         "logo": "/cases/v4-logo.png",
-        "description": "Reforma completa da matriz V4 em Campinas, criando um ambiente corporativo de 6.500m² com foco em produtividade e bem-estar.",
+        "description": "Em Campinas, a V4 Company consolidou sua matriz em um espaço monousuário de 6.500m², projetado para refletir a força e a inovação da empresa no setor de marketing.\n\nA SLR Engenharia conduziu toda a jornada da obra: projetos complementares, execução completa e entrega turnkey. Em apenas 120 dias, transformamos conceito em realidade, entregando um ambiente corporativo amplo, moderno e totalmente pronto para operar.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09281.JPG",
+          "img2": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09314.JPG",
+          "img3": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09323.JPG"
         },
         "list": {
           "localizacao": {
@@ -321,11 +347,11 @@
         "company": "Levis",
         "type": "Corporativo",
         "logo": "/cases/levis-logo.png",
-        "description": "Projeto corporativo para Levis, transformando o espaço em um ambiente moderno e funcional para o segmento de vestuário.",
+        "description": "Na Av. das Nações Unidas, no Brooklin, a Levi's estabeleceu seu novo escritório corporativo em 750m² no Edifício TNU, um endereço consolidado do cenário corporativo de São Paulo.\n\nA SLR Engenharia foi responsável pela obra completa e projetos complementares, conduzindo todo o processo em modelo turnkey. Em 90 dias, transformamos conceito em espaço pronto para operar, alinhado à identidade da marca e preparado para impulsionar sua atuação no Brasil.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/LEVIS/Fotos SLR (31).jpg",
+          "img2": "/cases/CORPORATIVO/LEVIS/Fotos SLR (42).jpg",
+          "img3": "/cases/CORPORATIVO/LEVIS/Fotos SLR (8).jpg"
         },
         "list": {
           "localizacao": {
@@ -346,11 +372,11 @@
         "company": "Iplace - Milan Head Office",
         "type": "Corporativo",
         "logo": "/cases/iplace-logo.png",
-        "description": "Reforma do escritório corporativo da Iplace, criando um ambiente tecnológico e inovador para o segmento de tecnologia.",
+        "description": "Na Vila Olímpia, em São Paulo, a iPlace inaugurou seu novo espaço no Milan Head Office, ocupando 400m² em um dos endereços mais dinâmicos do setor corporativo da cidade.\n\nA SLR Engenharia foi responsável pela obra completa e projetos complementares, em modelo turnkey. Em apenas 30 dias, conduzimos toda a jornada para entregar um ambiente pronto, funcional e alinhado ao DNA tecnológico da marca.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15 (1).jpeg",
+          "img2": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15.jpeg",
+          "img3": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.21 (2).jpeg"
         },
         "list": {
           "localizacao": {
@@ -371,7 +397,7 @@
         "company": "Humanitare",
         "type": "Corporativo",
         "logo": "/cases/v4-logo.png",
-        "description": "Projeto corporativo para Humanitare, transformando o espaço em um ambiente profissional e acolhedor para consultoria.",
+        "description": "No Paraíso, um dos endereços corporativos mais tradicionais de São Paulo, a Humanitare escolheu o 12º andar do Condomínio Edifício Paulista Plaza para seu novo escritório.\n\nA SLR Engenharia foi responsável por toda a jornada: projetos complementares, execução completa e entrega turnkey. Em 230 m², transformamos conceito em espaço pronto para operar, alinhado às necessidades da marca e ao padrão de excelência do edifício.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -396,11 +422,11 @@
         "company": "HM",
         "type": "Corporativo",
         "logo": "/cases/hm-logo.png",
-        "description": "Reforma corporativa para HM, criando um ambiente moderno e funcional para o segmento de construção civil.",
+        "description": "Em Campinas, a HM escolheu o Edifício Montpellier, na Av. Barão de Itapura, para instalar seu novo espaço corporativo. O endereço, em uma das avenidas mais tradicionais da cidade, reforça a presença da construtora no interior paulista.\n\nA SLR Engenharia conduziu toda a execução: projetos complementares, obra completa e entrega em modelo turnkey. Em 794 m², criamos um ambiente funcional e contemporâneo, pronto para receber a operação da empresa em apenas 45 dias.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/HM/20220128_134536.jpg",
+          "img2": "/cases/CORPORATIVO/HM/20220128_134620.jpg",
+          "img3": "/cases/CORPORATIVO/HM/20220128_134738.jpg"
         },
         "list": {
           "localizacao": {
@@ -420,12 +446,12 @@
       "item7": {
         "company": "Nava",
         "type": "Corporativo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto corporativo para Nava, transformando o espaço em um ambiente tecnológico e inovador para empresa de tecnologia.",
+        "logo": "/cases/nava-logo.svg",
+        "description": "Em Barueri, na região que concentra alguns dos maiores polos de negócios da Grande São Paulo, uma empresa de tecnologia escolheu o Centro Administrativo Rio Negro para seu novo hub corporativo.\n\nA SLR Engenharia foi responsável pela obra completa em modelo turnkey, conduzindo cada etapa do processo, do planejamento à entrega final. Em 1.600 m², criamos um ambiente amplo, moderno e totalmente pronto para impulsionar inovação, concluído em apenas 60 dias.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/NAVA/Fotos Escritorio (34).jpg",
+          "img2": "/cases/CORPORATIVO/NAVA/Fotos Escritorio (49).jpg",
+          "img3": "/cases/CORPORATIVO/NAVA/Gemini_Generated_Image_p8kkk4p8kkk4p8kk.png"
         },
         "list": {
           "localizacao": {
@@ -445,12 +471,12 @@
       "item8": {
         "company": "Habras",
         "type": "Corporativo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Reforma corporativa para Habras, criando um ambiente moderno e funcional para o segmento de construção civil.",
+        "logo": "/cases/habras-logo.webp",
+        "description": "Em Pinheiros, um dos bairros mais criativos e pulsantes de São Paulo, a Habras escolheu o Condomínio Win Work para instalar seu novo escritório corporativo.\n\nA SLR Engenharia assumiu a obra completa em modelo turnkey, coordenando cada etapa para garantir um resultado ágil e de alta qualidade. Em apenas 30 dias, transformamos 650 m² em um espaço funcional e contemporâneo, pronto para receber a operação da construtora.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/HABRAS/edited_office_4.jpg",
+          "img2": "/cases/CORPORATIVO/HABRAS/edited_office_5.jpg",
+          "img3": "/cases/CORPORATIVO/HABRAS/edited_office_6.jpg"
         },
         "list": {
           "localizacao": {
@@ -470,12 +496,12 @@
       "item9": {
         "company": "Uultis",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Uultis em Miami, criando um ambiente moderno e atrativo para o segmento de móveis.",
+        "logo": "/cases/uultis-logo.png",
+        "description": "Em Miami, no vibrante distrito de Wynwood, a Uultis inaugurou sua nova flagship na North Miami Avenue, um endereço que respira arte, design e lifestyle.\n\nA SLR Engenharia foi responsável por toda a execução da obra em modelo turnkey, coordenando cada detalhe para entregar um espaço de varejo sofisticado e funcional. Em apenas 30 dias, transformamos 600 m² em uma loja que reflete a identidade da marca de móveis e sua proposta de design contemporâneo.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.29.jpeg",
+          "img2": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.30 (2).jpeg",
+          "img3": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.49.08.jpeg"
         },
         "list": {
           "localizacao": {
@@ -496,7 +522,7 @@
         "company": "Reserva",
         "type": "Varejo",
         "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Reserva, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "description": "Em Porto Alegre, a Reserva escolheu o Shopping BSCG Carlos Gomes, na Av. Carlos Gomes, para reforçar sua presença no varejo premium da capital gaúcha.\n\nA SLR Engenharia conduziu a obra completa em modelo turnkey, cuidando de cada detalhe para que a nova loja refletisse o estilo marcante da marca de vestuário. Em apenas 45 dias, transformamos 195 m² em um espaço que traduz a identidade da Reserva e proporciona uma experiência de compra única.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -520,12 +546,12 @@
       "item11": {
         "company": "Sirene",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Sirene, criando um ambiente moderno e atrativo para o segmento alimentício.",
+        "logo": "/cases/sirene-logo.png",
+        "description": "Na efervescente Vila Madalena, em São Paulo, a Sirene abriu as portas de sua nova loja na Rua Harmonia, um endereço conhecido por sua cena gastronômica e cultural.\n\nA SLR Engenharia foi responsável pela execução completa da obra em modelo turnkey. Em apenas 30 dias, transformamos 145,63 m² em um espaço acolhedor e funcional, pronto para receber clientes e transmitir a essência da marca no universo alimentício.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/SIRENE/12-11-20 Sirene 055.JPG",
+          "img2": "/cases/VAREJO/SIRENE/BECO (1).jpg",
+          "img3": "/cases/VAREJO/SIRENE/unnamed (1).jpg"
         },
         "list": {
           "localizacao": {
@@ -545,8 +571,8 @@
       "item12": {
         "company": "Plié",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Plié, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "logo": "/cases/plie-logo.png",
+        "description": "No BarraShopping, um dos principais centros de compras do Rio de Janeiro, a Plié reforçou sua presença no varejo de moda com uma nova loja de 40 m².\n\nA SLR Engenharia executou a obra completa em modelo turnkey, cuidando de cada detalhe para entregar um espaço elegante e funcional em apenas 30 dias. O resultado é uma loja pronta para receber clientes com o estilo e a sofisticação característicos da marca.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -571,7 +597,7 @@
         "company": "Oficina",
         "type": "Varejo",
         "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Oficina, criando um ambiente moderno e atrativo para o segmento de vestuário.",
+        "description": "No Outlet Premium Rio de Janeiro, em Duque de Caxias, a Oficina inaugurou uma nova loja para reforçar sua presença no varejo de moda.\n\nA SLR Engenharia executou a obra completa em modelo turnkey, entregando 175 m² totalmente finalizados em apenas 30 dias, com o padrão de qualidade e agilidade que o projeto exigia.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -595,12 +621,12 @@
       "item14": {
         "company": "Live!",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Live!, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "logo": "/cases/live-logo.svg",
+        "description": "No Outlet SoMarcas Guarulhos, a marca Live! reforçou sua presença no varejo de moda com uma nova loja.\n\nA SLR Engenharia executou a obra completa em modelo turnkey, entregando 143 m² finalizados em apenas 30 dias, dentro do prazo e com a qualidade que o projeto exigia.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/LIVE!/DSC04824.ARW",
+          "img2": "/cases/VAREJO/LIVE!/DSC04829.ARW",
+          "img3": "/cases/VAREJO/LIVE!/DSC04849.JPG"
         },
         "list": {
           "localizacao": {
@@ -620,12 +646,12 @@
       "item15": {
         "company": "Livo",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Livo, criando um ambiente moderno e atrativo para o segmento de acessórios.",
+        "logo": "/cases/livo-logo.png",
+        "description": "Na Vila Guilherme, em São Paulo, a Livo inaugurou sua nova loja no Shopping Center Norte, ocupando 40m² em um dos principais centros de varejo da cidade.\n\nA SLR Engenharia foi responsável pela obra completa, em modelo turnkey. Em apenas 30 dias, conduzimos toda a execução para entregar um espaço funcional, moderno e alinhado ao posicionamento da marca de acessórios.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/LIVO/C3696T01.JPG",
+          "img2": "/cases/VAREJO/LIVO/DSC08852.JPG",
+          "img3": "/cases/VAREJO/LIVO/DSC08856.JPG"
         },
         "list": {
           "localizacao": {
@@ -646,11 +672,11 @@
         "company": "Levis - São Roque",
         "type": "Varejo",
         "logo": "/cases/levis-logo.png",
-        "description": "Projeto de varejo para Levis, transformando o espaço em uma loja moderna e atrativa para o segmento de vestuário.",
+        "description": "Em São Roque, a Levi's inaugurou sua nova loja no Catarina Fashion Outlet, ocupando 280m² em um dos principais destinos de compras do varejo de moda no Brasil.\n\nA SLR Engenharia foi responsável pela obra completa, em modelo turnkey. Em apenas 30 dias, conduzimos toda a execução para entregar um espaço pronto para operar, moderno e alinhado à identidade global da marca de vestuário.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/LEVIS/bd372459-e8f1-4865-ac70-9721b3d87549.jpeg",
+          "img2": "/cases/VAREJO/LEVIS/WhatsApp Image 2025-01-16 at 13.46.55.jpeg",
+          "img3": "/cases/VAREJO/LEVIS/WhatsApp Image 2025-01-16 at 13.46.56 (2).jpeg"
         },
         "list": {
           "localizacao": {
@@ -671,7 +697,7 @@
         "company": "Iplace - Batel",
         "type": "Varejo",
         "logo": "/cases/iplace-logo.png",
-        "description": "Projeto de varejo para Iplace, criando um ambiente moderno e atrativo para o segmento de tecnologia.",
+        "description": "Em Curitiba, a iPlace inaugurou sua nova loja no Shopping Pátio Batel, ocupando 153m² em um dos endereços mais sofisticados do varejo de tecnologia no Paraná.\n\nA SLR Engenharia foi responsável pela obra completa, em modelo turnkey. Em apenas 30 dias, conduzimos toda a execução para entregar um espaço pronto para operar, moderno e alinhado ao DNA tecnológico da marca.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -695,12 +721,12 @@
       "item18": {
         "company": "Gua.co - Santana",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Gua.co, transformando o espaço em um ambiente moderno e atrativo para o segmento alimentício.",
+        "logo": "/cases/guaco-logo.avif",
+        "description": "Localizada na R. Dr. César, 874 – Santana, São Paulo, a nova unidade da Gua.co foi projetada para oferecer uma experiência única no segmento alimentício, unindo design moderno e funcionalidade.\n\nA SLR Engenharia realizou a obra completa em modelo turnkey, entregando um espaço de 260m² totalmente finalizado e pronto para operação em apenas 30 dias.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (24).jpg",
+          "img2": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (25).jpg",
+          "img3": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (3).jpg"
         },
         "list": {
           "localizacao": {
@@ -720,12 +746,12 @@
       "item19": {
         "company": "Gua.co - Campinas",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Gua.co, criando um ambiente moderno e atrativo para o segmento alimentício.",
+        "logo": "/cases/guaco-logo.avif",
+        "description": "No Shopping Dom Pedro Campinas, a Gua.co inaugurou mais uma unidade reforçando sua presença no setor alimentício, em um dos principais centros de compras da região.\n\nA SLR Engenharia executou a obra completa em modelo turnkey, entregando um espaço de 93m² pronto para operação em 60 dias.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/GUACO./CAMPINAS/DSC09260.JPG",
+          "img2": "/cases/VAREJO/GUACO./CAMPINAS/DSC09263.JPG",
+          "img3": "/cases/VAREJO/GUACO./CAMPINAS/DSC09265.JPG"
         },
         "list": {
           "localizacao": {
@@ -745,12 +771,12 @@
       "item20": {
         "company": "Gua.co - Perdizes",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Gua.co, transformando o espaço em um ambiente moderno e atrativo para o segmento alimentício.",
+        "logo": "/cases/guaco-logo.avif",
+        "description": "Na tradicional região de Perdizes, em São Paulo, a Gua.co abriu as portas de sua nova unidade, consolidando sua atuação no segmento alimentício com mais um espaço de experiência gastronômica.\n\nA SLR Engenharia foi responsável pela obra completa em modelo turnkey, conduzindo todas as etapas para entregar um ambiente de 298m² pronto em 60 dias.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (15).jpg",
+          "img2": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (21).jpg",
+          "img3": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (30).jpg"
         },
         "list": {
           "localizacao": {
@@ -770,12 +796,12 @@
       "item21": {
         "company": "Bandai",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Bandai, criando um ambiente moderno e atrativo para o segmento de entretenimento.",
+        "logo": "/cases/bandai-logo.png",
+        "description": "No coração da Liberdade, em São Paulo, a Bandai inaugurou sua loja na Galeria Imperial, trazendo um espaço totalmente voltado para o entretenimento e cultura pop japonesa.\n\nA SLR Engenharia foi responsável pela obra completa em modelo turnkey, conduzida em apenas 30 dias, para entregar um ambiente de 120m² pronto para receber os fãs da marca.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.33 (2).jpeg",
+          "img2": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.38 (2).jpeg",
+          "img3": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.39.jpeg"
         },
         "list": {
           "localizacao": {
@@ -795,12 +821,12 @@
       "item22": {
         "company": "Boger Burguer",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Boger Burguer, transformando o espaço em um ambiente moderno e atrativo para o segmento alimentício.",
+        "logo": "/cases/boger-logo.png",
+        "description": "A Boger Burguer, no Itaim Bibi, ganhou um novo espaço que combina design contemporâneo e eficiência.\nA SLR Engenharia cuidou de cada detalhe da obra e dos projetos complementares em modelo turnkey, entregando 200 m² totalmente prontos em apenas 60 dias, transformando o projeto em uma experiência real para clientes e colaboradores.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/BOGER BUGUER/unnamed (11).jpg",
+          "img2": "/cases/VAREJO/BOGER BUGUER/WhatsApp Image 2025-04-04 at 15.11.41.jpeg",
+          "img3": "/cases/VAREJO/BOGER BUGUER/WhatsApp Image 2025-04-04 at 15.12.47.jpeg"
         },
         "list": {
           "localizacao": {
@@ -820,12 +846,12 @@
       "item23": {
         "company": "Bom Beef Burguer",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Projeto de varejo para Bom Beef Burguer, criando um ambiente moderno e atrativo para o segmento alimentício.",
+        "logo": "/cases/bom-beef-logo.png",
+        "description": "A Bom Beef Burguer, no Shopping Mooca, ganhou uma nova loja moderna, pensada para operação rápida e eficiente.\nA SLR Engenharia foi responsável por toda a execução da obra e pelos projetos complementares, atuando em modelo turnkey para entregar um espaço pronto em tempo recorde.\nEm apenas 60 dias, 53,74 m² foram transformados em um ambiente funcional, com atenção a cada detalhe, garantindo qualidade, organização e praticidade para a operação da loja.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/BOOM BEEF/DSC06888.ARW",
+          "img2": "/cases/VAREJO/BOOM BEEF/DSC06900.JPG",
+          "img3": "/cases/VAREJO/BOOM BEEF/DSC06902.ARW"
         },
         "list": {
           "localizacao": {
@@ -843,5 +869,11 @@
         }
       }
     }
+  },
+
+  "adress": {
+    "title": "Endereços:",
+    "description": "R. Narciso Sturlini, 302 - 1106 - Centro Osasco - SP, 06018-090, BR",
+    "description2": "1955 N Federal Hwy J217-BPompano Beach, FL 33062, EUA"
   }
 }

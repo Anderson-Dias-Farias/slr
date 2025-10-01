@@ -116,10 +116,10 @@ export default function Header() {
                 }
                 className={`px-3 py-2 text-sm transition-colors duration-200 uppercase ${
                   isActiveRoute(item.href)
-                    ? "text-yellow-600"
+                    ? "text-[#FFBE00]"
                     : url
-                    ? "text-white hover:text-yellow-600"
-                    : "text-black hover:text-yellow-600"
+                    ? "text-white hover:text-[#FFBE00]"
+                    : "text-black hover:text-[#FFBE00]"
                 }`}
               >
                 {item.name}
@@ -159,9 +159,12 @@ export default function Header() {
             </Select>
 
             {/* CTA Button */}
-            <Button className="bg-[#FFBE00] hover:bg-yellow-700 text-black uppercase rounded-full px-8">
+            <Link
+              href="/contact"
+              className="bg-[#FFBE00] hover:bg-[#2C2C2C] hover:text-[#FFBE00] hover:border-[#FFBE00] border border-transparent transition-all duration-300 text-black uppercase rounded-full px-8 py-2"
+            >
               {t("header.cta")}
-            </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -270,9 +273,12 @@ export default function Header() {
                   transition={{ delay: (menuItems.length + 1) * 0.1 }}
                   className="px-3 py-2"
                 >
-                  <Button className="w-full bg-yellow-600 hover:bg-yellow-700 text-black">
+                  <Link
+                    href="/contact"
+                    className="w-full bg-yellow-600 hover:bg-yellow-700 text-black"
+                  >
                     {t("header.cta")}
-                  </Button>
+                  </Link>
                 </motion.div>
               </div>
             </motion.div>

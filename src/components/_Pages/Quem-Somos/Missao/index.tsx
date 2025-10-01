@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card } from "@/components/ui/card";
 import { motion, useInView } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -10,6 +10,7 @@ import { useRef, useState } from "react";
 
 export default function Missao() {
   const t = useTranslations("about-us");
+  const tAdress = useTranslations("adress");
   const ref = useRef(null);
   const ref2 = useRef(null);
   const ref2Mobile = useRef(null);
@@ -25,7 +26,7 @@ export default function Missao() {
   const isInView2 = useInView(ref2, {
     once: false,
     amount: 0.2,
-    margin: "0px",
+    margin: "200px 0px",
   });
 
   const isInView3 = useInView(ref3, {
@@ -43,11 +44,9 @@ export default function Missao() {
   const isInView2Mobile = useInView(ref2Mobile, {
     once: false,
     amount: 0.2,
-    margin: "0px",
+    margin: "200px 0px",
   });
   const [value, setValue] = useState("visao");
-
-  console.log(value);
 
   return (
     <section
@@ -112,207 +111,414 @@ export default function Missao() {
             >
               {t("description3")}
             </motion.p>
+            <motion.p
+              className="text-gray-600 text-base font-bold w-full md:text-left text-center"
+              initial={{ opacity: 0, y: 30 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+              transition={{ duration: 0.8 }}
+            >
+              {t("why-choose")}
+            </motion.p>
+            <div className="flex flex-col gap-2">
+              <motion.p
+                className="text-gray-500 text-base w-full md:text-left text-center"
+                initial={{ opacity: 0, y: 30 }}
+                animate={
+                  isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
+                }
+                transition={{ duration: 0.8 }}
+              >
+                <span className="font-bold text-gray-600">
+                  {t("benefits.benefit1.title")}:
+                </span>{" "}
+                {t("benefits.benefit1.description")}
+              </motion.p>
+              <motion.p
+                className="text-gray-500 text-base w-full md:text-left text-center"
+                initial={{ opacity: 0, y: 30 }}
+                animate={
+                  isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
+                }
+                transition={{ duration: 0.8 }}
+              >
+                <span className="font-bold text-gray-600">
+                  {t("benefits.benefit2.title")}:
+                </span>{" "}
+                {t("benefits.benefit2.description")}
+              </motion.p>
+              <motion.p
+                className="text-gray-500 text-base w-full md:text-left text-center"
+                initial={{ opacity: 0, y: 30 }}
+                animate={
+                  isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
+                }
+                transition={{ duration: 0.8 }}
+              >
+                <span className="font-bold text-gray-600">
+                  {t("benefits.benefit3.title")}:
+                </span>{" "}
+                {t("benefits.benefit3.description")}
+              </motion.p>
+            </div>
 
             <Link
-              href="/quem-somos"
+              href="/contact"
               className="text-gray-500 text-base w-full md:text-left text-center hidden md:block"
             >
-              <Button className="w-full lg:max-w-[400px] bg-amber-400 text-black">
+              <Button className="w-full lg:max-w-[400px] bg-[#FFBE00] hover:bg-[#2C2C2C] hover:text-[#FFBE00] cursor-pointer  transition-all duration-300 text-black">
                 {t("link")}
               </Button>
             </Link>
           </div>
         </div>
-        <div ref={ref2} className="w-full h-full md:mt-20 sm:mt-10 mt-5 ">
-          <Tabs
-            value={value}
-            onValueChange={setValue}
-            className="gap-0 md:block hidden"
-          >
+        {/* Nova seção de Missão, Visão e Valores - Design Moderno */}
+        <div ref={ref2} className="w-full h-full md:mt-20 sm:mt-10 mt-5">
+          {/* Desktop - Design com Cards */}
+          <div className="md:block hidden">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.5 }}
+              className="grid grid-cols-3 gap-8 mb-8"
             >
-              <TabsList className="w-full lg:min-h-36 md:min-h-24 min-h-20 bg-transparent relative z-10">
-                <motion.div
-                  className="flex items-center justify-start gap-4 flex-col w-full max-w-1/3"
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={
-                    isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
-                  }
-                  transition={{ duration: 0.8, delay: 0.1 }}
+              {/* Visão Card */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={
+                  isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
+                transition={{ duration: 0.5, delay: 0.05 }}
+                className={`relative group cursor-pointer transition-all duration-500 ${
+                  value === "visao" ? "scale-105" : "hover:scale-102"
+                }`}
+                onClick={() => setValue("visao")}
+              >
+                <div
+                  className={`relative overflow-hidden rounded-2xl p-8  flex flex-col justify-start items-start transition-all duration-500 ${
+                    value === "visao"
+                      ? "bg-gradient-to-br from-[#FFBE00]/1 to-[#FFD700]/20 shadow-2xl"
+                      : "bg-white border-2 border-gray-200 hover:border-[#FFBE00] shadow-lg hover:shadow-xl"
+                  }`}
                 >
-                  <span className="text-gray-500 xl:text-lg md:text-base sm:text-sm text-xs py-1 px-6 rounded-full border border-gray-400">
-                    Nossa
-                  </span>
-                  <TabsTrigger
-                    value="visao"
-                    className={`text-gray-500 xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold rounded-b-none gap-4 px-4 md:py-6 sm:py-4 py-2  h-full cursor-pointer w-full`}
-                    style={{
-                      backgroundColor:
-                        value === "visao" ? "#D9D9D9" : "#ffffff",
-                    }}
-                  >
-                    {t("visao")}{" "}
-                    <Image
-                      src="/Vector.png"
-                      alt="Arrow Down"
-                      width={40}
-                      height={40}
-                      className="md:w-8 md:h-4 w-6 h-3 lg:w-10 lg:h-6 xs:block hidden"
-                    />
-                  </TabsTrigger>
-                </motion.div>
-                <motion.div
-                  className="flex items-center justify-start gap-4 flex-col w-full max-w-1/3"
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={
-                    isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
-                  }
-                  transition={{ duration: 0.8, delay: 0.2 }}
-                >
-                  <span className="text-gray-500 xl:text-lg md:text-base sm:text-sm text-xs py-1 px-6 rounded-full border border-gray-400">
-                    Nossa
-                  </span>
-                  <TabsTrigger
-                    value="missao"
-                    className={`text-gray-500 xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold rounded-b-none gap-4 px-4 md:py-6 sm:py-4 py-2  h-full cursor-pointer w-full `}
-                    style={{
-                      backgroundColor:
-                        value === "missao" ? "#D9D9D9" : "#ffffff",
-                    }}
-                  >
-                    {t("missao")}
-                    <Image
-                      src="/Vector.png"
-                      alt="Arrow Down"
-                      width={40}
-                      height={40}
-                      className="md:w-8 md:h-4 w-6 h-3 lg:w-10 lg:h-6 xs:block hidden"
-                    />
-                  </TabsTrigger>
-                </motion.div>
-                <motion.div
-                  className="flex items-center justify-start gap-4 flex-col w-full max-w-1/3"
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={
-                    isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
-                  }
-                  transition={{ duration: 0.8, delay: 0.3 }}
-                >
-                  <span className="text-gray-500 xl:text-lg md:text-base sm:text-sm text-xs py-1 px-6 rounded-full border border-gray-400">
-                    Nossa
-                  </span>
+                  <div>
+                    <div
+                      className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold mb-4 transition-colors duration-300 border border-gray-300 bg-white text-[#2C2C2C]`}
+                    >
+                      {t("badge-visao")}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 justify-between w-full">
+                    <h3
+                      className={`text-3xl font-bold transition-colors duration-300 ${
+                        value === "visao" ? "text-[#2C2C2C]" : "text-gray-700"
+                      }`}
+                    >
+                      {t("visao")}
+                    </h3>
+                    <div
+                      className={`w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 ${
+                        value === "visao"
+                          ? "bg-[#2C2C2C] text-[#FFBE00]"
+                          : "bg-[#FFBE00] text-[#2C2C2C] group-hover:scale-110"
+                      }`}
+                    >
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
 
-                  <TabsTrigger
-                    value="valores"
-                    className={`text-gray-500 xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold rounded-b-none gap-4 px-4 md:py-6 sm:py-4 py-2  h-full cursor-pointer w-full`}
-                    style={{
-                      backgroundColor:
-                        value === "valores" ? "#D9D9D9" : "#ffffff",
-                    }}
-                  >
+              {/* Missão Card */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={
+                  isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className={`relative group cursor-pointer transition-all duration-500 ${
+                  value === "missao" ? "scale-105" : "hover:scale-102"
+                }`}
+                onClick={() => setValue("missao")}
+              >
+                <div
+                  className={`relative overflow-hidden rounded-2xl p-8  flex flex-col justify-start items-start transition-all duration-500 ${
+                    value === "missao"
+                      ? "bg-gradient-to-br from-[#FFBE00]/1 to-[#FFD700]/20 shadow-2xl"
+                      : "bg-white border-2 border-gray-200 hover:border-[#FFBE00] shadow-lg hover:shadow-xl"
+                  }`}
+                >
+                  <div>
+                    <div
+                      className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold mb-4 transition-colors duration-300 border border-gray-300 bg-white text-[#2C2C2C] `}
+                    >
+                      {t("badge-missao")}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 justify-between w-full">
+                    <h3
+                      className={`text-3xl font-bold transition-colors duration-300 ${
+                        value === "missao" ? "text-[#2C2C2C]" : "text-gray-700"
+                      }`}
+                    >
+                      {t("missao")}
+                    </h3>
+                    <div
+                      className={`w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 ${
+                        value === "missao"
+                          ? "bg-[#2C2C2C] text-[#FFBE00]"
+                          : "bg-[#FFBE00] text-[#2C2C2C] group-hover:scale-110"
+                      }`}
+                    >
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Valores Card */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={
+                  isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+                }
+                transition={{ duration: 0.5, delay: 0.15 }}
+                className={`relative group cursor-pointer transition-all duration-500 ${
+                  value === "valores" ? "scale-105" : "hover:scale-102"
+                }`}
+                onClick={() => setValue("valores")}
+              >
+                <div
+                  className={`relative overflow-hidden rounded-2xl p-8  flex flex-col justify-start items-start transition-all duration-500 ${
+                    value === "valores"
+                      ? "bg-gradient-to-br from-[#FFBE00]/1 to-[#FFD700]/20 shadow-2xl"
+                      : "bg-white border-2 border-gray-200 hover:border-[#FFBE00] shadow-lg hover:shadow-xl"
+                  }`}
+                >
+                  <div>
+                    <div
+                      className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold mb-4 transition-colors duration-300 border border-gray-300 bg-white text-[#2C2C2C]`}
+                    >
+                      {t("badge-valores")}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 justify-between w-full">
+                    <h3
+                      className={`text-3xl font-bold transition-colors duration-300 ${
+                        value === "valores" ? "text-[#2C2C2C]" : "text-gray-700"
+                      }`}
+                    >
+                      {t("valores")}
+                    </h3>
+                    <div
+                      className={`w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 ${
+                        value === "valores"
+                          ? "bg-[#2C2C2C] text-[#FFBE00]"
+                          : "bg-[#FFBE00] text-[#2C2C2C] group-hover:scale-110"
+                      }`}
+                    >
+                      <svg
+                        className="w-6 h-6"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+
+            {/* Conteúdo dinâmico */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="relative"
+            >
+              <Card
+                className={`rounded-2xl p-12 transition-all duration-500  shadow-xl`}
+              >
+                <div className="max-w-4xl mx-auto text-center">
+                  <h4 className="text-2xl font-bold mb-6">
+                    {value === "visao" && t("visao")}
+                    {value === "missao" && t("missao")}
+                    {value === "valores" && t("valores")}
+                  </h4>
+                  <p className="text-lg leading-relaxed">
+                    {value === "visao" && t("visao-description")}
+                    {value === "missao" && t("missao-description")}
+                    {value === "valores" && t("valores-description")}
+                  </p>
+                </div>
+              </Card>
+            </motion.div>
+          </div>
+          {/* Mobile - Design com Cards Stack */}
+          <div className="md:hidden flex flex-col gap-6" ref={ref2Mobile}>
+            {/* Visão Card Mobile */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={
+                isInView2Mobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+              }
+              transition={{ duration: 0.5, delay: 0.05 }}
+              className="relative group"
+            >
+              <div className="bg-gradient-to-br from-[#FFBE00]/1 to-[#FFD700]/20 rounded-2xl p-6 shadow-xl">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-white text-[#2C2C2C] px-3 py-1 rounded-full text-sm font-semibold border border-gray-300">
+                    {t("badge-visao")}
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 justify-start">
+                  <h3 className="text-2xl font-bold text-[#2C2C2C] ">
+                    {t("visao")}
+                  </h3>
+                  <div className="w-10 h-10 bg-[#2C2C2C] rounded-full flex items-center justify-center">
+                    <svg
+                      className="w-5 h-5 text-[#FFBE00]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p className="text-[#2C2C2C] text-base leading-relaxed mt-2">
+                  {t("visao-description")}
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Missão Card Mobile */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={
+                isInView2Mobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+              }
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="relative group"
+            >
+              <div className="bg-gradient-to-br from-[#FFBE00]/1 to-[#FFD700]/20   rounded-2xl p-6 shadow-xl">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-white text-[#2C2C2C] px-3 py-1 rounded-full text-sm font-semibold border border-gray-300">
+                    {t("badge-missao")}
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 justify-start">
+                  <h3 className="text-2xl font-bold text-[#2C2C2C] ">
+                    {t("missao")}
+                  </h3>
+                  <div className="w-10 h-10 bg-[#2C2C2C] rounded-full flex items-center justify-center">
+                    <svg
+                      className="w-5 h-5 text-[#FFBE00]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p className="text-[#2C2C2C] text-base leading-relaxed mt-2">
+                  {t("missao-description")}
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Valores Card Mobile */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={
+                isInView2Mobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
+              }
+              transition={{ duration: 0.5, delay: 0.15 }}
+              className="relative group"
+            >
+              <div className="bg-gradient-to-br from-[#FFBE00]/1 to-[#FFD700]/20 rounded-2xl p-6 shadow-xl">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="bg-white text-[#2C2C2C] px-3 py-1 rounded-full text-sm font-semibold border border-gray-300">
+                    {t("badge-valores")}
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 justify-start">
+                  <h3 className="text-2xl font-bold text-[#2C2C2C] ">
                     {t("valores")}
-                    <Image
-                      src="/Vector.png"
-                      alt="Arrow Down"
-                      width={40}
-                      height={40}
-                      className="md:w-8 md:h-4 w-6 h-3 lg:w-10 lg:h-6 xs:block hidden"
-                    />
-                  </TabsTrigger>
-                </motion.div>
-              </TabsList>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-            >
-              <TabsContent
-                style={{
-                  backgroundColor: value === "visao" ? "#D9D9D9" : "#ffffff",
-                }}
-                value="visao"
-                className=" p-10 relative z-8 mx-1 rounded-b-lg xl:text-lg md:text-base text-sm text-gray-600 font-normal text-center sm:text-left"
-              >
-                {t("visao-description")}
-              </TabsContent>
-              <TabsContent
-                style={{
-                  backgroundColor: value === "missao" ? "#D9D9D9" : "#ffffff",
-                }}
-                value="missao"
-                className=" p-10 relative z-8 mx-1 rounded-b-lg xl:text-lg md:text-base text-sm text-gray-600 font-normal text-center sm:text-left"
-              >
-                {t("missao-description")}
-              </TabsContent>
-              <TabsContent
-                style={{
-                  backgroundColor: value === "valores" ? "#D9D9D9" : "#ffffff",
-                }}
-                value="valores"
-                className=" p-10 relative z-8 mx-1 rounded-b-lg xl:text-lg md:text-base text-sm text-gray-600 font-normal text-center sm:text-left"
-              >
-                {t("valores-description")}
-              </TabsContent>
-            </motion.div>
-          </Tabs>
-          <div className="md:hidden flex flex-col gap-10" ref={ref2Mobile}>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={
-                isInView2Mobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
-              }
-              transition={{ duration: 0.8, delay: 0.1 }}
-              className="flex flex-col gap-4 max-w-[400px] mx-auto items-center justify-center"
-            >
-              <span className="text-gray-500 xl:text-lg md:text-sm sm:text-xs text-xs py-1 px-6 rounded-full border border-gray-400 w-fit">
-                Nossa
-              </span>
-              <h2 className="text-gray-500  w-full font-normal sm:text-4xl text-3xl text-center">
-                {t("visao")}
-              </h2>
-              <p className="text-gray-500 text-base w-full text-center sm:p-8 p-4  bg-gray-300 rounded-lg">
-                {t("visao-description")}
-              </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={
-                isInView2Mobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
-              }
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="flex flex-col gap-4 max-w-[400px] mx-auto items-center justify-center"
-            >
-              <span className="text-gray-500 xl:text-lg md:text-sm sm:text-xs text-xs py-1 px-6 rounded-full border border-gray-400 w-fit">
-                Nossa
-              </span>
-              <h2 className="text-gray-500  w-full font-normal sm:text-4xl text-3xl text-center">
-                {t("missao")}
-              </h2>
-              <p className="text-gray-500 text-base w-full text-center sm:p-8 p-4  bg-gray-300 rounded-lg">
-                {t("missao-description")}
-              </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={
-                isInView2Mobile ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
-              }
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="flex flex-col gap-4 max-w-[400px] mx-auto items-center justify-center"
-            >
-              <span className="text-gray-500 xl:text-lg md:text-sm sm:text-xs text-xs py-1 px-6 rounded-full border border-gray-400 w-fit">
-                Nossa
-              </span>
-              <h2 className="text-gray-500  w-full font-normal sm:text-4xl text-3xl text-center">
-                {t("valores")}
-              </h2>
-              <p className="text-gray-500 text-base w-full text-center sm:p-8 p-4  bg-gray-300 rounded-lg">
-                {t("valores-description")}
-              </p>
+                  </h3>
+                  <div className="w-10 h-10 bg-[#2C2C2C] rounded-full flex items-center justify-center">
+                    <svg
+                      className="w-5 h-5 text-[#FFBE00]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p className="text-[#2C2C2C] text-base leading-relaxed mt-2">
+                  {t("valores-description")}
+                </p>
+              </div>
             </motion.div>
           </div>
         </div>
@@ -370,7 +576,7 @@ export default function Missao() {
             >
               <MapPin className="w-6 h-6 text-gray-600" />{" "}
               <p className="text-gray-600 text-base w-full text-center">
-                Endereço filial 1
+                {tAdress("description")}
               </p>
             </motion.div>
             <motion.div
@@ -381,7 +587,7 @@ export default function Missao() {
             >
               <MapPin className="w-6 h-6 text-gray-600" />{" "}
               <p className="text-gray-600 text-base w-full text-center">
-                Endereço filial 1
+                {tAdress("description2")}
               </p>
             </motion.div>
           </motion.div>
@@ -392,7 +598,7 @@ export default function Missao() {
             transition={{ duration: 0.8, delay: 1.0 }}
           >
             <Link href="/cases" className="w-full sm:max-w-[600px]  pb-10">
-              <Button className="bg-amber-500 text-black uppercase rounded-full w-full py-6 font-semibold">
+              <Button className="bg-amber-500 hover:bg-[#2C2C2C] hover:text-[#FFBE00] cursor-pointer  transition-all duration-300 text-black uppercase rounded-full w-full py-6 font-semibold">
                 {t("cta3")}
               </Button>
             </Link>

@@ -1,4 +1,5 @@
 "use client";
+import { Link } from "@/i18n/routing";
 import { motion, useInView } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -568,7 +569,15 @@ export default function NossoValores() {
           {t("description2")}
         </motion.p>
         <div className="w-full h-full flex flex-col md:flex-row items-center justify-center md:gap-4 gap-15 mt-5">
-          <div className="w-full h-full flex flex-col items-center justify-center cursor-pointer">
+          <Link
+            href={{
+              pathname: "/cases",
+              query: {
+                service: t("seguimento1"),
+              },
+            }}
+            className="w-full h-full flex flex-col items-center justify-center cursor-pointer"
+          >
             <motion.h2
               className="text-gray-500 text-lg w-auto mb-2 text-center max-w-[420px]"
               initial={{ opacity: 0, y: 30 }}
@@ -592,8 +601,16 @@ export default function NossoValores() {
                 className="object-cover shadow-2xl md:grayscale-100 grayscale-0  hover:grayscale-0 transition-all duration-300 rounded-xl md:rounded-none"
               />
             </motion.div>
-          </div>
-          <div className="w-full h-full flex flex-col items-center justify-center cursor-pointer">
+          </Link>
+          <Link
+            href={{
+              pathname: "/cases",
+              query: {
+                service: t("seguimento2"),
+              },
+            }}
+            className="w-full h-full flex flex-col items-center justify-center cursor-pointer"
+          >
             <motion.h2
               className="text-gray-500 text-lg font-semibold w-auto mb-2 text-center max-w-[420px] "
               initial={{ opacity: 0, y: 30 }}
@@ -615,7 +632,7 @@ export default function NossoValores() {
                 className="object-cover shadow-2xl md:grayscale-100 grayscale-0  hover:grayscale-0 transition-all duration-300 rounded-xl md:rounded-none"
               />
             </motion.div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

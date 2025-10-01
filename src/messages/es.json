@@ -152,7 +152,8 @@
     "description3": "Completa el formulario al lado o contáctanos a través de uno de nuestros canales."
   },
   "form": {
-    "title": "Ponte en Contacto",
+    "title": "Ponte en Contacto o",
+    "title2": "Trabaja con nosotros",
     "fields": {
       "nome": "Nombre Completo",
       "telefone": "Teléfono",
@@ -167,7 +168,22 @@
       "cidade": "Ingresa tu ciudad",
       "empresa": "Nombre de tu empresa"
     },
+    "workFields": {
+      "nome": "Nombre Completo",
+      "telefone": "Teléfono",
+      "email": "Correo Electrónico",
+      "curriculo": "Currículum",
+      "mensagem": "Mensaje"
+    },
+    "workPlaceholders": {
+      "nome": "Ingresa tu nombre completo",
+      "telefone": "(555) 123-4567",
+      "email": "tu@email.com",
+      "curriculo": "Selecciona tu currículum (PDF, DOC, DOCX)",
+      "mensagem": "Cuéntanos sobre tu experiencia e interés en el puesto"
+    },
     "submit": "Quiero hablar con un especialista",
+    "workSubmit": "Enviar Aplicación",
     "sending": "Enviando Mensaje..."
   },
   "footer": {
@@ -203,6 +219,10 @@
     "description": "(Crear texto sobre SLR: más detalles sobre actuación y lugares donde está presente.) Ejemplo de texto: Nuestros proyectos parten de una narrativa que comienza en el campo de las ideas, y se concluye en el instante en que el espacio respira por primera vez. En SLR Ingeniería, además de entregar espacios completamente finalizados, conducimos toda la jornada de nuestros clientes. Del concepto al resultado, diseñamos procesos para que cada cliente atraviese su obra con seguridad, claridad y tranquilidad. ",
     "description2": "Somos especialistas en retail, pisos corporativos y franquicias. Actuamos con protagonismo en los modelos Design & Build y Turn Key, orquestando cada etapa como: aprobaciones, proyectos, ejecución, suministros y gestión de terceros. ",
     "description3": "Unimos precisión técnica, agilidad y responsabilidad. Transformamos ideas en espacios listos para operar, con un único contrato, un único socio y la certeza de entregar siempre más allá.",
+    "badge": "Nuestra",
+    "badge-visao": "Nuestra",
+    "badge-missao": "Nuestra",
+    "badge-valores": "Nuestros",
     "link": "CTA",
     "visao": "Visión",
     "visao-description": "Ser reconocidos como una empresa líder en ingeniería en América Latina, entregando soluciones innovadoras y sostenibles que superen las expectativas de nuestros clientes.",

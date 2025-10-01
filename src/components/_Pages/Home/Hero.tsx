@@ -1,8 +1,10 @@
 "use client";
+import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { useRef } from "react";
 import { useCounterAnimation } from "../../../hooks/useCounterAnimation";
 
 // Componente para estatísticas com animação de contador
@@ -42,6 +44,8 @@ function StatisticCounter({
 export default function Hero() {
   const t = useTranslations();
 
+  const ref = useRef<HTMLDivElement>(null);
+
   return (
     <div>
       <div className="relative w-full h-full min-h-[95vh] lg:min-h-[100dvh] z-10">
@@ -70,17 +74,23 @@ export default function Hero() {
 
             {/* Subtítulo e Descrição */}
             <div className="flex lg:flex-col flex-col-reverse gap-10 w-auto items-center lg:items-start">
-              <motion.div
-                className="md:text-md text-[12px] uppercase font-semibold rounded-full bg-white text-black pl-6 pr-2 py-2 flex items-center gap-2 max-w-[370px]"
-                initial={{ opacity: 0, x: -30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, delay: 0.4 }}
-              >
-                {t("hero.subtitle")}
-                <div className="md:p-2 p-1 md:w-8 md:h-8 w-6 h-6 rounded-full bg-yellow-600 flex items-center justify-center">
-                  <ArrowRight className="w-4 h-4" />
-                </div>
-              </motion.div>
+              <Link href="/cases">
+                <motion.div
+                  ref={ref}
+                  className="md:text-md text-[12px] uppercase font-semibold rounded-full bg-white hover:text-[#2C2C2C] hover:bg-[#FFBE00]  transition-all duration-300 text-black pl-6 pr-2 py-2 flex items-center gap-2 max-w-[370px] group"
+                  initial={{ opacity: 0, x: -30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8, delay: 0.4 }}
+                >
+                  {t("hero.subtitle")}
+                  <div
+                    ref={ref}
+                    className="md:p-2 p-1 md:w-8 md:h-8 w-6 h-6 rounded-full bg-[#FFBE00] group-hover:bg-[#2C2C2C] group-hover:text-[#FFBE00]  transition-all duration-300 flex items-center justify-center"
+                  >
+                    <ArrowRight className="w-4 h-4" />
+                  </div>
+                </motion.div>
+              </Link>
 
               <motion.p
                 className="text-white text-sm xl:text-base max-w-[480px]"

@@ -253,7 +253,7 @@ export default function Atuacao() {
 
             {/* Benefícios Section */}
             <section ref={ref6} className="w-full h-full pt-20 ">
-              <div className="w-full max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-10">
+              <div className="w-full max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center justify-center text-left">
                 <div className="w-full lg:max-w-1/2 mx-auto px-4">
                   <motion.div
                     style={{
@@ -266,13 +266,13 @@ export default function Atuacao() {
                     }
                     transition={{ duration: 0.8 }}
                   >
-                    <h2 className="text-4xl font-bold text-white ' mb-2">
+                    <h2 className="text-4xl font-bold text-white md:text-left text-center mb-2">
                       {t("design-build.subtitle")}
                     </h2>
                   </motion.div>
 
                   {/* Benefits Cards Section */}
-                  <div className="grid  gap-2 lg:text-left text-center">
+                  <div className="grid  gap-2 lg:text-left text-center ">
                     <motion.ul
                       initial={{ opacity: 0, y: 30 }}
                       animate={
@@ -355,7 +355,7 @@ export default function Atuacao() {
                   </div>
                 </div>
                 <motion.div
-                  className="w-full lg:w-1/2 flex items-center justify-center"
+                  className="w-full lg:w-1/2 flex items-center justify-center rounded-full relative"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={
                     isInView6
@@ -365,11 +365,11 @@ export default function Atuacao() {
                   transition={{ duration: 0.8, delay: 0.4 }}
                 >
                   <Image
-                    src="/build-img.png"
+                    src="/build-img.svg"
                     alt="Design Build"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-contain max-w-[500px]"
+                    width={500}
+                    height={500}
+                    className="w-full h-auto object-cover object-bottom translate-y-[10%]  max-w-[500px]"
                     priority
                   />
                 </motion.div>

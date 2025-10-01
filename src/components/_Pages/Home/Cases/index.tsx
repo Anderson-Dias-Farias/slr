@@ -1,9 +1,10 @@
 "use client";
+import { Link } from "@/i18n/routing";
 import { motion, useInView } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
+
 import { useRef, useState } from "react";
 
 export default function Cases() {
@@ -16,54 +17,180 @@ export default function Cases() {
     margin: "0px",
   });
 
-  const cases = [
-    {
-      title: t("case1.title"),
-      description: t("case1.description"),
-      description2: t("case1.description2"),
-      img: t("case1.img"),
-    },
-    {
-      title: t("case2.title"),
-      description: t("case2.description"),
-      description2: t("case2.description2"),
-      img: t("case2.img"),
-    },
-  ];
+  const a = useTranslations("cases-page");
 
-  const logo = [
+  const itensCorporativo = [
     {
-      title: "V4 Company",
-      img: "/v4-logo.png",
+      title: a("itens.item1.company"),
+      type: a("itens.item1.type"),
+      description: a("itens.item1.description"),
+      img: a("itens.item1.img.img"),
+      logo: a("itens.item1.logo"),
     },
     {
-      title: "Levis",
-      img: "/levis-logo.png",
+      title: a("itens.item2.company"),
+      type: a("itens.item2.type"),
+      description: a("itens.item2.description"),
+      img: a("itens.item2.img.img"),
+      logo: a("itens.item2.logo"),
     },
     {
-      title: "EuroFarma",
-      img: "/euro-logo.png",
+      title: a("itens.item3.company"),
+      type: a("itens.item3.type"),
+      description: a("itens.item3.description"),
+      img: a("itens.item3.img.img"),
+      logo: a("itens.item3.logo"),
     },
     {
-      title: "Iplace",
-      img: "/iplace-logo.png",
+      title: a("itens.item4.company"),
+      type: a("itens.item4.type"),
+      description: a("itens.item4.description"),
+      img: a("itens.item4.img.img"),
+      logo: a("itens.item4.logo"),
     },
     {
-      title: "hm",
-      img: "/hm-logo.png",
+      title: a("itens.item5.company"),
+      type: a("itens.item5.type"),
+      description: a("itens.item5.description"),
+      img: a("itens.item5.img.img"),
+      logo: a("itens.item5.logo"),
     },
     {
-      title: "Tegra",
-      img: "/tegra-logo.png",
+      title: a("itens.item6.company"),
+      type: a("itens.item6.type"),
+      description: a("itens.item6.description"),
+      img: a("itens.item6.img.img"),
+      logo: a("itens.item6.logo"),
+    },
+    {
+      title: a("itens.item7.company"),
+      type: a("itens.item7.type"),
+      description: a("itens.item7.description"),
+      img: a("itens.item7.img.img"),
+      logo: a("itens.item7.logo"),
+    },
+    {
+      title: a("itens.item8.company"),
+      type: a("itens.item8.type"),
+      description: a("itens.item8.description"),
+      img: a("itens.item8.img.img"),
+      logo: a("itens.item8.logo"),
+    },
+    {
+      title: a("itens.item9.company"),
+      type: a("itens.item9.type"),
+      description: a("itens.item9.description"),
+      img: a("itens.item9.img.img"),
+      logo: a("itens.item9.logo"),
+    },
+    {
+      title: a("itens.item10.company"),
+      type: a("itens.item10.type"),
+      description: a("itens.item10.description"),
+      img: a("itens.item10.img.img"),
+      logo: a("itens.item10.logo"),
+    },
+    {
+      title: a("itens.item11.company"),
+      type: a("itens.item11.type"),
+      description: a("itens.item11.description"),
+      img: a("itens.item11.img.img"),
+      logo: a("itens.item11.logo"),
+    },
+    {
+      title: a("itens.item12.company"),
+      type: a("itens.item12.type"),
+      description: a("itens.item12.description"),
+      img: a("itens.item12.img.img"),
+      logo: a("itens.item12.logo"),
+    },
+    {
+      title: a("itens.item13.company"),
+      type: a("itens.item13.type"),
+      description: a("itens.item13.description"),
+      img: a("itens.item13.img.img"),
+      logo: a("itens.item13.logo"),
+    },
+    {
+      title: a("itens.item14.company"),
+      type: a("itens.item14.type"),
+      description: a("itens.item14.description"),
+      img: a("itens.item14.img.img"),
+      logo: a("itens.item14.logo"),
+    },
+    {
+      title: a("itens.item15.company"),
+      type: a("itens.item15.type"),
+      description: a("itens.item15.description"),
+      img: a("itens.item15.img.img"),
+      logo: a("itens.item15.logo"),
+    },
+    {
+      title: a("itens.item16.company"),
+      type: a("itens.item16.type"),
+      description: a("itens.item16.description"),
+      img: a("itens.item16.img.img"),
+      logo: a("itens.item16.logo"),
+    },
+    {
+      title: a("itens.item17.company"),
+      type: a("itens.item17.type"),
+      description: a("itens.item17.description"),
+      img: a("itens.item17.img.img"),
+      logo: a("itens.item17.logo"),
+    },
+    {
+      title: a("itens.item18.company"),
+      type: a("itens.item18.type"),
+      description: a("itens.item18.description"),
+      img: a("itens.item18.img.img"),
+      logo: a("itens.item18.logo"),
+    },
+    {
+      title: a("itens.item19.company"),
+      type: a("itens.item19.type"),
+      description: a("itens.item19.description"),
+      img: a("itens.item19.img.img"),
+      logo: a("itens.item19.logo"),
+    },
+    {
+      title: a("itens.item20.company"),
+      type: a("itens.item20.type"),
+      description: a("itens.item20.description"),
+      img: a("itens.item20.img.img"),
+      logo: a("itens.item20.logo"),
+    },
+    {
+      title: a("itens.item21.company"),
+      type: a("itens.item21.type"),
+      description: a("itens.item21.description"),
+      img: a("itens.item21.img.img"),
+      logo: a("itens.item21.logo"),
+    },
+    {
+      title: a("itens.item22.company"),
+      type: a("itens.item22.type"),
+      description: a("itens.item22.description"),
+      img: a("itens.item22.img.img"),
+      logo: a("itens.item22.logo"),
+    },
+    {
+      title: a("itens.item23.company"),
+      type: a("itens.item23.type"),
+      description: a("itens.item23.description"),
+      img: a("itens.item23.img.img"),
+      logo: a("itens.item23.logo"),
     },
   ];
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % cases.length);
+    setCurrentSlide((prev) => (prev + 1) % itensCorporativo.length);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + cases.length) % cases.length);
+    setCurrentSlide(
+      (prev) => (prev - 1 + itensCorporativo.length) % itensCorporativo.length
+    );
   };
 
   return (
@@ -95,23 +222,24 @@ export default function Cases() {
           >
             {t("description")}
           </motion.p>
+
           <Link
             href="/cases"
-            className="text-black uppercase rounded-full px-4 py-2 border-1  bg-[#FFBE00] hover:bg-yellow-700 transition-all duration-300 font-semibold w-full text-center sm:max-w-[440px]"
+            className="text-black uppercase rounded-full px-4 py-2 border-1  bg-[#FFBE00] hover:bg-[#2C2C2C] hover:text-[#FFBE00]  transition-all duration-300 font-semibold w-full text-center sm:max-w-[440px]"
           >
             {t("cta")}
           </Link>
         </div>
-        <div className="w-full h-full md:max-w-[700px] max-w-[500px] md:min-h-[700px] sm:max-h-[500px] xs:max-h-[450px] max-h-[360px] min-h-[200px] lg:min-w-1/2  absolute top-0 bottom-0  right-0 ">
+        <div className="w-full  h-full md:max-w-[700px] max-w-[500px] md:min-h-[700px] sm:max-h-[500px] xs:max-h-[450px] max-h-[360px] min-h-[200px] lg:min-w-1/2  absolute top-0 bottom-0  right-0 ">
           <Image
-            src="/map-location.png"
+            src="/map-location.svg"
             alt="Map Location"
             fill
-            className="sm:object-cover object-contain  scale-100  sm:scale-110  object-top   md:scale-100 translate-x-[20%] md:translate-x-0 "
+            className="sm:object-cover object-contain scale-210  sm:scale-200  object-bottom -translate-y-[55%]  xs:-translate-y-[35%] md:-translate-y-[20%]   md:scale-150  translate-x-[2%] sm:-translate-x-[15%] md:translate-x-0 "
           />
         </div>
       </div>
-      <div className="w-full h-full max-w-7xl mx-auto flex flex-col items-center justify-center bg-[#EFEFEF] shadow-2xl ">
+      <div className="w-full h-full max-w-7xl mx-auto flex flex-col items-center justify-center bg-[#EFEFEF] shadow-2xl mt-10 lg:mt-0">
         <div className="w-full h-full flex flex-col lg:flex-row items-center justify-center">
           <motion.div
             key={`image-${currentSlide}`}
@@ -121,8 +249,8 @@ export default function Cases() {
             transition={{ duration: 0.5 }}
           >
             <Image
-              src={cases[currentSlide].img}
-              alt={cases[currentSlide].title}
+              src={itensCorporativo[currentSlide].img}
+              alt={itensCorporativo[currentSlide].title}
               fill
               className="object-cover grayscale-100 rounded-lg lg:rounded-none"
             />
@@ -141,7 +269,7 @@ export default function Cases() {
 
               {/* Indicadores */}
               <div className="flex space-x-2">
-                {cases.map((_, index) => (
+                {itensCorporativo.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentSlide(index)}
@@ -162,40 +290,42 @@ export default function Cases() {
               </button>
             </div>
           </div>
-          <div className="w-full h-full flex flex-col items-start justify-center py-10 lg:gap-8 gap-4 lg:px-16 px-4 lg:max-w-1/2 max-w-full">
-            <h2 className="lg:text-4xl sm:text-3xl text-2xl font-normal text-gray-500 mb-4 lg:max-w-md max-w-full">
+          <div className="w-full h-full min-h-full flex flex-col items-start justify-center py-10 lg:gap-8 gap-4 lg:px-16 px-4 lg:max-w-1/2 max-w-full">
+            <h2 className="lg:text-4xl sm:text-3xl text-2xl font-normal text-gray-500 mb-4 lg:max-w-lg max-w-full">
               {t("title2")}
             </h2>
+
+            <h3 className="text-lg font-normal text-gray-500 mb-4 lg:max-w-lg max-w-full">
+              {t("sub1")}{" "}
+              <span className="font-bold text-black">
+                {itensCorporativo[currentSlide].title}
+              </span>
+              {t("sub2")}
+            </h3>
             <motion.p
               key={`description-${currentSlide}`}
-              className="text-gray-600 text-justify lg:max-w-md max-w-full sm:text-base text-sm"
+              className="text-gray-600 text-justify lg:max-w-lg max-w-full sm:text-base text-sm"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
               dangerouslySetInnerHTML={{
-                __html: cases[currentSlide].description.replace(
-                  cases[currentSlide].title,
-                  `<span class="font-bold text-black">${cases[currentSlide].title}</span>`
+                __html: itensCorporativo[currentSlide].description.replace(
+                  itensCorporativo[currentSlide].title,
+                  `<span class="font-bold text-black">${itensCorporativo[currentSlide].title}</span>`
                 ),
               }}
             />
-            <motion.p
-              key={`description2-${currentSlide}`}
-              className="text-gray-600 text-justify mt-2 sm:text-base text-sm"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-              dangerouslySetInnerHTML={{
-                __html: cases[currentSlide].description2.replace(
-                  cases[currentSlide].title,
-                  `<span class="font-bold text-black">${cases[currentSlide].title}</span>`
-                ),
-              }}
-            />
-
             <Link
-              href="/cases"
-              className="bg-[#2C2C2C] w-full mx-auto text-yellow-500 hover:text-yellow-600 transition-all duration-300 mt-2 px-4 py-4 rounded-full   uppercase text-center lg:text-base md:text-sm text-xs "
+              href={{
+                pathname: "/cases",
+                query: {
+                  company: itensCorporativo[currentSlide].title
+                    .toLowerCase()
+                    .replace(/\s+/g, "-"),
+                  service: itensCorporativo[currentSlide].type,
+                },
+              }}
+              className="bg-[#2C2C2C] w-full mx-auto text-[#FFBE00] hover:text-[#2C2C2C]  hover:border-[#2C2C2C] hover:bg-[#FFBE00] border border-transparent transition-all duration-300 mt-2 px-4 py-4 rounded-full   uppercase text-center lg:text-base md:text-sm text-xs "
             >
               {t("cta2")}
             </Link>
@@ -216,7 +346,7 @@ export default function Cases() {
 
           {/* Indicadores */}
           <div className="flex space-x-2">
-            {cases.map((_, index) => (
+            {itensCorporativo.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentSlide(index)}
@@ -238,32 +368,21 @@ export default function Cases() {
         </div>
       </div>
       <div className="w-full h-full max-w-7xl mx-auto grid xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4 py-10">
-        {logo.map((item, index) => (
+        {itensCorporativo.map((item, index) => (
           <Link
             key={index}
-            href={`/cases?company=${item.title.toLowerCase()}`}
-            className="p-6 border-1 border-gray-400 rounded-lg grayscale-100 hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105 flex items-center justify-center"
-          >
-            <div className="max-w-[180px] min-h-[100px] flex items-center justify-center">
-              <Image
-                src={item.img}
-                alt={item.title}
-                width={180}
-                height={100}
-                className="object-contain md:w-[180px] md:h-[100px] w-[100px] h-[50px]"
-              />
-            </div>
-          </Link>
-        ))}
-        {logo.map((item, index) => (
-          <Link
-            key={index}
-            href={`/cases?company=${item.title.toLowerCase()}`}
+            href={{
+              pathname: "/cases",
+              query: {
+                company: item.title.toLowerCase().replace(/\s+/g, "-"),
+                service: item.type,
+              },
+            }}
             className="p-6 border-1 border-gray-400 rounded-lg grayscale-100 hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105"
           >
             <div className="max-w-[180px] min-h-[100px] relative">
               <Image
-                src={item.img}
+                src={item.logo}
                 alt={item.title}
                 fill
                 className="object-contain"
