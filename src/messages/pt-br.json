@@ -291,7 +291,7 @@
     "badge1": "Corporativo",
     "badge2": "Varejo",
     "badge3": "Case Anterior",
-    "badge4": "Case Próximo",
+    "badge4": "Próximo Case",
     "itens": {
       "item1": {
         "company": "V4 - Flagship",
@@ -315,6 +315,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Marketing"
+          },
+          "area": {
+            "title": "Área",
+            "description": "700m²"
           }
         }
       },
@@ -340,6 +344,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Marketing"
+          },
+          "area": {
+            "title": "Área",
+            "description": "6.500m²"
           }
         }
       },
@@ -365,6 +373,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuário"
+          },
+          "area": {
+            "title": "Área",
+            "description": "750m²"
           }
         }
       },
@@ -390,18 +402,22 @@
           "nicho": {
             "title": "Nicho",
             "description": "Tecnologia"
+          },
+          "area": {
+            "title": "Área",
+            "description": "400m²"
           }
         }
       },
       "item5": {
-        "company": "Humanitare",
+        "company": "Humanittare",
         "type": "Corporativo",
-        "logo": "/cases/v4-logo.png",
+        "logo": "/logo-humanittare.png",
         "description": "No Paraíso, um dos endereços corporativos mais tradicionais de São Paulo, a Humanitare escolheu o 12º andar do Condomínio Edifício Paulista Plaza para seu novo escritório.\n\nA SLR Engenharia foi responsável por toda a jornada: projetos complementares, execução completa e entrega turnkey. Em 230 m², transformamos conceito em espaço pronto para operar, alinhado às necessidades da marca e ao padrão de excelência do edifício.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/HUMANITARE/1.jpg",
+          "img2": "/cases/CORPORATIVO/HUMANITARE/2.jpg",
+          "img3": "/cases/CORPORATIVO/HUMANITARE/3.jpg"
         },
         "list": {
           "localizacao": {
@@ -415,6 +431,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Consultoria"
+          },
+          "area": {
+            "title": "Área",
+            "description": "230m²"
           }
         }
       },
@@ -440,11 +460,15 @@
           "nicho": {
             "title": "Nicho",
             "description": "Construtora"
+          },
+          "area": {
+            "title": "Área",
+            "description": "794m²"
           }
         }
       },
       "item7": {
-        "company": "Nava",
+        "company": "Projeto Sigiloso",
         "type": "Corporativo",
         "logo": "/cases/nava-logo.svg",
         "description": "Em Barueri, na região que concentra alguns dos maiores polos de negócios da Grande São Paulo, uma empresa de tecnologia escolheu o Centro Administrativo Rio Negro para seu novo hub corporativo.\n\nA SLR Engenharia foi responsável pela obra completa em modelo turnkey, conduzindo cada etapa do processo, do planejamento à entrega final. Em 1.600 m², criamos um ambiente amplo, moderno e totalmente pronto para impulsionar inovação, concluído em apenas 60 dias.",
@@ -465,6 +489,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Tecnologia"
+          },
+          "area": {
+            "title": "Área",
+            "description": "1.600m²"
           }
         }
       },
@@ -490,6 +518,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Construtora"
+          },
+          "area": {
+            "title": "Área",
+            "description": "650m²"
           }
         }
       },
@@ -515,18 +547,22 @@
           "nicho": {
             "title": "Nicho",
             "description": "Móveis"
+          },
+          "area": {
+            "title": "Área",
+            "description": "600m²"
           }
         }
       },
       "item10": {
         "company": "Reserva",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
+        "logo": "/reserva-logo.png",
         "description": "Em Porto Alegre, a Reserva escolheu o Shopping BSCG Carlos Gomes, na Av. Carlos Gomes, para reforçar sua presença no varejo premium da capital gaúcha.\n\nA SLR Engenharia conduziu a obra completa em modelo turnkey, cuidando de cada detalhe para que a nova loja refletisse o estilo marcante da marca de vestuário. Em apenas 45 dias, transformamos 195 m² em um espaço que traduz a identidade da Reserva e proporciona uma experiência de compra única.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/RESERVA/1.jpeg",
+          "img2": "/cases/VAREJO/RESERVA/2.jpeg",
+          "img3": "/cases/VAREJO/RESERVA/3.jpeg"
         },
         "list": {
           "localizacao": {
@@ -540,6 +576,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuário"
+          },
+          "area": {
+            "title": "Área",
+            "description": "195m²"
           }
         }
       },
@@ -549,8 +589,8 @@
         "logo": "/cases/sirene-logo.png",
         "description": "Na efervescente Vila Madalena, em São Paulo, a Sirene abriu as portas de sua nova loja na Rua Harmonia, um endereço conhecido por sua cena gastronômica e cultural.\n\nA SLR Engenharia foi responsável pela execução completa da obra em modelo turnkey. Em apenas 30 dias, transformamos 145,63 m² em um espaço acolhedor e funcional, pronto para receber clientes e transmitir a essência da marca no universo alimentício.",
         "img": {
-          "img": "/cases/VAREJO/SIRENE/12-11-20 Sirene 055.JPG",
-          "img2": "/cases/VAREJO/SIRENE/BECO (1).jpg",
+          "img2": "/cases/VAREJO/SIRENE/12-11-20 Sirene 055.JPG",
+          "img": "/cases/VAREJO/SIRENE/BECO (1).jpg",
           "img3": "/cases/VAREJO/SIRENE/unnamed (1).jpg"
         },
         "list": {
@@ -565,6 +605,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimentício"
+          },
+          "area": {
+            "title": "Área",
+            "description": "145,63m²"
           }
         }
       },
@@ -574,9 +618,9 @@
         "logo": "/cases/plie-logo.png",
         "description": "No BarraShopping, um dos principais centros de compras do Rio de Janeiro, a Plié reforçou sua presença no varejo de moda com uma nova loja de 40 m².\n\nA SLR Engenharia executou a obra completa em modelo turnkey, cuidando de cada detalhe para entregar um espaço elegante e funcional em apenas 30 dias. O resultado é uma loja pronta para receber clientes com o estilo e a sofisticação característicos da marca.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/PLIE/1.jpeg",
+          "img2": "/cases/VAREJO/PLIE/2.jpeg",
+          "img3": "/cases/VAREJO/PLIE/3.jpeg"
         },
         "list": {
           "localizacao": {
@@ -590,13 +634,17 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuário"
+          },
+          "area": {
+            "title": "Área",
+            "description": "40m²"
           }
         }
       },
       "item13": {
         "company": "Oficina",
         "type": "Varejo",
-        "logo": "/cases/v4-logo.png",
+        "logo": "/logo-oficina.png",
         "description": "No Outlet Premium Rio de Janeiro, em Duque de Caxias, a Oficina inaugurou uma nova loja para reforçar sua presença no varejo de moda.\n\nA SLR Engenharia executou a obra completa em modelo turnkey, entregando 175 m² totalmente finalizados em apenas 30 dias, com o padrão de qualidade e agilidade que o projeto exigia.",
         "img": {
           "img": "/cases/v4-1.png",
@@ -615,6 +663,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuário"
+          },
+          "area": {
+            "title": "Área",
+            "description": "175m²"
           }
         }
       },
@@ -624,8 +676,8 @@
         "logo": "/cases/live-logo.svg",
         "description": "No Outlet SoMarcas Guarulhos, a marca Live! reforçou sua presença no varejo de moda com uma nova loja.\n\nA SLR Engenharia executou a obra completa em modelo turnkey, entregando 143 m² finalizados em apenas 30 dias, dentro do prazo e com a qualidade que o projeto exigia.",
         "img": {
-          "img": "/cases/VAREJO/LIVE!/DSC04824.ARW",
-          "img2": "/cases/VAREJO/LIVE!/DSC04829.ARW",
+          "img": "/cases/VAREJO/LIVE!/1.jpeg",
+          "img2": "/cases/VAREJO/LIVE!/2.jpeg",
           "img3": "/cases/VAREJO/LIVE!/DSC04849.JPG"
         },
         "list": {
@@ -640,6 +692,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuário"
+          },
+          "area": {
+            "title": "Área",
+            "description": "143m²"
           }
         }
       },
@@ -665,6 +721,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Acessórios"
+          },
+          "area": {
+            "title": "Área",
+            "description": "40m²"
           }
         }
       },
@@ -690,6 +750,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuário"
+          },
+          "area": {
+            "title": "Área",
+            "description": "280m²"
           }
         }
       },
@@ -715,6 +779,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Tecnologia"
+          },
+          "area": {
+            "title": "Área",
+            "description": "153m²"
           }
         }
       },
@@ -740,6 +808,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimentício"
+          },
+          "area": {
+            "title": "Área",
+            "description": "260m²"
           }
         }
       },
@@ -765,6 +837,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimentício"
+          },
+          "area": {
+            "title": "Área",
+            "description": "93m²"
           }
         }
       },
@@ -790,6 +866,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimentício"
+          },
+          "area": {
+            "title": "Área",
+            "description": "298m²"
           }
         }
       },
@@ -815,6 +895,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Entretenimento"
+          },
+          "area": {
+            "title": "Área",
+            "description": "120m²"
           }
         }
       },
@@ -840,6 +924,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimentício"
+          },
+          "area": {
+            "title": "Área",
+            "description": "200m²"
           }
         }
       },
@@ -849,9 +937,9 @@
         "logo": "/cases/bom-beef-logo.png",
         "description": "A Bom Beef Burguer, no Shopping Mooca, ganhou uma nova loja moderna, pensada para operação rápida e eficiente.\nA SLR Engenharia foi responsável por toda a execução da obra e pelos projetos complementares, atuando em modelo turnkey para entregar um espaço pronto em tempo recorde.\nEm apenas 60 dias, 53,74 m² foram transformados em um ambiente funcional, com atenção a cada detalhe, garantindo qualidade, organização e praticidade para a operação da loja.",
         "img": {
-          "img": "/cases/VAREJO/BOOM BEEF/DSC06888.ARW",
+          "img": "/cases/VAREJO/BOOM BEEF/DSC06888.JPG",
           "img2": "/cases/VAREJO/BOOM BEEF/DSC06900.JPG",
-          "img3": "/cases/VAREJO/BOOM BEEF/DSC06902.ARW"
+          "img3": "/cases/VAREJO/BOOM BEEF/DSC06895.JPG"
         },
         "list": {
           "localizacao": {
@@ -865,6 +953,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimentício"
+          },
+          "area": {
+            "title": "Área",
+            "description": "53,74m²"
           }
         }
       }

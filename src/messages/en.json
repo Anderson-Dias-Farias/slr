@@ -95,7 +95,9 @@
     "subtitle2": "SLR Segments",
     "description2": "We work on construction and renovation projects for offices, retail stores and franchise networks throughout the national territory.",
     "seguimento1": "Retail",
-    "seguimento2": "Corporate"
+    "seguimento1-link": "/services",
+    "seguimento2": "Corporate",
+    "seguimento2-link": "/services"
   },
   "cases": {
     "title": "Cases",
@@ -105,24 +107,8 @@
     "cta": "Discover our success cases",
     "title2": "Your corporate space, your next achievement",
     "cta2": "Discover how we transformed this office",
-    "case1": {
-      "title": "V4 Company",
-      "description": "Workplace transformation for V4 Company: more productivity and comfort.",
-      "description2": "The project involved the renovation of a 1,200 m² office, focusing on meeting areas, waiting room and work areas. SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture.",
-      "img": "/case1.png"
-    },
-    "case2": {
-      "title": "V4 Company",
-      "description": "Workplace transformation for V4 Company: more productivity and comfort.",
-      "description2": "The project involved the renovation of a 1,200 m² office, focusing on meeting areas, waiting room and work areas. SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture.",
-      "img": "/case1.png"
-    },
-    "case3": {
-      "title": "V4 Company",
-      "description": "Workplace transformation for V4 Company: more productivity and comfort.",
-      "description2": "The project involved the renovation of a 1,200 m² office, focusing on meeting areas, waiting room and work areas. SLR Engineering delivered a modern, functional and welcoming environment, with high-quality materials and timeless design. The result was a complete transformation of the space, with an environment that reflects the company's brand and culture.",
-      "img": "/case1.png"
-    }
+    "sub1": "Workplace transformation for",
+    "sub2": ": more productivity and comfort."
   },
   "depoimentos": {
     "title": "What they say about ",
@@ -184,7 +170,12 @@
     },
     "submit": "I want to talk to a specialist",
     "workSubmit": "Submit Application",
-    "sending": "Sending Message..."
+    "sending": "Sending Message...",
+    "workSending": "Sending Application...",
+    "workSuccess": "Application sent successfully!",
+    "workError": "Error sending application. Please try again.",
+    "sendError": "Error sending message. Please try again.",
+    "sendSuccess": "Message sent successfully!"
   },
   "footer": {
     "description": "SLR Engineering is the right choice to materialize your projects with speed and excellence, operating in Design & Build and Turn Key models, delivering complete solutions from start to finish.",
@@ -216,14 +207,29 @@
     "hero2": "that connects and guides.",
     "title": "Building ideas.",
     "title2": "Delivering results.",
-    "description": "(Create text about SLR: more details about operation and places where it is present.) Example text: Our projects start from a narrative that begins in the field of ideas, and concludes at the moment when the space breathes for the first time. At SLR Engineering, in addition to delivering completely finished spaces, we conduct our clients' entire journey. From concept to result, we design processes so that each client goes through their construction with security, clarity and tranquility. ",
-    "description2": "We are specialists in retail, corporate floors and franchises. We act with protagonism in Design & Build and Turn Key models, orchestrating each stage such as: approvals, projects, execution, supplies and third-party management. ",
-    "description3": "We combine technical precision, agility and responsibility. We transform ideas into spaces ready to operate, with a single contract, a single partner and the certainty of always delivering beyond.",
+    "description": "One of Brazil's leading engineering companies, specialized in complete solutions from design to construction, always focused on quality, efficiency and innovation.",
+    "description2": "With more than 1,000 projects completed throughout Latin America, transforming ideas into reality is the essence of our work. Our process begins with personalized consulting, follows with integrated design and construction execution and culminates in the final delivery — ready to generate value.",
+    "description3": "At SLR Engineering, every detail of your project is conducted with efficiency, transparency and excellence. Let's build together?",
+    "why-choose": "Why choose SLR Engineering?",
+    "benefits": {
+      "benefit1": {
+        "title": "Integrated Solutions",
+        "description": "complete services in a single contract."
+      },
+      "benefit2": {
+        "title": "Client Focus",
+        "description": "each project is unique, developed side by side with you."
+      },
+      "benefit3": {
+        "title": "Quality and Excellence",
+        "description": "commitment from material selection to final delivery."
+      }
+    },
     "badge": "Our",
     "badge-visao": "Our",
     "badge-missao": "Our",
     "badge-valores": "Our",
-    "link": "CTA",
+    "link": "Get in touch",
     "visao": "Vision",
     "visao-description": "To be recognized as a leading engineering company in Latin America, delivering innovative and sustainable solutions that exceed our clients' expectations.",
     "missao": "Mission",
@@ -231,7 +237,7 @@
     "valores": "Values",
     "valores-description": "Passion for challenges, which drives us to seek innovative solutions; collaborative work, promoting union and synergy in our team; sense of urgency and importance, ensuring we deliver results at the right time; and excellence, committed to quality in everything we do.",
     "title3": "Our Team",
-    "description4": "[Add text about the team in general]: Our projects start from a narrative that begins in the field of ideas, and concludes at the moment when the space breathes for the first time. At SLR Engineering, in addition to delivering completely finished spaces, we conduct our clients' entire journey. From concept to result, we design processes so that each client goes through their construction with security, clarity and tranquility. ",
+    "description4": "Our team transforms planning into results. Specialists, managers and field professionals work together with absolute focus on delivering results. We combine experience, diversity of skills and passion for what we do, ensuring that each project is conducted with precision, safety and excellence. Our teams are dedicated exclusively to each project, ensuring total attention and personalized solutions. We transform complex processes into clear, safe and fluid experiences for our clients. Our operation transcends borders: in addition to all Brazilian territory, we are present in Latin America and North America, coordinating projects and works with agility, integration and responsibility.",
     "cta3": "Discover our success cases"
   },
   "atuacao": {
@@ -291,11 +297,11 @@
         "company": "V4 - Flagship",
         "type": "Corporate",
         "logo": "/cases/v4-logo.png",
-        "description": "Complete transformation of the corporate environment for V4 Flagship, delivering a modern and functional space that reflects the brand identity.",
+        "description": "In the heart of Cidade Monções, São Paulo's corporate hub, V4 Company found the ideal space for its flagship office.\n\nSLR Engineering was responsible for the entire project journey on the 6th floor of the Ronaldo Sampaio Ferreira Building: complementary projects, complete execution and turnkey delivery. In 700m², we transformed concept into result, coordinating each stage so that V4 could operate in a ready, functional environment aligned with its innovative identity in marketing.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.16.jpeg",
+          "img2": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.17.jpeg",
+          "img3": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.38.jpeg"
         },
         "list": {
           "localizacao": {
@@ -316,11 +322,11 @@
         "company": "V4 - Headquarters",
         "type": "Corporate",
         "logo": "/cases/v4-logo.png",
-        "description": "Complete renovation of V4 headquarters in Campinas, creating a 6,500m² corporate environment focused on productivity and well-being.",
+        "description": "In Campinas, V4 Company consolidated its headquarters in a single-user space of 6,500m², designed to reflect the strength and innovation of the company in the marketing sector.\n\nSLR Engineering conducted the entire project journey: complementary projects, complete execution and turnkey delivery. In just 120 days, we transformed concept into reality, delivering a spacious, modern and fully ready-to-operate corporate environment.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09281.JPG",
+          "img2": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09314.JPG",
+          "img3": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09323.JPG"
         },
         "list": {
           "localizacao": {
@@ -334,6 +340,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Marketing"
+          },
+          "area": {
+            "title": "Area",
+            "description": "6,500m²"
           }
         }
       },
@@ -341,11 +351,11 @@
         "company": "Levis",
         "type": "Corporate",
         "logo": "/cases/levis-logo.png",
-        "description": "Corporate project for Levis, transforming the space into a modern and functional environment for the clothing segment.",
+        "description": "On Av. das Nações Unidas, in Brooklin, Levi's established its new corporate office in 750m² at the TNU Building, a consolidated address in São Paulo's corporate scene.\n\nSLR Engineering was responsible for the complete project and complementary projects, conducting the entire process in turnkey model. In 90 days, we transformed concept into space ready to operate, aligned with the brand identity and prepared to boost its operations in Brazil.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/LEVIS/Fotos SLR (31).jpg",
+          "img2": "/cases/CORPORATIVO/LEVIS/Fotos SLR (42).jpg",
+          "img3": "/cases/CORPORATIVO/LEVIS/Fotos SLR (8).jpg"
         },
         "list": {
           "localizacao": {
@@ -359,6 +369,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Clothing"
+          },
+          "area": {
+            "title": "Area",
+            "description": "750m²"
           }
         }
       },
@@ -366,11 +380,11 @@
         "company": "Iplace - Milan Head Office",
         "type": "Corporate",
         "logo": "/cases/iplace-logo.png",
-        "description": "Renovation of Iplace's corporate office, creating a technological and innovative environment for the technology segment.",
+        "description": "In Vila Olímpia, São Paulo, iPlace inaugurated its new space at Milan Head Office, occupying 400m² in one of the most dynamic addresses in the city's corporate sector.\n\nSLR Engineering was responsible for the complete project and complementary projects, in turnkey model. In just 30 days, we conducted the entire journey to deliver a ready, functional environment aligned with the brand's technological DNA.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15 (1).jpeg",
+          "img2": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15.jpeg",
+          "img3": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.21 (2).jpeg"
         },
         "list": {
           "localizacao": {
@@ -384,6 +398,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Technology"
+          },
+          "area": {
+            "title": "Area",
+            "description": "400m²"
           }
         }
       },
@@ -409,6 +427,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Consulting"
+          },
+          "area": {
+            "title": "Area",
+            "description": "230m²"
           }
         }
       },
@@ -434,6 +456,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Construction"
+          },
+          "area": {
+            "title": "Area",
+            "description": "794m²"
           }
         }
       },
@@ -459,6 +485,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Technology"
+          },
+          "area": {
+            "title": "Area",
+            "description": "1,600m²"
           }
         }
       },
@@ -484,6 +514,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Construction"
+          },
+          "area": {
+            "title": "Area",
+            "description": "650m²"
           }
         }
       },
@@ -491,11 +525,11 @@
         "company": "Uultis",
         "type": "Retail",
         "logo": "/cases/v4-logo.png",
-        "description": "Retail project for Uultis in Miami, creating a modern and attractive environment for the furniture segment.",
+        "description": "In Miami, in the vibrant Wynwood district, Uultis inaugurated its new flagship on North Miami Avenue, an address that breathes art, design and lifestyle.\n\nSLR Engineering was responsible for the entire project execution in turnkey model, coordinating every detail to deliver a sophisticated and functional retail space. In just 30 days, we transformed 600 m² into a store that reflects the furniture brand's identity and its contemporary design proposal.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.29.jpeg",
+          "img2": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.30 (2).jpeg",
+          "img3": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.49.08.jpeg"
         },
         "list": {
           "localizacao": {
@@ -509,6 +543,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Furniture"
+          },
+          "area": {
+            "title": "Area",
+            "description": "600m²"
           }
         }
       },
@@ -534,6 +572,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Clothing"
+          },
+          "area": {
+            "title": "Area",
+            "description": "195m²"
           }
         }
       },
@@ -559,6 +601,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Food"
+          },
+          "area": {
+            "title": "Area",
+            "description": "145.63m²"
           }
         }
       },
@@ -584,6 +630,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Clothing"
+          },
+          "area": {
+            "title": "Area",
+            "description": "195m²"
           }
         }
       },
@@ -609,6 +659,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Clothing"
+          },
+          "area": {
+            "title": "Area",
+            "description": "195m²"
           }
         }
       },
@@ -634,6 +688,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Clothing"
+          },
+          "area": {
+            "title": "Area",
+            "description": "195m²"
           }
         }
       },
@@ -659,6 +717,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Accessories"
+          },
+          "area": {
+            "title": "Area",
+            "description": "40m²"
           }
         }
       },
@@ -684,6 +746,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Clothing"
+          },
+          "area": {
+            "title": "Area",
+            "description": "195m²"
           }
         }
       },
@@ -709,6 +775,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Technology"
+          },
+          "area": {
+            "title": "Area",
+            "description": "153m²"
           }
         }
       },
@@ -734,6 +804,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Food"
+          },
+          "area": {
+            "title": "Area",
+            "description": "145.63m²"
           }
         }
       },
@@ -759,6 +833,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Food"
+          },
+          "area": {
+            "title": "Area",
+            "description": "145.63m²"
           }
         }
       },
@@ -784,6 +862,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Food"
+          },
+          "area": {
+            "title": "Area",
+            "description": "145.63m²"
           }
         }
       },
@@ -809,6 +891,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Entertainment"
+          },
+          "area": {
+            "title": "Area",
+            "description": "120m²"
           }
         }
       },
@@ -834,6 +920,10 @@
           "nicho": {
             "title": "Niche",
             "description": "Food"
+          },
+          "area": {
+            "title": "Area",
+            "description": "145.63m²"
           }
         }
       },
@@ -859,9 +949,19 @@
           "nicho": {
             "title": "Niche",
             "description": "Food"
+          },
+          "area": {
+            "title": "Area",
+            "description": "145.63m²"
           }
         }
       }
     }
+  },
+
+  "adress": {
+    "title": "Addresses:",
+    "description": "R. Narciso Sturlini, 302 - 1106 - Centro Osasco - SP, 06018-090, BR",
+    "description2": "1955 N Federal Hwy J217-BPompano Beach, FL 33062, USA"
   }
 }

@@ -95,7 +95,9 @@
     "subtitle2": "Segmentos SLR",
     "description2": "Trabajamos en proyectos de construcción y renovación para oficinas, tiendas de retail y redes de franquicias en todo el territorio nacional.",
     "seguimento1": "Retail",
-    "seguimento2": "Corporativo"
+    "seguimento1-link": "/services",
+    "seguimento2": "Corporativo",
+    "seguimento2-link": "/services"
   },
   "cases": {
     "title": "Casos",
@@ -105,6 +107,8 @@
     "cta": "Conoce nuestros casos de éxito",
     "title2": "Tu espacio corporativo, tu próxima conquista",
     "cta2": "Descubre cómo transformamos esta oficina",
+    "sub1": "Transformación del ambiente de trabajo para",
+    "sub2": ": más productividad y confort.",
     "case1": {
       "title": "V4 Company",
       "description": "Transformación del ambiente de trabajo para V4 Company: más productividad y confort.",
@@ -184,7 +188,12 @@
     },
     "submit": "Quiero hablar con un especialista",
     "workSubmit": "Enviar Aplicación",
-    "sending": "Enviando Mensaje..."
+    "sending": "Enviando Mensaje...",
+    "workSending": "Enviando Aplicación...",
+    "workSuccess": "¡Aplicación enviada con éxito!",
+    "workError": "Error al enviar aplicación. Inténtalo de nuevo.",
+    "sendError": "Error al enviar mensaje. Inténtalo de nuevo.",
+    "sendSuccess": "¡Mensaje enviado con éxito!"
   },
   "footer": {
     "description": "SLR Ingeniería es la elección correcta para materializar tus proyectos con rapidez y excelencia, operando en modelos Design & Build y Turn Key, entregando soluciones completas de principio a fin.",
@@ -291,11 +300,11 @@
         "company": "V4 - Flagship",
         "type": "Corporativo",
         "logo": "/cases/v4-logo.png",
-        "description": "Transformación completa del ambiente corporativo para V4 Flagship, entregando un espacio moderno y funcional que refleja la identidad de la marca.",
+        "description": "En el corazón de Cidade Monções, polo corporativo de São Paulo, V4 Company encontró el espacio ideal para su oficina flagship.\n\nSLR Ingeniería fue responsable de toda la jornada de la obra en el 6º piso del Edificio Ronaldo Sampaio Ferreira: proyectos complementarios, ejecución completa y entrega turnkey. En 700m², transformamos concepto en resultado, coordinando cada etapa para que V4 pudiera operar en un ambiente listo, funcional y alineado a su identidad innovadora en marketing.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.16.jpeg",
+          "img2": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.17.jpeg",
+          "img3": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.38.jpeg"
         },
         "list": {
           "localizacao": {
@@ -309,6 +318,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Marketing"
+          },
+          "area": {
+            "title": "Área",
+            "description": "700m²"
           }
         }
       },
@@ -316,11 +329,11 @@
         "company": "V4 - Matriz",
         "type": "Corporativo",
         "logo": "/cases/v4-logo.png",
-        "description": "Reforma completa de la matriz V4 en Campinas, creando un ambiente corporativo de 6.500m² con enfoque en productividad y bienestar.",
+        "description": "En Campinas, V4 Company consolidó su matriz en un espacio monousuario de 6.500m², proyectado para reflejar la fuerza y la innovación de la empresa en el sector de marketing.\n\nSLR Ingeniería condujo toda la jornada de la obra: proyectos complementarios, ejecución completa y entrega turnkey. En apenas 120 días, transformamos concepto en realidad, entregando un ambiente corporativo amplio, moderno y totalmente listo para operar.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09281.JPG",
+          "img2": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09314.JPG",
+          "img3": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09323.JPG"
         },
         "list": {
           "localizacao": {
@@ -334,6 +347,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Marketing"
+          },
+          "area": {
+            "title": "Área",
+            "description": "6.500m²"
           }
         }
       },
@@ -359,6 +376,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuario"
+          },
+          "area": {
+            "title": "Área",
+            "description": "750m²"
           }
         }
       },
@@ -491,11 +512,11 @@
         "company": "Uultis",
         "type": "Retail",
         "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Uultis en Miami, creando un ambiente moderno y atractivo para el segmento de muebles.",
+        "description": "En Miami, en el vibrante distrito de Wynwood, Uultis inauguró su nueva flagship en North Miami Avenue, una dirección que respira arte, diseño y lifestyle.\n\nSLR Ingeniería fue responsable de toda la ejecución de la obra en modelo turnkey, coordinando cada detalle para entregar un espacio de retail sofisticado y funcional. En apenas 30 días, transformamos 600 m² en una tienda que refleja la identidad de la marca de muebles y su propuesta de diseño contemporáneo.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.29.jpeg",
+          "img2": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.30 (2).jpeg",
+          "img3": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.49.08.jpeg"
         },
         "list": {
           "localizacao": {
@@ -509,6 +530,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Muebles"
+          },
+          "area": {
+            "title": "Área",
+            "description": "600m²"
           }
         }
       },
@@ -534,6 +559,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuario"
+          },
+          "area": {
+            "title": "Área",
+            "description": "750m²"
           }
         }
       },
@@ -559,6 +588,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimenticio"
+          },
+          "area": {
+            "title": "Área",
+            "description": "145.63m²"
           }
         }
       },
@@ -584,6 +617,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuario"
+          },
+          "area": {
+            "title": "Área",
+            "description": "750m²"
           }
         }
       },
@@ -609,6 +646,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuario"
+          },
+          "area": {
+            "title": "Área",
+            "description": "750m²"
           }
         }
       },
@@ -634,6 +675,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuario"
+          },
+          "area": {
+            "title": "Área",
+            "description": "750m²"
           }
         }
       },
@@ -659,6 +704,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Accesorios"
+          },
+          "area": {
+            "title": "Área",
+            "description": "40m²"
           }
         }
       },
@@ -684,6 +733,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Vestuario"
+          },
+          "area": {
+            "title": "Área",
+            "description": "750m²"
           }
         }
       },
@@ -734,6 +787,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimenticio"
+          },
+          "area": {
+            "title": "Área",
+            "description": "145.63m²"
           }
         }
       },
@@ -759,6 +816,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimenticio"
+          },
+          "area": {
+            "title": "Área",
+            "description": "145.63m²"
           }
         }
       },
@@ -784,6 +845,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimenticio"
+          },
+          "area": {
+            "title": "Área",
+            "description": "145.63m²"
           }
         }
       },
@@ -809,6 +874,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Entretenimiento"
+          },
+          "area": {
+            "title": "Área",
+            "description": "120m²"
           }
         }
       },
@@ -834,6 +903,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimenticio"
+          },
+          "area": {
+            "title": "Área",
+            "description": "145.63m²"
           }
         }
       },
@@ -859,9 +932,19 @@
           "nicho": {
             "title": "Nicho",
             "description": "Alimenticio"
+          },
+          "area": {
+            "title": "Área",
+            "description": "145.63m²"
           }
         }
       }
     }
+  },
+
+  "adress": {
+    "title": "Direcciones:",
+    "description": "R. Narciso Sturlini, 302 - 1106 - Centro Osasco - SP, 06018-090, BR",
+    "description2": "1955 N Federal Hwy J217-BPompano Beach, FL 33062, EUA"
   }
 }

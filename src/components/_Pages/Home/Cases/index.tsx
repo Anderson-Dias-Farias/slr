@@ -252,7 +252,7 @@ export default function Cases() {
               src={itensCorporativo[currentSlide].img}
               alt={itensCorporativo[currentSlide].title}
               fill
-              className="object-cover grayscale-100 rounded-lg lg:rounded-none"
+              className="object-cover grayscale-100 rounded-lg lg:rounded-none hover:grayscale-0 transition-all duration-300"
             />
           </motion.div>
           <div className="w-full h-full  flex lg:hidden flex-col  items-start justify-start max-w-7xl mx-auto">

@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion, useInView } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { usePathname, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import Carrocel from "./Carrocel";
 
@@ -13,6 +13,7 @@ export default function Cases() {
   const service = searchParams.get("service");
   const [tab, setTab] = useState("corporativo");
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isInitialized, setIsInitialized] = useState(false);
   const t = useTranslations("cases-page");
   const ref = useRef(null);
 
@@ -38,643 +39,123 @@ export default function Cases() {
     }
   }, [service, corporativoValue, varejoValue]);
 
-  const itensCorporativo = [
-    {
-      company: t("itens.item1.company"),
-      logo: t("itens.item1.logo"),
-      type: t("itens.item1.type"),
-      description: t("itens.item1.description"),
+  const itensCases = Array.from({ length: 23 }, (_, index) => {
+    const itemNumber = index + 1;
+    return {
+      id: `item${itemNumber}`,
+      company: t(`itens.item${itemNumber}.company`),
+      type: t(`itens.item${itemNumber}.type`),
+      description: t(`itens.item${itemNumber}.description`),
       img: {
-        img: t("itens.item1.img.img"),
-        img2: t("itens.item1.img.img2"),
-        img3: t("itens.item1.img.img3"),
+        img: t(`itens.item${itemNumber}.img.img`),
+        img2: t(`itens.item${itemNumber}.img.img2`),
+        img3: t(`itens.item${itemNumber}.img.img3`),
       },
+      logo: t(`itens.item${itemNumber}.logo`),
       list: {
         localizacao: {
-          title: t("itens.item1.list.localizacao.title"),
-          description: t("itens.item1.list.localizacao.description"),
+          title: t(`itens.item${itemNumber}.list.localizacao.title`),
+          description: t(
+            `itens.item${itemNumber}.list.localizacao.description`
+          ),
         },
         frente: {
-          title: "Frente",
-          description: t("itens.item1.list.frente.description"),
+          title: t(`itens.item${itemNumber}.list.frente.title`),
+          description: t(`itens.item${itemNumber}.list.frente.description`),
         },
         nicho: {
-          title: "Nicho",
-          description: t("itens.item1.list.nicho.description"),
+          title: t(`itens.item${itemNumber}.list.nicho.title`),
+          description: t(`itens.item${itemNumber}.list.nicho.description`),
+        },
+        area: {
+          title: t(`itens.item${itemNumber}.list.area.title`),
+          description: t(`itens.item${itemNumber}.list.area.description`),
         },
       },
-    },
-    {
-      company: t("itens.item2.company"),
-      logo: t("itens.item2.logo"),
-      type: t("itens.item2.type"),
-      description: t("itens.item2.description"),
-      img: {
-        img: t("itens.item2.img.img"),
-        img2: t("itens.item2.img.img2"),
-        img3: t("itens.item2.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item2.list.localizacao.title"),
-          description: t("itens.item2.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item2.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item2.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item3.company"),
-      logo: t("itens.item3.logo"),
-      type: t("itens.item3.type"),
-      description: t("itens.item3.description"),
-      img: {
-        img: t("itens.item3.img.img"),
-        img2: t("itens.item3.img.img2"),
-        img3: t("itens.item3.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item3.list.localizacao.title"),
-          description: t("itens.item3.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item3.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item3.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item4.company"),
-      logo: t("itens.item4.logo"),
-      type: t("itens.item4.type"),
-      description: t("itens.item4.description"),
-      img: {
-        img: t("itens.item4.img.img"),
-        img2: t("itens.item4.img.img2"),
-        img3: t("itens.item4.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item4.list.localizacao.title"),
-          description: t("itens.item4.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item4.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item4.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item5.company"),
-      logo: t("itens.item5.logo"),
-      type: t("itens.item5.type"),
-      description: t("itens.item5.description"),
-      img: {
-        img: t("itens.item5.img.img"),
-        img2: t("itens.item5.img.img2"),
-        img3: t("itens.item5.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item5.list.localizacao.title"),
-          description: t("itens.item5.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item5.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item5.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item6.company"),
-      logo: t("itens.item6.logo"),
-      type: t("itens.item6.type"),
-      description: t("itens.item6.description"),
-      img: {
-        img: t("itens.item6.img.img"),
-        img2: t("itens.item6.img.img2"),
-        img3: t("itens.item6.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item6.list.localizacao.title"),
-          description: t("itens.item6.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item6.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item6.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item7.company"),
-      logo: t("itens.item7.logo"),
-      type: t("itens.item7.type"),
-      description: t("itens.item7.description"),
-      img: {
-        img: t("itens.item7.img.img"),
-        img2: t("itens.item7.img.img2"),
-        img3: t("itens.item7.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item7.list.localizacao.title"),
-          description: t("itens.item7.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item7.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item7.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item8.company"),
-      logo: t("itens.item8.logo"),
-      type: t("itens.item8.type"),
-      description: t("itens.item8.description"),
-      img: {
-        img: t("itens.item8.img.img"),
-        img2: t("itens.item8.img.img2"),
-        img3: t("itens.item8.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item8.list.localizacao.title"),
-          description: t("itens.item8.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item8.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item8.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item9.company"),
-      logo: t("itens.item9.logo"),
-      type: t("itens.item9.type"),
-      description: t("itens.item9.description"),
-      img: {
-        img: t("itens.item9.img.img"),
-        img2: t("itens.item9.img.img2"),
-        img3: t("itens.item9.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item9.list.localizacao.title"),
-          description: t("itens.item9.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item9.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item9.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item10.company"),
-      logo: t("itens.item10.logo"),
-      type: t("itens.item10.type"),
-      description: t("itens.item10.description"),
-      img: {
-        img: t("itens.item10.img.img"),
-        img2: t("itens.item10.img.img2"),
-        img3: t("itens.item10.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item10.list.localizacao.title"),
-          description: t("itens.item10.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item10.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item10.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item11.company"),
-      logo: t("itens.item11.logo"),
-      type: t("itens.item11.type"),
-      description: t("itens.item11.description"),
-      img: {
-        img: t("itens.item11.img.img"),
-        img2: t("itens.item11.img.img2"),
-        img3: t("itens.item11.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item11.list.localizacao.title"),
-          description: t("itens.item11.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item11.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item11.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item12.company"),
-      logo: t("itens.item12.logo"),
-      type: t("itens.item12.type"),
-      description: t("itens.item12.description"),
-      img: {
-        img: t("itens.item12.img.img"),
-        img2: t("itens.item12.img.img2"),
-        img3: t("itens.item12.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item12.list.localizacao.title"),
-          description: t("itens.item12.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item12.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item12.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item13.company"),
-      logo: t("itens.item13.logo"),
-      type: t("itens.item13.type"),
-      description: t("itens.item13.description"),
-      img: {
-        img: t("itens.item13.img.img"),
-        img2: t("itens.item13.img.img2"),
-        img3: t("itens.item13.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item13.list.localizacao.title"),
-          description: t("itens.item13.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item13.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item13.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item14.company"),
-      logo: t("itens.item14.logo"),
-      type: t("itens.item14.type"),
-      description: t("itens.item14.description"),
-      img: {
-        img: t("itens.item14.img.img"),
-        img2: t("itens.item14.img.img2"),
-        img3: t("itens.item14.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item14.list.localizacao.title"),
-          description: t("itens.item14.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item14.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item14.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item15.company"),
-      logo: t("itens.item15.logo"),
-      type: t("itens.item15.type"),
-      description: t("itens.item15.description"),
-      img: {
-        img: t("itens.item15.img.img"),
-        img2: t("itens.item15.img.img2"),
-        img3: t("itens.item15.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item15.list.localizacao.title"),
-          description: t("itens.item15.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item15.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item15.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item16.company"),
-      logo: t("itens.item16.logo"),
-      type: t("itens.item16.type"),
-      description: t("itens.item16.description"),
-      img: {
-        img: t("itens.item16.img.img"),
-        img2: t("itens.item16.img.img2"),
-        img3: t("itens.item16.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item16.list.localizacao.title"),
-          description: t("itens.item16.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item16.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item16.list.nicho.description"),
-        },
-      },
-    },
-  ];
+    };
+  });
 
-  const itensVarejo = [
-    {
-      company: t("itens.item17.company"),
-      logo: t("itens.item17.logo"),
-      type: t("itens.item17.type"),
-      description: t("itens.item17.description"),
-      img: {
-        img: t("itens.item17.img.img"),
-        img2: t("itens.item17.img.img2"),
-        img3: t("itens.item17.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item17.list.localizacao.title"),
-          description: t("itens.item17.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item17.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item17.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item18.company"),
-      logo: t("itens.item18.logo"),
-      type: t("itens.item18.type"),
-      description: t("itens.item18.description"),
-      img: {
-        img: t("itens.item18.img.img"),
-        img2: t("itens.item18.img.img2"),
-        img3: t("itens.item18.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item18.list.localizacao.title"),
-          description: t("itens.item18.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item18.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item18.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item19.company"),
-      logo: t("itens.item19.logo"),
-      type: t("itens.item19.type"),
-      description: t("itens.item19.description"),
-      img: {
-        img: t("itens.item19.img.img"),
-        img2: t("itens.item19.img.img2"),
-        img3: t("itens.item19.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item19.list.localizacao.title"),
-          description: t("itens.item19.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item19.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item19.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item20.company"),
-      logo: t("itens.item20.logo"),
-      type: t("itens.item20.type"),
-      description: t("itens.item20.description"),
-      img: {
-        img: t("itens.item20.img.img"),
-        img2: t("itens.item20.img.img2"),
-        img3: t("itens.item20.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item20.list.localizacao.title"),
-          description: t("itens.item20.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item20.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item20.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item21.company"),
-      logo: t("itens.item21.logo"),
-      type: t("itens.item21.type"),
-      description: t("itens.item21.description"),
-      img: {
-        img: t("itens.item21.img.img"),
-        img2: t("itens.item21.img.img2"),
-        img3: t("itens.item21.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item21.list.localizacao.title"),
-          description: t("itens.item21.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item21.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item21.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item22.company"),
-      logo: t("itens.item22.logo"),
-      type: t("itens.item22.type"),
-      description: t("itens.item22.description"),
-      img: {
-        img: t("itens.item22.img.img"),
-        img2: t("itens.item22.img.img2"),
-        img3: t("itens.item22.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item22.list.localizacao.title"),
-          description: t("itens.item22.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item22.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item22.list.nicho.description"),
-        },
-      },
-    },
-    {
-      company: t("itens.item23.company"),
-      logo: t("itens.item23.logo"),
-      type: t("itens.item23.type"),
-      description: t("itens.item23.description"),
-      img: {
-        img: t("itens.item23.img.img"),
-        img2: t("itens.item23.img.img2"),
-        img3: t("itens.item23.img.img3"),
-      },
-      list: {
-        localizacao: {
-          title: t("itens.item23.list.localizacao.title"),
-          description: t("itens.item23.list.localizacao.description"),
-        },
-        frente: {
-          title: "Frente",
-          description: t("itens.item23.list.frente.description"),
-        },
-        nicho: {
-          title: "Nicho",
-          description: t("itens.item23.list.nicho.description"),
-        },
-      },
-    },
-  ];
+  const itensCorporativo = itensCases.filter(
+    (item) => item.type === t("badge1")
+  );
+  const itensVarejo = itensCases.filter((item) => item.type === t("badge2"));
+
   const scrollToTop = () => {
     const isMobile = window.innerWidth < 768;
-    const scrollPosition = isMobile ? 100 : 250;
+    const scrollPosition = isMobile ? 40 : 150;
     window.scrollTo({ top: scrollPosition, behavior: "smooth" });
   };
 
   const nextSlide = (values: number) => {
-    setCurrentSlide((prev) => (prev + 1) % values);
+    console.log(
+      "nextSlide chamado, values:",
+      values,
+      "currentSlide:",
+      currentSlide
+    );
+    setCurrentSlide((prev) => {
+      const newSlide = (prev + 1) % values;
+      console.log("nextSlide: prev =", prev, "newSlide =", newSlide);
+      return newSlide;
+    });
     scrollToTop();
   };
 
   const prevSlide = (values: number) => {
-    setCurrentSlide((prev) => (prev - 1 + values) % values);
+    console.log(
+      "prevSlide chamado, values:",
+      values,
+      "currentSlide:",
+      currentSlide
+    );
+    setCurrentSlide((prev) => {
+      const newSlide = (prev - 1 + values) % values;
+      console.log("prevSlide: prev =", prev, "newSlide =", newSlide);
+      return newSlide;
+    });
     scrollToTop();
   };
-  const pathname = usePathname();
 
-  // Filtrar casos baseado na company se fornecida
-  const filteredCorporativo = company
-    ? itensCorporativo.filter(
-        (item) =>
-          item.company.toLowerCase().replace(/\s+/g, "-") ===
-          company.toLowerCase()
-      )
-    : itensCorporativo;
+  // Arrays completos para navegação
+  const currentCorporativo = itensCorporativo;
+  const currentVarejo = itensVarejo;
 
-  const filteredVarejo = company
-    ? itensVarejo.filter(
-        (item) =>
-          item.company.toLowerCase().replace(/\s+/g, "-") ===
-          company.toLowerCase()
-      )
-    : itensVarejo;
-
-  // Usar os arrays filtrados
-  const currentCorporativo =
-    filteredCorporativo.length > 0 ? filteredCorporativo : itensCorporativo;
-  const currentVarejo =
-    filteredVarejo.length > 0 ? filteredVarejo : itensVarejo;
-
-  // Ajustar slide inicial se uma empresa específica foi encontrada
+  // Inicializar apenas uma vez quando company muda
   useEffect(() => {
-    if (company) {
-      const currentArray =
-        tab === "corporativo" ? currentCorporativo : currentVarejo;
-      const foundIndex = currentArray.findIndex(
-        (item) =>
-          item.company.toLowerCase().replace(/\s+/g, "-") ===
-          company.toLowerCase()
-      );
-      if (foundIndex !== -1) {
-        setCurrentSlide(foundIndex);
-      }
-    }
-  }, [company, tab, currentCorporativo, currentVarejo]);
+    if (company && !isInitialized) {
+      // Procurar a empresa em todos os itens
+      const foundItem = itensCases.find((item) => {
+        const normalizedCompany = item.company
+          .toLowerCase()
+          .replace(/\s+/g, "-");
+        const normalizedParam = company.toLowerCase();
+        return normalizedCompany === normalizedParam;
+      });
 
-  console.log(pathname, { company, service });
+      if (foundItem) {
+        // Encontrar o índice no array da tab correta
+        const targetTab =
+          foundItem.type === t("badge1") ? "corporativo" : "varejo";
+        const targetArray =
+          targetTab === "corporativo" ? currentCorporativo : currentVarejo;
+        const foundIndex = targetArray.findIndex(
+          (item) => item.id === foundItem.id
+        );
+        if (foundIndex !== -1) {
+          setCurrentSlide(foundIndex);
+          setTab(targetTab);
+        }
+      }
+      setIsInitialized(true);
+    }
+  }, [
+    company,
+    isInitialized,
+    itensCases,
+    currentCorporativo,
+    currentVarejo,
+    t,
+  ]);
 
   return (
     <Tabs
