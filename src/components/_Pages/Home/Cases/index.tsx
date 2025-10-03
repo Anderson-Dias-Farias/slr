@@ -368,28 +368,30 @@ export default function Cases() {
         </div>
       </div>
       <div className="w-full h-full max-w-7xl mx-auto grid xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4 py-10">
-        {itensCorporativo.map((item, index) => (
-          <Link
-            key={index}
-            href={{
-              pathname: "/cases",
-              query: {
-                company: item.title.toLowerCase().replace(/\s+/g, "-"),
-                service: item.type,
-              },
-            }}
-            className="p-6 border-1 border-gray-400 rounded-lg grayscale-100 hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105"
-          >
-            <div className="max-w-[180px] min-h-[100px] relative">
-              <Image
-                src={item.logo}
-                alt={item.title}
-                fill
-                className="object-contain"
-              />
-            </div>
-          </Link>
-        ))}
+        {itensCorporativo
+          .filter((item) => item.title !== "Empresa de tecnologia")
+          .map((item, index) => (
+            <Link
+              key={index}
+              href={{
+                pathname: "/cases",
+                query: {
+                  company: item.title.toLowerCase().replace(/\s+/g, "-"),
+                  service: item.type,
+                },
+              }}
+              className="p-6 border-1 border-gray-400 rounded-lg grayscale-100 hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105"
+            >
+              <div className="max-w-[180px] min-h-[100px] relative">
+                <Image
+                  src={item.logo}
+                  alt={item.title}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </Link>
+          ))}
       </div>
     </section>
   );

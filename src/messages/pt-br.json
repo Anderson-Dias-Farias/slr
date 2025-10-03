@@ -138,7 +138,7 @@
     "description3": "Preencha o formulário ao lado ou entre em contato por um dos nossos canais."
   },
   "form": {
-    "title": "Entre em Contato ou",
+    "title": "Entre em Contato",
     "title2": "Trabalhe conosco",
     "fields": {
       "nome": "Nome Completo",
@@ -468,7 +468,7 @@
         }
       },
       "item7": {
-        "company": "Projeto Sigiloso",
+        "company": "Empresa de tecnologia",
         "type": "Corporativo",
         "logo": "/cases/nava-logo.svg",
         "description": "Em Barueri, na região que concentra alguns dos maiores polos de negócios da Grande São Paulo, uma empresa de tecnologia escolheu o Centro Administrativo Rio Negro para seu novo hub corporativo.\n\nA SLR Engenharia foi responsável pela obra completa em modelo turnkey, conduzindo cada etapa do processo, do planejamento à entrega final. Em 1.600 m², criamos um ambiente amplo, moderno e totalmente pronto para impulsionar inovação, concluído em apenas 60 dias.",
