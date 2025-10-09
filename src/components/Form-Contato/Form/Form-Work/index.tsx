@@ -14,8 +14,11 @@ const formSchema = z.object({
   telefone: z.string().min(1, "Telefone é obrigatório"),
   email: z.string().email("Email inválido"),
   curriculo: z
-    .instanceof(FileList)
-    .refine((files) => files.length > 0, "Currículo é obrigatório"),
+    .any()
+    .refine(
+      (files) => files instanceof FileList && files.length > 0,
+      "Currículo é obrigatório"
+    ),
   mensagem: z.string().min(10, "Mensagem deve ter pelo menos 10 caracteres"),
 });
 
@@ -156,7 +159,7 @@ export default function FormWork() {
           >
             {errors.curriculo ? (
               <span className="text-red-500 text-sm">
-                {errors.curriculo.message}
+                {String(errors.curriculo.message)}
               </span>
             ) : (
               t("workFields.curriculo")

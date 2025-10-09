@@ -6,6 +6,7 @@ import Form from "./Form";
 
 export default function FormContato() {
   const t = useTranslations("form-contato");
+  const footer = useTranslations("footer");
   const address = useTranslations("adress");
   const ref = useRef(null);
   const isInView = useInView(ref, {
@@ -72,6 +73,19 @@ export default function FormContato() {
               </motion.p>
 
               <div className="w-full flex flex-col gap-2">
+                <motion.p
+                  className="text-gray-600 text-base w-full md:text-left text-justify"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={
+                    isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
+                  }
+                  transition={{ duration: 0.8 }}
+                >
+                  <span className="font-bold text-gray-600">
+                    {footer("links3.link1")}:
+                  </span>{" "}
+                  +55 (11) 91681-6297
+                </motion.p>
                 <motion.p
                   className="text-gray-600 text-base w-full font-bold md:text-left text-justify"
                   initial={{ opacity: 0, y: 30 }}

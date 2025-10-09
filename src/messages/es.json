@@ -156,7 +156,7 @@
     "description3": "Completa el formulario al lado o contáctanos a través de uno de nuestros canales."
   },
   "form": {
-    "title": "Ponte en Contacto o",
+    "title": "Ponte en Contacto",
     "title2": "Trabaja con nosotros",
     "fields": {
       "nome": "Nombre Completo",
@@ -358,11 +358,11 @@
         "company": "Levis",
         "type": "Corporativo",
         "logo": "/cases/levis-logo.png",
-        "description": "Proyecto corporativo para Levis, transformando el espacio en un ambiente moderno y funcional para el segmento de vestuario.",
+        "description": "En Av. das Nações Unidas, en Brooklin, Levi's estableció su nueva oficina corporativa en 750m² en el Edificio TNU, una dirección consolidada en el escenario corporativo de São Paulo.\n\nSLR Ingeniería fue responsable de la obra completa y proyectos complementarios, conduciendo todo el proceso en modelo turnkey. En 90 días, transformamos concepto en espacio listo para operar, alineado a la identidad de la marca y preparado para impulsar su actuación en Brasil.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/LEVIS/Fotos SLR (31).jpg",
+          "img2": "/cases/CORPORATIVO/LEVIS/Fotos SLR (42).jpg",
+          "img3": "/cases/CORPORATIVO/LEVIS/Fotos SLR (8).jpg"
         },
         "list": {
           "localizacao": {
@@ -387,11 +387,11 @@
         "company": "Iplace - Milan Head Office",
         "type": "Corporativo",
         "logo": "/cases/iplace-logo.png",
-        "description": "Reforma de la oficina corporativa de Iplace, creando un ambiente tecnológico e innovador para el segmento de tecnología.",
+        "description": "En Vila Olímpia, São Paulo, iPlace inauguró su nuevo espacio en Milan Head Office, ocupando 400m² en una de las direcciones más dinámicas del sector corporativo de la ciudad.\n\nSLR Ingeniería fue responsable de la obra completa y proyectos complementarios, en modelo turnkey. En apenas 30 días, condujimos toda la jornada para entregar un ambiente listo, funcional y alineado al DNA tecnológico de la marca.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15 (1).jpeg",
+          "img2": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15.jpeg",
+          "img3": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.21 (2).jpeg"
         },
         "list": {
           "localizacao": {
@@ -405,18 +405,22 @@
           "nicho": {
             "title": "Nicho",
             "description": "Tecnología"
+          },
+          "area": {
+            "title": "Área",
+            "description": "400m²"
           }
         }
       },
       "item5": {
-        "company": "Humanitare",
+        "company": "Humanittare",
         "type": "Corporativo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto corporativo para Humanitare, transformando el espacio en un ambiente profesional y acogedor para consultoría.",
+        "logo": "/logo-humanittare.png",
+        "description": "En Paraíso, una de las direcciones corporativas más tradicionales de São Paulo, Humanitare eligió el 12º piso del Condominio Edificio Paulista Plaza para su nueva oficina.\n\nSLR Ingeniería fue responsable de toda la jornada: proyectos complementarios, ejecución completa y entrega turnkey. En 230 m², transformamos concepto en espacio listo para operar, alineado a las necesidades de la marca y al estándar de excelencia del edificio.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/HUMANITARE/1.jpg",
+          "img2": "/cases/CORPORATIVO/HUMANITARE/2.jpg",
+          "img3": "/cases/CORPORATIVO/HUMANITARE/3.jpg"
         },
         "list": {
           "localizacao": {
@@ -430,6 +434,10 @@
           "nicho": {
             "title": "Nicho",
             "description": "Consultoría"
+          },
+          "area": {
+            "title": "Área",
+            "description": "230m²"
           }
         }
       },
@@ -437,11 +445,11 @@
         "company": "HM",
         "type": "Corporativo",
         "logo": "/cases/hm-logo.png",
-        "description": "Reforma corporativa para HM, creando un ambiente moderno y funcional para el segmento de construcción civil.",
+        "description": "En Campinas, HM eligió el Edificio Montpellier, en Av. Barão de Itapura, para instalar su nuevo espacio corporativo. La dirección, en una de las avenidas más tradicionales de la ciudad, refuerza la presencia de la constructora en el interior paulista.\n\nSLR Ingeniería condujo toda la ejecución: proyectos complementarios, obra completa y entrega en modelo turnkey. En 794 m², creamos un ambiente funcional y contemporáneo, listo para recibir la operación de la empresa en apenas 45 días.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/HM/20220128_134536.jpg",
+          "img2": "/cases/CORPORATIVO/HM/20220128_134620.jpg",
+          "img3": "/cases/CORPORATIVO/HM/20220128_134738.jpg"
         },
         "list": {
           "localizacao": {
@@ -455,18 +463,22 @@
           "nicho": {
             "title": "Nicho",
             "description": "Constructora"
+          },
+          "area": {
+            "title": "Área",
+            "description": "794m²"
           }
         }
       },
       "item7": {
-        "company": "Nava",
+        "company": "Empresa de tecnología",
         "type": "Corporativo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto corporativo para Nava, transformando el espacio en un ambiente tecnológico e innovador para empresa de tecnología.",
+        "logo": "/cases/nava-logo.svg",
+        "description": "En Barueri, en la región que concentra algunos de los mayores polos de negocios de la Gran São Paulo, una empresa de tecnología eligió el Centro Administrativo Rio Negro para su nuevo hub corporativo.\n\nSLR Ingeniería fue responsable de la obra completa en modelo turnkey, conduciendo cada etapa del proceso, desde la planificación hasta la entrega final. En 1.600 m², creamos un ambiente amplio, moderno y totalmente listo para impulsar innovación, concluido en apenas 60 días.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/NAVA/Fotos Escritorio (34).jpg",
+          "img2": "/cases/CORPORATIVO/NAVA/Fotos Escritorio (49).jpg",
+          "img3": "/cases/CORPORATIVO/NAVA/Gemini_Generated_Image_p8kkk4p8kkk4p8kk.png"
         },
         "list": {
           "localizacao": {
@@ -480,18 +492,22 @@
           "nicho": {
             "title": "Nicho",
             "description": "Tecnología"
+          },
+          "area": {
+            "title": "Área",
+            "description": "1.600m²"
           }
         }
       },
       "item8": {
         "company": "Habras",
         "type": "Corporativo",
-        "logo": "/cases/v4-logo.png",
-        "description": "Reforma corporativa para Habras, creando un ambiente moderno y funcional para el segmento de construcción civil.",
+        "logo": "/cases/habras-logo.webp",
+        "description": "En Pinheiros, uno de los barrios más creativos y pulsantes de São Paulo, Habras eligió el Condominio Win Work para instalar su nueva oficina corporativa.\n\nSLR Ingeniería asumió la obra completa en modelo turnkey, coordinando cada etapa para garantizar un resultado ágil y de alta calidad. En apenas 30 días, transformamos 650 m² en un espacio funcional y contemporáneo, listo para recibir la operación de la constructora.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/CORPORATIVO/HABRAS/edited_office_4.jpg",
+          "img2": "/cases/CORPORATIVO/HABRAS/edited_office_5.jpg",
+          "img3": "/cases/CORPORATIVO/HABRAS/edited_office_6.jpg"
         },
         "list": {
           "localizacao": {
@@ -505,13 +521,17 @@
           "nicho": {
             "title": "Nicho",
             "description": "Constructora"
+          },
+          "area": {
+            "title": "Área",
+            "description": "650m²"
           }
         }
       },
       "item9": {
         "company": "Uultis",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
+        "logo": "/cases/uultis-logo.png",
         "description": "En Miami, en el vibrante distrito de Wynwood, Uultis inauguró su nueva flagship en North Miami Avenue, una dirección que respira arte, diseño y lifestyle.\n\nSLR Ingeniería fue responsable de toda la ejecución de la obra en modelo turnkey, coordinando cada detalle para entregar un espacio de retail sofisticado y funcional. En apenas 30 días, transformamos 600 m² en una tienda que refleja la identidad de la marca de muebles y su propuesta de diseño contemporáneo.",
         "img": {
           "img": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.29.jpeg",
@@ -540,12 +560,12 @@
       "item10": {
         "company": "Reserva",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Reserva, transformando el espacio en una tienda moderna y atractiva para el segmento de vestuario.",
+        "logo": "/reserva-logo.png",
+        "description": "En Porto Alegre, Reserva eligió el Shopping BSCG Carlos Gomes, en Av. Carlos Gomes, para reforzar su presencia en el retail premium de la capital gaúcha.\n\nSLR Ingeniería condujo la obra completa en modelo turnkey, cuidando cada detalle para que la nueva tienda reflejara el estilo marcante de la marca de vestuario. En apenas 45 días, transformamos 195 m² en un espacio que traduce la identidad de Reserva y proporciona una experiencia de compra única.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/RESERVA/1.jpeg",
+          "img2": "/cases/VAREJO/RESERVA/2.jpeg",
+          "img3": "/cases/VAREJO/RESERVA/3.jpeg"
         },
         "list": {
           "localizacao": {
@@ -562,19 +582,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "750m²"
+            "description": "195m²"
           }
         }
       },
       "item11": {
         "company": "Sirene",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Sirene, creando un ambiente moderno y atractivo para el segmento alimenticio.",
+        "logo": "/cases/sirene-logo.png",
+        "description": "En la efervescente Vila Madalena, en São Paulo, Sirene abrió las puertas de su nueva tienda en Rua Harmonia, una dirección conocida por su escena gastronómica y cultural.\n\nSLR Ingeniería fue responsable de la ejecución completa de la obra en modelo turnkey. En apenas 30 días, transformamos 145,63 m² en un espacio acogedor y funcional, listo para recibir clientes y transmitir la esencia de la marca en el universo alimenticio.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img2": "/cases/VAREJO/SIRENE/12-11-20 Sirene 055.JPG",
+          "img": "/cases/VAREJO/SIRENE/BECO (1).jpg",
+          "img3": "/cases/VAREJO/SIRENE/unnamed (1).jpg"
         },
         "list": {
           "localizacao": {
@@ -591,19 +611,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "145.63m²"
+            "description": "145,63m²"
           }
         }
       },
       "item12": {
         "company": "Plié",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Plié, transformando el espacio en una tienda moderna y atractiva para el segmento de vestuario.",
+        "logo": "/cases/plie-logo.png",
+        "description": "En BarraShopping, uno de los principales centros comerciales de Rio de Janeiro, Plié reforzó su presencia en el retail de moda con una nueva tienda de 40 m².\n\nSLR Ingeniería ejecutó la obra completa en modelo turnkey, cuidando cada detalle para entregar un espacio elegante y funcional en apenas 30 días. El resultado es una tienda lista para recibir clientes con el estilo y la sofisticación característicos de la marca.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/PLIE/1.jpeg",
+          "img2": "/cases/VAREJO/PLIE/2.jpeg",
+          "img3": "/cases/VAREJO/PLIE/3.jpeg"
         },
         "list": {
           "localizacao": {
@@ -620,15 +640,15 @@
           },
           "area": {
             "title": "Área",
-            "description": "750m²"
+            "description": "40m²"
           }
         }
       },
       "item13": {
         "company": "Oficina",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Oficina, creando un ambiente moderno y atractivo para el segmento de vestuario.",
+        "logo": "/logo-oficina.png",
+        "description": "En Outlet Premium Rio de Janeiro, en Duque de Caxias, Oficina inauguró una nueva tienda para reforzar su presencia en el retail de moda.\n\nSLR Ingeniería ejecutó la obra completa en modelo turnkey, entregando 175 m² totalmente finalizados en apenas 30 días, con el estándar de calidad y agilidad que el proyecto exigía.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -649,19 +669,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "750m²"
+            "description": "175m²"
           }
         }
       },
       "item14": {
         "company": "Live!",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Live!, transformando el espacio en una tienda moderna y atractiva para el segmento de vestuario.",
+        "logo": "/cases/live-logo.svg",
+        "description": "En Outlet SoMarcas Guarulhos, la marca Live! reforzó su presencia en el retail de moda con una nueva tienda.\n\nSLR Ingeniería ejecutó la obra completa en modelo turnkey, entregando 143 m² finalizados en apenas 30 días, dentro del plazo y con la calidad que el proyecto exigía.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/LIVE!/1.jpeg",
+          "img2": "/cases/VAREJO/LIVE!/2.jpeg",
+          "img3": "/cases/VAREJO/LIVE!/DSC04849.JPG"
         },
         "list": {
           "localizacao": {
@@ -678,19 +698,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "750m²"
+            "description": "143m²"
           }
         }
       },
       "item15": {
         "company": "Livo",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Livo, creando un ambiente moderno y atractivo para el segmento de accesorios.",
+        "logo": "/cases/livo-logo.png",
+        "description": "En Vila Guilherme, São Paulo, Livo inauguró su nueva tienda en Shopping Center Norte, ocupando 40m² en uno de los principales centros de retail de la ciudad.\n\nSLR Ingeniería fue responsable de la obra completa, en modelo turnkey. En apenas 30 días, condujimos toda la ejecución para entregar un espacio funcional, moderno y alineado al posicionamiento de la marca de accesorios.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/LIVO/C3696T01.JPG",
+          "img2": "/cases/VAREJO/LIVO/DSC08852.JPG",
+          "img3": "/cases/VAREJO/LIVO/DSC08856.JPG"
         },
         "list": {
           "localizacao": {
@@ -715,11 +735,11 @@
         "company": "Levis - São Roque",
         "type": "Retail",
         "logo": "/cases/levis-logo.png",
-        "description": "Proyecto de retail para Levis, transformando el espacio en una tienda moderna y atractiva para el segmento de vestuario.",
+        "description": "En São Roque, Levi's inauguró su nueva tienda en Catarina Fashion Outlet, ocupando 280m² en uno de los principales destinos de compras del retail de moda en Brasil.\n\nSLR Ingeniería fue responsable de la obra completa, en modelo turnkey. En apenas 30 días, condujimos toda la ejecución para entregar un espacio listo para operar, moderno y alineado a la identidad global de la marca de vestuario.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/LEVIS/bd372459-e8f1-4865-ac70-9721b3d87549.jpeg",
+          "img2": "/cases/VAREJO/LEVIS/WhatsApp Image 2025-01-16 at 13.46.55.jpeg",
+          "img3": "/cases/VAREJO/LEVIS/WhatsApp Image 2025-01-16 at 13.46.56 (2).jpeg"
         },
         "list": {
           "localizacao": {
@@ -736,7 +756,7 @@
           },
           "area": {
             "title": "Área",
-            "description": "750m²"
+            "description": "280m²"
           }
         }
       },
@@ -744,7 +764,7 @@
         "company": "Iplace - Batel",
         "type": "Retail",
         "logo": "/cases/iplace-logo.png",
-        "description": "Proyecto de retail para Iplace, creando un ambiente moderno y atractivo para el segmento de tecnología.",
+        "description": "En Curitiba, iPlace inauguró su nueva tienda en Shopping Pátio Batel, ocupando 153m² en una de las direcciones más sofisticadas del retail de tecnología en Paraná.\n\nSLR Ingeniería fue responsable de la obra completa, en modelo turnkey. En apenas 30 días, condujimos toda la ejecución para entregar un espacio listo para operar, moderno y alineado al DNA tecnológico de la marca.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -768,12 +788,12 @@
       "item18": {
         "company": "Gua.co - Santana",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Gua.co, transformando el espacio en un ambiente moderno y atractivo para el segmento alimenticio.",
+        "logo": "/cases/guaco-logo.avif",
+        "description": "Localizada en R. Dr. César, 874 – Santana, São Paulo, la nueva unidad de Gua.co fue proyectada para ofrecer una experiencia única en el segmento alimenticio, uniendo diseño moderno y funcionalidad.\n\nSLR Ingeniería realizó la obra completa en modelo turnkey, entregando un espacio de 260m² totalmente finalizado y listo para operación en apenas 30 días.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (24).jpg",
+          "img2": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (25).jpg",
+          "img3": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (3).jpg"
         },
         "list": {
           "localizacao": {
@@ -790,19 +810,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "145.63m²"
+            "description": "260m²"
           }
         }
       },
       "item19": {
         "company": "Gua.co - Campinas",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Gua.co, creando un ambiente moderno y atractivo para el segmento alimenticio.",
+        "logo": "/cases/guaco-logo.avif",
+        "description": "En Shopping Dom Pedro Campinas, Gua.co inauguró otra unidad reforzando su presencia en el sector alimenticio, en uno de los principales centros comerciales de la región.\n\nSLR Ingeniería ejecutó la obra completa en modelo turnkey, entregando un espacio de 93m² listo para operación en 60 días.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/GUACO./CAMPINAS/DSC09260.JPG",
+          "img2": "/cases/VAREJO/GUACO./CAMPINAS/DSC09263.JPG",
+          "img3": "/cases/VAREJO/GUACO./CAMPINAS/DSC09265.JPG"
         },
         "list": {
           "localizacao": {
@@ -819,19 +839,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "145.63m²"
+            "description": "93m²"
           }
         }
       },
       "item20": {
         "company": "Gua.co - Perdizes",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Gua.co, transformando el espacio en un ambiente moderno y atractivo para el segmento alimenticio.",
+        "logo": "/cases/guaco-logo.avif",
+        "description": "En la tradicional región de Perdizes, en São Paulo, Gua.co abrió las puertas de su nueva unidad, consolidando su actuación en el segmento alimenticio con otro espacio de experiencia gastronómica.\n\nSLR Ingeniería fue responsable de la obra completa en modelo turnkey, conduciendo todas las etapas para entregar un ambiente de 298m² listo en 60 días.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (15).jpg",
+          "img2": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (21).jpg",
+          "img3": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (30).jpg"
         },
         "list": {
           "localizacao": {
@@ -848,19 +868,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "145.63m²"
+            "description": "298m²"
           }
         }
       },
       "item21": {
         "company": "Bandai",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Bandai, creando un ambiente moderno y atractivo para el segmento de entretenimiento.",
+        "logo": "/cases/bandai-logo.png",
+        "description": "En el corazón de Liberdade, en São Paulo, Bandai inauguró su tienda en Galeria Imperial, trayendo un espacio totalmente enfocado en entretenimiento y cultura pop japonesa.\n\nSLR Ingeniería fue responsable de la obra completa en modelo turnkey, conducida en apenas 30 días, para entregar un ambiente de 120m² listo para recibir los fans de la marca.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.33 (2).jpeg",
+          "img2": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.38 (2).jpeg",
+          "img3": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.39.jpeg"
         },
         "list": {
           "localizacao": {
@@ -884,12 +904,12 @@
       "item22": {
         "company": "Boger Burguer",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Boger Burguer, transformando el espacio en un ambiente moderno y atractivo para el segmento alimenticio.",
+        "logo": "/cases/boger-logo.png",
+        "description": "Boger Burguer, en Itaim Bibi, ganó un nuevo espacio que combina diseño contemporáneo y eficiencia.\nSLR Ingeniería cuidó cada detalle de la obra y de los proyectos complementarios en modelo turnkey, entregando 200 m² totalmente listos en apenas 60 días, transformando el proyecto en una experiencia real para clientes y colaboradores.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/BOGER BUGUER/unnamed (11).jpg",
+          "img2": "/cases/VAREJO/BOGER BUGUER/WhatsApp Image 2025-04-04 at 15.11.41.jpeg",
+          "img3": "/cases/VAREJO/BOGER BUGUER/WhatsApp Image 2025-04-04 at 15.12.47.jpeg"
         },
         "list": {
           "localizacao": {
@@ -906,19 +926,19 @@
           },
           "area": {
             "title": "Área",
-            "description": "145.63m²"
+            "description": "200m²"
           }
         }
       },
       "item23": {
         "company": "Bom Beef Burguer",
         "type": "Retail",
-        "logo": "/cases/v4-logo.png",
-        "description": "Proyecto de retail para Bom Beef Burguer, creando un ambiente moderno y atractivo para el segmento alimenticio.",
+        "logo": "/cases/bom-beef-logo.png",
+        "description": "Bom Beef Burguer, en Shopping Mooca, ganó una nueva tienda moderna, pensada para operación rápida y eficiente.\nSLR Ingeniería fue responsable de toda la ejecución de la obra y de los proyectos complementarios, actuando en modelo turnkey para entregar un espacio listo en tiempo récord.\nEn apenas 60 días, 53,74 m² fueron transformados en un ambiente funcional, con atención a cada detalle, garantizando calidad, organización y practicidad para la operación de la tienda.",
         "img": {
-          "img": "/cases/v4-1.png",
-          "img2": "/cases/v4-2.png",
-          "img3": "/cases/v4-3.png"
+          "img": "/cases/VAREJO/BOOM BEEF/DSC06888.JPG",
+          "img2": "/cases/VAREJO/BOOM BEEF/DSC06900.JPG",
+          "img3": "/cases/VAREJO/BOOM BEEF/DSC06895.JPG"
         },
         "list": {
           "localizacao": {
@@ -935,7 +955,7 @@
           },
           "area": {
             "title": "Área",
-            "description": "145.63m²"
+            "description": "53,74m²"
           }
         }
       }
