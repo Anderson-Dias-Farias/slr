@@ -25,6 +25,16 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.svg",
   },
+  authors: [{ name: "Anderson D Farias", url: "https://adfdeveloper.com.br" }],
+  openGraph: {
+    images: "/logo.svg",
+    title: "SLR - Soluções em Tecnologia",
+    description: "Soluções tecnológicas inovadoras para seu negócio",
+    url: "https://slrengineering.com.br",
+    siteName: "SLR Engineering",
+    locale: "pt-BR",
+    type: "website",
+  },
 };
 
 export default async function LocaleLayout({
