@@ -13,12 +13,14 @@ const formSchema = z.object({
   nome: z.string().min(2, "Nome deve ter pelo menos 2 caracteres"),
   telefone: z.string().min(1, "Telefone é obrigatório"),
   email: z.string().email("Email inválido"),
-  curriculo: z
-    .any()
-    .refine(
-      (files) => files instanceof FileList && files.length > 0,
-      "Currículo é obrigatório"
-    ),
+  curriculo: z.any().refine((files) => {
+    // Check if we're in browser environment and files is a FileList
+    if (typeof window !== "undefined" && files instanceof FileList) {
+      return files.length > 0;
+    }
+    // For server-side or other cases, check if it's an array-like object
+    return files && files.length > 0;
+  }, "Currículo é obrigatório"),
   mensagem: z.string().min(10, "Mensagem deve ter pelo menos 10 caracteres"),
 });
 
