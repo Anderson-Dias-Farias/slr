@@ -252,7 +252,7 @@ export default function Cases() {
               src={itensCorporativo[currentSlide].img}
               alt={itensCorporativo[currentSlide].title}
               fill
-              className="object-cover grayscale-100 rounded-lg lg:rounded-none hover:grayscale-0 transition-all duration-300"
+              className="object-cover md:grayscale-100 grayscale-0 rounded-lg lg:rounded-none hover:grayscale-0 transition-all duration-300"
             />
           </motion.div>
           <div className="w-full h-full  flex lg:hidden flex-col  items-start justify-start max-w-7xl mx-auto">
@@ -268,7 +268,7 @@ export default function Cases() {
               </button>
 
               {/* Indicadores */}
-              <div className="flex space-x-2">
+              <div className="sm:flex hidden space-x-2">
                 {itensCorporativo.map((_, index) => (
                   <button
                     key={index}
@@ -380,7 +380,7 @@ export default function Cases() {
                   service: item.type,
                 },
               }}
-              className="p-6 border-1 border-gray-400 rounded-lg grayscale-100 hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105"
+              className="p-6 border-1 border-gray-400 rounded-lg md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105"
             >
               <div className="max-w-[180px] min-h-[100px] relative">
                 <Image

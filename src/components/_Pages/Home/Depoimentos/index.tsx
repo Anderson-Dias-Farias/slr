@@ -77,7 +77,7 @@ export default function Depoimentos() {
                   }
                   transition={{ duration: 0.8, delay: index * 0.2 }}
                 >
-                  <div className="bg-white rounded-lg shadow-lg overflow-hidden h-[480px] flex flex-col grayscale-100 hover:grayscale-0 transition-all duration-500">
+                  <div className="bg-white rounded-lg shadow-lg overflow-hidden h-[480px] flex flex-col md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-500">
                     <div className="relative h-72 flex-shrink-0">
                       <Image
                         src="/depoimento1.png"

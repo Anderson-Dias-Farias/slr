@@ -201,7 +201,7 @@ export default function Header() {
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-              className={`lg:hidden border-t border-white border-l border-r ${
+              className={`lg:hidden border-b border-white border-l border-r w-full ${
                 url ? "bg-black" : "bg-white"
               }`}
             >
@@ -271,11 +271,11 @@ export default function Header() {
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: (menuItems.length + 1) * 0.1 }}
-                  className="px-3 py-2"
+                  className="px-3 py-2 flex items-center justify-center"
                 >
                   <Link
                     href="/contact"
-                    className="w-full bg-yellow-600 hover:bg-yellow-700 text-black"
+                    className="bg-yellow-600 hover:bg-yellow-700 text-black py-2 rounded-full px-4 w-full text-center"
                   >
                     {t("header.cta")}
                   </Link>

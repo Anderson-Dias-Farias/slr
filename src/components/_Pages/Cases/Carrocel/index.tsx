@@ -80,7 +80,7 @@ export default function Carrocel({ item }: CarrocelProps) {
             src={item?.img?.img}
             alt={item?.company}
             fill
-            className="object-cover grayscale-100 hover:grayscale-0 transition-all duration-300"
+            className="object-cover md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
           />
         </motion.div>
@@ -153,7 +153,7 @@ export default function Carrocel({ item }: CarrocelProps) {
               src={item?.img?.img2}
               alt={item?.company}
               fill
-              className="object-cover grayscale-100 hover:grayscale-0 transition-all duration-300"
+              className="object-cover md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300"
             />
           </div>
           <div className="w-full h-full flex flex-col items-center justify-center min-h-[421] relative">
@@ -161,7 +161,7 @@ export default function Carrocel({ item }: CarrocelProps) {
               src={item?.img?.img3}
               alt={item?.company}
               fill
-              className="object-cover grayscale-100 hover:grayscale-0 transition-all duration-300"
+              className="object-cover md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300"
             />
           </div>
         </motion.div>

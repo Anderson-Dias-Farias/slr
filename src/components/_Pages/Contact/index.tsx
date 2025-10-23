@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="w-full h-full overflow-hidden flex flex-col gap-10 items-center justify-center">
-      <section className="w-full h-full overflow-hidden min-h-[100vh] relative text-white">
+    <div className="w-full h-full overflow-hidden flex flex-col md:gap-10 gap-0 items-center justify-center">
+      <section className="w-full h-full overflow-hidden md:min-h-[100vh] relative text-white">
         <Image
           src="/contact.jpg"
           alt="Contact"
