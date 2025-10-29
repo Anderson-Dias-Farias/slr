@@ -46,7 +46,7 @@ export default function Depoimentos() {
   return (
     <section
       ref={ref}
-      className="w-full h-full overflow-hidden px-4 py-20 bg-gray-50 border-b-4 border-gray-500"
+      className="w-full h-full overflow-hidden px-4 py-20 bg-gray-50 border-b-4 border-gray-500 hidden"
     >
       <div className="w-full h-full max-w-7xl mx-auto">
         <motion.div
