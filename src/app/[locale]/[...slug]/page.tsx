@@ -2,7 +2,6 @@ import Atuacao from "@/components/_Pages/Atuacao";
 import Cases from "@/components/_Pages/Cases";
 import Contact from "@/components/_Pages/Contact";
 import QuemSomos from "@/components/_Pages/Quem-Somos";
-import { notFound } from "next/navigation";
 
 export default async function Page({
   params,
@@ -12,7 +11,7 @@ export default async function Page({
   const { slug } = await params;
 
   const url = slug[0];
-  console.log(url);
+  console.log("esta sendo exibido: ", url);
 
   // Páginas de "Quem Somos" / "About Us" / "Quienes Somos"
   if (url === "quem-somos" || url === "about-us" || url === "quienes-somos") {
@@ -53,6 +52,4 @@ export default async function Page({
       </main>
     );
   }
-
-  return notFound();
 }
