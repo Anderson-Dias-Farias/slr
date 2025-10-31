@@ -370,6 +370,10 @@ export default function Cases() {
       <div className="w-full h-full max-w-7xl mx-auto grid xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4 py-10">
         {itensCorporativo
           .filter((item) => item.title !== "Empresa de tecnologia")
+          .filter(
+            (item, index, self) =>
+              index === self.findIndex((i) => i.logo === item.logo)
+          )
           .map((item, index) => (
             <Link
               key={index}
