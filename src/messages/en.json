@@ -17,7 +17,7 @@
   "hero": {
     "title": "Your business expansion happens here",
     "subtitle": "Discover our success cases",
-    "description": "SLR Engineering is the right choice to materialize your projects with speed and excellence, operating in Design & Build and Turn Key models, delivering complete solutions from start to finish.",
+    "description": "SLR Engineering is the right choice to materialize your projects with speed and excellence, operating in Design & Build and Turnkey models, delivering complete solutions from start to finish.",
     "years": "Years of operation",
     "projects": "Projects Completed",
     "countries": "Countries of Operation",
@@ -29,7 +29,7 @@
     "highlight1": "experiences,",
     "highlight2": "We deliver results.",
     "subtitle": "From concept to delivery, we are driven by transforming spaces.",
-    "description": "At SLR Engineering, our purpose is to ensure that each client has a complete, safe and peaceful experience throughout the construction journey, from concept to ready space. Specialists in retail, corporate floors and franchises, we act with protagonism in Design & Build and Turn Key models, managing all stages with precision: approvals, project development, execution, supplies and third-party management. ",
+    "description": "At SLR Engineering, our purpose is to ensure that each client has a complete, safe and peaceful experience throughout the construction journey, from concept to ready space. Specialists in retail, corporate floors and franchises, we act with protagonism in Design & Build and Turnkey models, managing all stages with precision: approvals, project development, execution, supplies and third-party management. ",
     "description2": "We combine technical excellence, agility and responsibility to transform ideas into environments ready to operate, with one contract, one partner and the commitment to deliver more than agreed.",
     "cta": "Discover our success cases",
     "card1": {
@@ -178,7 +178,7 @@
     "sendSuccess": "Message sent successfully!"
   },
   "footer": {
-    "description": "SLR Engineering is the right choice to materialize your projects with speed and excellence, operating in Design & Build and Turn Key models, delivering complete solutions from start to finish.",
+    "description": "SLR Engineering is the right choice to materialize your projects with speed and excellence, operating in Design & Build and Turnkey models, delivering complete solutions from start to finish.",
     "links": {
       "title": "Company",
       "link1": "Home",
@@ -190,7 +190,7 @@
     "links2": {
       "title": "Services",
       "link1": "Design & Build",
-      "link2": "Turn Key",
+      "link2": "Turnkey",
       "link3": "Retail",
       "link4": "Corporate"
     },
@@ -242,13 +242,13 @@
   },
   "atuacao": {
     "title": "Areas of Operation",
-    "badge": "Turn Key and Design-Build",
+    "badge": "Turnkey and Design & Build",
     "turn-key": {
-      "title": "Turn Key",
+      "title": "Turnkey",
       "subtitle": "for Retail & Office",
-      "description": "The Turn Key model is ideal for projects that require total management of the construction process, from conception to final delivery. Our team assumes all responsibility, from project approval to delivery of the space ready for operation.",
+      "description": "The Turnkey model is ideal for projects that require total management of the construction process, from conception to final delivery. Our team assumes all responsibility, from project approval to delivery of the space ready for operation.",
       "title2": "Integrated Management",
-      "description2": "The Turn Key model takes integration to a level where every detail of the work is centralized in a single partner. The entire chain, executive project, supplies, third-party management, execution and final finishes, is conducted under a single coordination, which eliminates dispersed decision points and reduces failure risks. The client receives a completed environment, technically validated and ready to start operation on the defined deadline. This approach offers maximum simplicity, with predictable deadlines, controlled costs and the security that the space will be delivered exactly as planned, already ready to function from the first day.",
+      "description2": "The Turnkey model takes integration to a level where every detail of the work is centralized in a single partner. The entire chain, executive project, supplies, third-party management, execution and final finishes, is conducted under a single coordination, which eliminates dispersed decision points and reduces failure risks. The client receives a completed environment, technically validated and ready to start operation on the defined deadline. This approach offers maximum simplicity, with predictable deadlines, controlled costs and the security that the space will be delivered exactly as planned, already ready to function from the first day.",
       "title3": "Total Centralization",
       "description3": "A single partner coordinates all stages: project, supplies, execution and third-party management. Elimination of multiple decision points and risk reduction.",
       "title4": "Ready-to-Operate Delivery",
@@ -258,7 +258,7 @@
       "example": "This model is especially strategic for expanding companies, retail networks and franchises, as it allows replicating units with consistency and predictability, reducing the time between the decision to open a new operation and the effective start of activities."
     },
     "design-build": {
-      "title": "Design-Build",
+      "title": "Design & Build",
       "title2": "for Retail & Office",
       "description": "The Design & Build model integrates project and execution in a single contract. This means that planning, architecture, engineering, supplies and construction are conducted in a coordinated way, reducing risks, deadlines and costs. This model ensures that the environment is ready to operate from the first day, aligned with the brand and consumer experience, in addition to allowing scalable and standardized business expansion.",
       "subtitle": "Direct benefits for the client:",
@@ -297,7 +297,7 @@
         "company": "V4 - Flagship",
         "type": "Corporate",
         "logo": "/cases/v4-logo.png",
-        "description": "In the heart of Cidade Monções, São Paulo's corporate hub, V4 Company found the ideal space for its flagship office.\n\nSLR Engineering was responsible for the entire project journey on the 6th floor of the Ronaldo Sampaio Ferreira Building: complementary projects, complete execution and turnkey delivery. In 700m², we transformed concept into result, coordinating each stage so that V4 could operate in a ready, functional environment aligned with its innovative identity in marketing.",
+        "description": "In the heart of Cidade Monções, São Paulo's corporate hub, V4 Company found the ideal space for its flagship office.\n\nSLR Engineering was responsible for the entire project journey on the 6th floor of the Ronaldo Sampaio Ferreira Building: complementary projects, complete execution and Turnkey delivery. In 700m², we transformed concept into result, coordinating each stage so that V4 could operate in a ready, functional environment aligned with its innovative identity in marketing.",
         "img": {
           "img": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.16.jpeg",
           "img2": "/cases/CORPORATIVO/V4/V4 - Flagship/WhatsApp Image 2025-04-04 at 15.11.17.jpeg",
@@ -326,7 +326,7 @@
         "company": "V4 - Headquarters",
         "type": "Corporate",
         "logo": "/cases/v4-logo.png",
-        "description": "In Campinas, V4 Company consolidated its headquarters in a single-user space of 6,500m², designed to reflect the strength and innovation of the company in the marketing sector.\n\nSLR Engineering conducted the entire project journey: complementary projects, complete execution and turnkey delivery. In just 120 days, we transformed concept into reality, delivering a spacious, modern and fully ready-to-operate corporate environment.",
+        "description": "In Campinas, V4 Company consolidated its headquarters in a single-user space of 6,500m², designed to reflect the strength and innovation of the company in the marketing sector.\n\nSLR Engineering conducted the entire project journey: complementary projects, complete execution and Turnkey delivery. In just 120 days, we transformed concept into reality, delivering a spacious, modern and fully ready-to-operate corporate environment.",
         "img": {
           "img": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09281.JPG",
           "img2": "/cases/CORPORATIVO/V4/V4 - Matriz/DSC09314.JPG",
@@ -355,7 +355,7 @@
         "company": "Levis",
         "type": "Corporate",
         "logo": "/cases/levis-logo.png",
-        "description": "On Av. das Nações Unidas, in Brooklin, Levi's established its new corporate office in 750m² at the TNU Building, a consolidated address in São Paulo's corporate scene.\n\nSLR Engineering was responsible for the complete project and complementary projects, conducting the entire process in turnkey model. In 90 days, we transformed concept into space ready to operate, aligned with the brand identity and prepared to boost its operations in Brazil.",
+        "description": "On Av. das Nações Unidas, in Brooklin, Levi's established its new corporate office in 750m² at the TNU Building, a consolidated address in São Paulo's corporate scene.\n\nSLR Engineering was responsible for the complete project and complementary projects, conducting the entire process in Turnkey model. In 90 days, we transformed concept into space ready to operate, aligned with the brand identity and prepared to boost its operations in Brazil.",
         "img": {
           "img": "/cases/CORPORATIVO/LEVIS/Fotos SLR (31).jpg",
           "img2": "/cases/CORPORATIVO/LEVIS/Fotos SLR (42).jpg",
@@ -384,7 +384,7 @@
         "company": "Iplace - Milan Head Office",
         "type": "Corporate",
         "logo": "/cases/iplace-logo.png",
-        "description": "In Vila Olímpia, São Paulo, iPlace inaugurated its new space at Milan Head Office, occupying 400m² in one of the most dynamic addresses in the city's corporate sector.\n\nSLR Engineering was responsible for the complete project and complementary projects, in turnkey model. In just 30 days, we conducted the entire journey to deliver a ready, functional environment aligned with the brand's technological DNA.",
+        "description": "In Vila Olímpia, São Paulo, iPlace inaugurated its new space at Milan Head Office, occupying 400m² in one of the most dynamic addresses in the city's corporate sector.\n\nSLR Engineering was responsible for the complete project and complementary projects, in Turnkey model. In just 30 days, we conducted the entire journey to deliver a ready, functional environment aligned with the brand's technological DNA.",
         "img": {
           "img": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15 (1).jpeg",
           "img2": "/cases/CORPORATIVO/IPLACE - MILAN HEAD OFFICE/WhatsApp Image 2025-05-03 at 14.22.15.jpeg",
@@ -413,7 +413,7 @@
         "company": "Humanittare",
         "type": "Corporate",
         "logo": "/logo-humanittare.png",
-        "description": "In Paraíso, one of São Paulo's most traditional corporate addresses, Humanitare chose the 12th floor of the Paulista Plaza Building Condominium for its new office.\n\nSLR Engineering was responsible for the entire journey: complementary projects, complete execution and turnkey delivery. In 230 m², we transformed concept into space ready to operate, aligned with the brand's needs and the building's standard of excellence.",
+        "description": "In Paraíso, one of São Paulo's most traditional corporate addresses, Humanitare chose the 12th floor of the Paulista Plaza Building Condominium for its new office.\n\nSLR Engineering was responsible for the entire journey: complementary projects, complete execution and Turnkey delivery. In 230 m², we transformed concept into space ready to operate, aligned with the brand's needs and the building's standard of excellence.",
         "img": {
           "img": "/cases/CORPORATIVO/HUMANITARE/1.jpg",
           "img2": "/cases/CORPORATIVO/HUMANITARE/2.jpg",
@@ -470,8 +470,8 @@
       "item7": {
         "company": "Technology company",
         "type": "Corporate",
-        "logo": "/cases/nava-logo.svg",
-        "description": "In Barueri, in the region that concentrates some of the largest business centers in Greater São Paulo, a technology company chose the Rio Negro Administrative Center for its new corporate hub.\n\nSLR Engineering was responsible for the complete project in turnkey model, conducting each stage of the process, from planning to final delivery. In 1,600 m², we created a spacious, modern environment fully ready to drive innovation, completed in just 60 days.",
+        "logo": "",
+        "description": "In Barueri, in the region that concentrates some of the largest business centers in Greater São Paulo, a technology company chose the Rio Negro Administrative Center for its new corporate hub.\n\nSLR Engineering was responsible for the complete project in Turnkey model, conducting each stage of the process, from planning to final delivery. In 1,600 m², we created a spacious, modern environment fully ready to drive innovation, completed in just 60 days.",
         "img": {
           "img": "/cases/CORPORATIVO/NAVA/Fotos Escritorio (34).jpg",
           "img2": "/cases/CORPORATIVO/NAVA/Fotos Escritorio (49).jpg",
@@ -500,7 +500,7 @@
         "company": "Habras",
         "type": "Corporate",
         "logo": "/cases/habras-logo.webp",
-        "description": "In Pinheiros, one of São Paulo's most creative and vibrant neighborhoods, Habras chose the Win Work Condominium to install its new corporate office.\n\nSLR Engineering took on the complete project in turnkey model, coordinating each stage to ensure an agile and high-quality result. In just 30 days, we transformed 650 m² into a functional and contemporary space, ready to receive the construction company's operation.",
+        "description": "In Pinheiros, one of São Paulo's most creative and vibrant neighborhoods, Habras chose the Win Work Condominium to install its new corporate office.\n\nSLR Engineering took on the complete project in Turnkey model, coordinating each stage to ensure an agile and high-quality result. In just 30 days, we transformed 650 m² into a functional and contemporary space, ready to receive the construction company's operation.",
         "img": {
           "img": "/cases/CORPORATIVO/HABRAS/edited_office_4.jpg",
           "img2": "/cases/CORPORATIVO/HABRAS/edited_office_5.jpg",
@@ -529,7 +529,7 @@
         "company": "Uultis",
         "type": "Retail",
         "logo": "/cases/v4-logo.png",
-        "description": "In Miami, in the vibrant Wynwood district, Uultis inaugurated its new flagship on North Miami Avenue, an address that breathes art, design and lifestyle.\n\nSLR Engineering was responsible for the entire project execution in turnkey model, coordinating every detail to deliver a sophisticated and functional retail space. In just 30 days, we transformed 600 m² into a store that reflects the furniture brand's identity and its contemporary design proposal.",
+        "description": "In Miami, in the vibrant Wynwood district, Uultis inaugurated its new flagship on North Miami Avenue, an address that breathes art, design and lifestyle.\n\nSLR Engineering was responsible for the entire project execution in Turnkey model, coordinating every detail to deliver a sophisticated and functional retail space. In just 30 days, we transformed 600 m² into a store that reflects the furniture brand's identity and its contemporary design proposal.",
         "img": {
           "img": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.29.jpeg",
           "img2": "/cases/VAREJO/UULTIS/WhatsApp Image 2025-08-18 at 13.35.30 (2).jpeg",
@@ -558,7 +558,7 @@
         "company": "Reserva",
         "type": "Retail",
         "logo": "/reserva-logo.png",
-        "description": "In Porto Alegre, Reserva chose the BSCG Carlos Gomes Shopping, on Av. Carlos Gomes, to strengthen its presence in the premium retail of the capital of Rio Grande do Sul.\n\nSLR Engineering conducted the complete project in turnkey model, taking care of every detail so that the new store reflected the striking style of the clothing brand. In just 45 days, we transformed 195 m² into a space that translates Reserva's identity and provides a unique shopping experience.",
+        "description": "In Porto Alegre, Reserva chose the BSCG Carlos Gomes Shopping, on Av. Carlos Gomes, to strengthen its presence in the premium retail of the capital of Rio Grande do Sul.\n\nSLR Engineering conducted the complete project in Turnkey model, taking care of every detail so that the new store reflected the striking style of the clothing brand. In just 45 days, we transformed 195 m² into a space that translates Reserva's identity and provides a unique shopping experience.",
         "img": {
           "img": "/cases/VAREJO/RESERVA/1.jpeg",
           "img2": "/cases/VAREJO/RESERVA/2.jpeg",
@@ -587,7 +587,7 @@
         "company": "Sirene",
         "type": "Retail",
         "logo": "/cases/sirene-logo.png",
-        "description": "In the effervescent Vila Madalena, in São Paulo, Sirene opened the doors of its new store on Rua Harmonia, an address known for its gastronomic and cultural scene.\n\nSLR Engineering was responsible for the complete execution of the project in turnkey model. In just 30 days, we transformed 145.63 m² into a welcoming and functional space, ready to receive customers and transmit the brand's essence in the food universe.",
+        "description": "In the effervescent Vila Madalena, in São Paulo, Sirene opened the doors of its new store on Rua Harmonia, an address known for its gastronomic and cultural scene.\n\nSLR Engineering was responsible for the complete execution of the project in Turnkey model. In just 30 days, we transformed 145.63 m² into a welcoming and functional space, ready to receive customers and transmit the brand's essence in the food universe.",
         "img": {
           "img2": "/cases/VAREJO/SIRENE/12-11-20 Sirene 055.JPG",
           "img": "/cases/VAREJO/SIRENE/BECO (1).jpg",
@@ -616,7 +616,7 @@
         "company": "Plié",
         "type": "Retail",
         "logo": "/cases/plie-logo.png",
-        "description": "At BarraShopping, one of Rio de Janeiro's main shopping centers, Plié strengthened its presence in fashion retail with a new 40 m² store.\n\nSLR Engineering executed the complete project in turnkey model, taking care of every detail to deliver an elegant and functional space in just 30 days. The result is a store ready to receive customers with the style and sophistication characteristic of the brand.",
+        "description": "At BarraShopping, one of Rio de Janeiro's main shopping centers, Plié strengthened its presence in fashion retail with a new 40 m² store.\n\nSLR Engineering executed the complete project in Turnkey model, taking care of every detail to deliver an elegant and functional space in just 30 days. The result is a store ready to receive customers with the style and sophistication characteristic of the brand.",
         "img": {
           "img": "/cases/VAREJO/PLIE/1.jpeg",
           "img2": "/cases/VAREJO/PLIE/2.jpeg",
@@ -645,7 +645,7 @@
         "company": "Oficina",
         "type": "Retail",
         "logo": "/logo-oficina.png",
-        "description": "At Outlet Premium Rio de Janeiro, in Duque de Caxias, Oficina inaugurated a new store to strengthen its presence in fashion retail.\n\nSLR Engineering executed the complete project in turnkey model, delivering 175 m² fully finished in just 30 days, with the quality and agility standard that the project required.",
+        "description": "At Outlet Premium Rio de Janeiro, in Duque de Caxias, Oficina inaugurated a new store to strengthen its presence in fashion retail.\n\nSLR Engineering executed the complete project in Turnkey model, delivering 175 m² fully finished in just 30 days, with the quality and agility standard that the project required.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -674,7 +674,7 @@
         "company": "Live!",
         "type": "Retail",
         "logo": "/cases/live-logo.svg",
-        "description": "At Outlet SoMarcas Guarulhos, the Live! brand strengthened its presence in fashion retail with a new store.\n\nSLR Engineering executed the complete project in turnkey model, delivering 143 m² finished in just 30 days, on time and with the quality the project required.",
+        "description": "At Outlet SoMarcas Guarulhos, the Live! brand strengthened its presence in fashion retail with a new store.\n\nSLR Engineering executed the complete project in Turnkey model, delivering 143 m² finished in just 30 days, on time and with the quality the project required.",
         "img": {
           "img": "/cases/VAREJO/LIVE!/1.jpeg",
           "img2": "/cases/VAREJO/LIVE!/2.jpeg",
@@ -703,7 +703,7 @@
         "company": "Livo",
         "type": "Retail",
         "logo": "/cases/livo-logo.png",
-        "description": "In Vila Guilherme, São Paulo, Livo inaugurated its new store at Shopping Center Norte, occupying 40m² in one of the city's main retail centers.\n\nSLR Engineering was responsible for the complete project, in turnkey model. In just 30 days, we conducted the entire execution to deliver a functional, modern space aligned with the accessories brand's positioning.",
+        "description": "In Vila Guilherme, São Paulo, Livo inaugurated its new store at Shopping Center Norte, occupying 40m² in one of the city's main retail centers.\n\nSLR Engineering was responsible for the complete project, in Turnkey model. In just 30 days, we conducted the entire execution to deliver a functional, modern space aligned with the accessories brand's positioning.",
         "img": {
           "img": "/cases/VAREJO/LIVO/C3696T01.JPG",
           "img2": "/cases/VAREJO/LIVO/DSC08852.JPG",
@@ -732,7 +732,7 @@
         "company": "Levis - São Roque",
         "type": "Retail",
         "logo": "/cases/levis-logo.png",
-        "description": "In São Roque, Levi's inaugurated its new store at Catarina Fashion Outlet, occupying 280m² in one of the main fashion retail shopping destinations in Brazil.\n\nSLR Engineering was responsible for the complete project, in turnkey model. In just 30 days, we conducted the entire execution to deliver a space ready to operate, modern and aligned with the global identity of the clothing brand.",
+        "description": "In São Roque, Levi's inaugurated its new store at Catarina Fashion Outlet, occupying 280m² in one of the main fashion retail shopping destinations in Brazil.\n\nSLR Engineering was responsible for the complete project, in Turnkey model. In just 30 days, we conducted the entire execution to deliver a space ready to operate, modern and aligned with the global identity of the clothing brand.",
         "img": {
           "img": "/cases/VAREJO/LEVIS/bd372459-e8f1-4865-ac70-9721b3d87549.jpeg",
           "img2": "/cases/VAREJO/LEVIS/WhatsApp Image 2025-01-16 at 13.46.55.jpeg",
@@ -761,7 +761,7 @@
         "company": "Iplace - Batel",
         "type": "Retail",
         "logo": "/cases/iplace-logo.png",
-        "description": "In Curitiba, iPlace inaugurated its new store at Shopping Pátio Batel, occupying 153m² in one of the most sophisticated addresses in technology retail in Paraná.\n\nSLR Engineering was responsible for the complete project, in turnkey model. In just 30 days, we conducted the entire execution to deliver a space ready to operate, modern and aligned with the brand's technological DNA.",
+        "description": "In Curitiba, iPlace inaugurated its new store at Shopping Pátio Batel, occupying 153m² in one of the most sophisticated addresses in technology retail in Paraná.\n\nSLR Engineering was responsible for the complete project, in Turnkey model. In just 30 days, we conducted the entire execution to deliver a space ready to operate, modern and aligned with the brand's technological DNA.",
         "img": {
           "img": "/cases/v4-1.png",
           "img2": "/cases/v4-2.png",
@@ -790,7 +790,7 @@
         "company": "Gua.co - Santana",
         "type": "Retail",
         "logo": "/cases/guaco-logo.avif",
-        "description": "Located at R. Dr. César, 874 – Santana, São Paulo, the new Gua.co unit was designed to offer a unique experience in the food segment, combining modern design and functionality.\n\nSLR Engineering carried out the complete project in turnkey model, delivering a 260m² space fully finished and ready for operation in just 30 days.",
+        "description": "Located at R. Dr. César, 874 – Santana, São Paulo, the new Gua.co unit was designed to offer a unique experience in the food segment, combining modern design and functionality.\n\nSLR Engineering carried out the complete project in Turnkey model, delivering a 260m² space fully finished and ready for operation in just 30 days.",
         "img": {
           "img": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (24).jpg",
           "img2": "/cases/VAREJO/GUACO./SANTANA/Restaurante Santana (25).jpg",
@@ -819,7 +819,7 @@
         "company": "Gua.co - Campinas",
         "type": "Retail",
         "logo": "/cases/guaco-logo.avif",
-        "description": "At Shopping Dom Pedro Campinas, Gua.co inaugurated another unit strengthening its presence in the food sector, in one of the region's main shopping centers.\n\nSLR Engineering executed the complete project in turnkey model, delivering a 93m² space ready for operation in 60 days.",
+        "description": "At Shopping Dom Pedro Campinas, Gua.co inaugurated another unit strengthening its presence in the food sector, in one of the region's main shopping centers.\n\nSLR Engineering executed the complete project in Turnkey model, delivering a 93m² space ready for operation in 60 days.",
         "img": {
           "img": "/cases/VAREJO/GUACO./CAMPINAS/DSC09260.JPG",
           "img2": "/cases/VAREJO/GUACO./CAMPINAS/DSC09263.JPG",
@@ -848,7 +848,7 @@
         "company": "Gua.co - Perdizes",
         "type": "Retail",
         "logo": "/cases/guaco-logo.avif",
-        "description": "In the traditional Perdizes region, in São Paulo, Gua.co opened the doors of its new unit, consolidating its operations in the food segment with another gastronomic experience space.\n\nSLR Engineering was responsible for the complete project in turnkey model, conducting all stages to deliver a 298m² environment ready in 60 days.",
+        "description": "In the traditional Perdizes region, in São Paulo, Gua.co opened the doors of its new unit, consolidating its operations in the food segment with another gastronomic experience space.\n\nSLR Engineering was responsible for the complete project in Turnkey model, conducting all stages to deliver a 298m² environment ready in 60 days.",
         "img": {
           "img": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (15).jpg",
           "img2": "/cases/VAREJO/GUACO./PERDIZES/SLR resturante (21).jpg",
@@ -877,7 +877,7 @@
         "company": "Bandai",
         "type": "Retail",
         "logo": "/cases/bandai-logo.png",
-        "description": "In the heart of Liberdade, in São Paulo, Bandai inaugurated its store at Galeria Imperial, bringing a space totally focused on entertainment and Japanese pop culture.\n\nSLR Engineering was responsible for the complete project in turnkey model, conducted in just 30 days, to deliver a 120m² environment ready to receive the brand's fans.",
+        "description": "In the heart of Liberdade, in São Paulo, Bandai inaugurated its store at Galeria Imperial, bringing a space totally focused on entertainment and Japanese pop culture.\n\nSLR Engineering was responsible for the complete project in Turnkey model, conducted in just 30 days, to deliver a 120m² environment ready to receive the brand's fans.",
         "img": {
           "img": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.33 (2).jpeg",
           "img2": "/cases/VAREJO/BANDAI/WhatsApp Image 2024-08-12 at 14.34.38 (2).jpeg",
@@ -906,7 +906,7 @@
         "company": "Boger Burguer",
         "type": "Retail",
         "logo": "/cases/boger-logo.png",
-        "description": "Boger Burguer, in Itaim Bibi, gained a new space that combines contemporary design and efficiency.\nSLR Engineering took care of every detail of the project and complementary projects in turnkey model, delivering 200 m² fully ready in just 60 days, transforming the project into a real experience for customers and employees.",
+        "description": "Boger Burguer, in Itaim Bibi, gained a new space that combines contemporary design and efficiency.\nSLR Engineering took care of every detail of the project and complementary projects in Turnkey model, delivering 200 m² fully ready in just 60 days, transforming the project into a real experience for customers and employees.",
         "img": {
           "img": "/cases/VAREJO/BOGER BUGUER/unnamed (11).jpg",
           "img2": "/cases/VAREJO/BOGER BUGUER/WhatsApp Image 2025-04-04 at 15.11.41.jpeg",
@@ -935,7 +935,7 @@
         "company": "Bom Beef Burguer",
         "type": "Retail",
         "logo": "/cases/bom-beef-logo.png",
-        "description": "Bom Beef Burguer, at Shopping Mooca, gained a new modern store, designed for fast and efficient operation.\nSLR Engineering was responsible for the entire project execution and complementary projects, operating in turnkey model to deliver a space ready in record time.\nIn just 60 days, 53.74 m² were transformed into a functional environment, with attention to every detail, ensuring quality, organization and practicality for the store's operation.",
+        "description": "Bom Beef Burguer, at Shopping Mooca, gained a new modern store, designed for fast and efficient operation.\nSLR Engineering was responsible for the entire project execution and complementary projects, operating in Turnkey model to deliver a space ready in record time.\nIn just 60 days, 53.74 m² were transformed into a functional environment, with attention to every detail, ensuring quality, organization and practicality for the store's operation.",
         "img": {
           "img": "/cases/VAREJO/BOOM BEEF/DSC06888.JPG",
           "img2": "/cases/VAREJO/BOOM BEEF/DSC06900.JPG",

@@ -127,8 +127,8 @@ export default function Carrocel({ item }: CarrocelProps) {
                 quality={100}
                 className={cn(
                   "object-contain sm:h-12 sm:w-22 h-10 w-10",
-                  item.company.toLowerCase() === "empresa de tecnologia" &&
-                    "hidden"
+                  item.company.toLowerCase() === "empresa de tecnologia" ||
+                    (item.logo == "" && "hidden")
                 )}
               />
               <div className="flex items-center justify-between gap-2 w-full px-2">

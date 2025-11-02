@@ -20,16 +20,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SLR - Soluções em Tecnologia",
-  description: "Soluções tecnológicas inovadoras para seu negócio",
+  title: "SLR - Soluções em obras turnkey e design & build",
+  description: "Soluções em obras turnkey e design & build para seu negócio",
   icons: {
     icon: "/logo.svg",
   },
   authors: [{ name: "Anderson D Farias", url: "https://adfdeveloper.com.br" }],
   openGraph: {
     images: "/logo.svg",
-    title: "SLR - Soluções em Tecnologia",
-    description: "Soluções tecnológicas inovadoras para seu negócio",
+    title: "SLR - Soluções em obras turnkey e design & build",
+    description: "Soluções em obras turnkey e design & build para seu negócio",
     url: "https://slrengineering.com.br",
     siteName: "SLR Engineering",
     locale: "pt-BR",

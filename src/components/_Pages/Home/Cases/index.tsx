@@ -7,6 +7,21 @@ import Image from "next/image";
 
 import { useRef, useState } from "react";
 
+const logoextra = [
+  {
+    title: "Grupo Elettromec",
+    img: "/cases/elettromec.jpeg",
+  },
+  {
+    title: "Arezzo & CO",
+    img: "/cases/arezo.jpeg",
+  },
+  {
+    title: "New Era",
+    img: "/cases/new-era.jpeg",
+  },
+];
+
 export default function Cases() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const t = useTranslations("cases");
@@ -372,7 +387,8 @@ export default function Cases() {
           .filter((item) => item.title !== "Empresa de tecnologia")
           .filter(
             (item, index, self) =>
-              index === self.findIndex((i) => i.logo === item.logo)
+              index ===
+              self.findIndex((i) => i.logo === item.logo && i.logo != "")
           )
           .map((item, index) => (
             <Link
@@ -396,6 +412,24 @@ export default function Cases() {
               </div>
             </Link>
           ))}
+        {logoextra.map((item, index) => (
+          <Link
+            key={index}
+            href={{
+              pathname: "/cases",
+            }}
+            className="p-6 border-1 border-gray-400 rounded-lg md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105"
+          >
+            <div className="max-w-[180px] min-h-[100px] relative">
+              <Image
+                src={item.img}
+                alt={item.title}
+                fill
+                className="object-contain"
+              />
+            </div>
+          </Link>
+        ))}
       </div>
     </section>
   );
