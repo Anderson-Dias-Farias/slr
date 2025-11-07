@@ -19,23 +19,92 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "SLR - Soluções em obras turnkey e design & build",
-  description: "Soluções em obras turnkey e design & build para seu negócio",
-  icons: {
-    icon: "/logo.svg",
-  },
-  authors: [{ name: "Anderson D Farias", url: "https://adfdeveloper.com.br" }],
-  openGraph: {
-    images: "/logo.svg",
+const metadataByLocale: Record<
+  string,
+  {
+    title: string;
+    description: string;
+    openGraph: {
+      title: string;
+      description: string;
+      url: string;
+      siteName: string;
+      locale: string;
+    };
+  }
+> = {
+  "pt-br": {
     title: "SLR - Soluções em obras turnkey e design & build",
     description: "Soluções em obras turnkey e design & build para seu negócio",
-    url: "https://slrengineering.com.br",
-    siteName: "SLR Engineering",
-    locale: "pt-BR",
-    type: "website",
+    openGraph: {
+      title: "SLR - Soluções em obras turnkey e design & build",
+      description:
+        "Soluções em obras turnkey e design & build para seu negócio",
+      url: "https://slrengenharia.com.br/pt-br",
+      siteName: "SLR Engenharia",
+      locale: "pt_BR",
+    },
+  },
+  en: {
+    title: "SLR - Turnkey construction and design & build solutions",
+    description:
+      "Turnkey construction and design & build solutions tailored to your business.",
+    openGraph: {
+      title: "SLR - Turnkey construction and design & build solutions",
+      description:
+        "Turnkey construction and design & build solutions tailored to your business.",
+      url: "https://slrengenharia.com.br/en",
+      siteName: "SLR Engineering",
+      locale: "en_US",
+    },
+  },
+  es: {
+    title: "SLR - Soluciones llave en mano y diseño & construcción",
+    description:
+      "Soluciones de obras llave en mano y diseño & construcción para tu empresa.",
+    openGraph: {
+      title: "SLR - Soluciones llave en mano y diseño & construcción",
+      description:
+        "Soluciones de obras llave en mano y diseño & construcción para tu empresa.",
+      url: "https://slrengenharia.com.br/es",
+      siteName: "SLR Ingeniería",
+      locale: "es_ES",
+    },
   },
 };
+
+const FALLBACK_LOCALE = "pt-br";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const normalizedLocale = locale.toLowerCase();
+  const metadataConfig =
+    metadataByLocale[normalizedLocale] ?? metadataByLocale[FALLBACK_LOCALE];
+
+  return {
+    title: metadataConfig.title,
+    description: metadataConfig.description,
+    icons: {
+      icon: "/logo.svg",
+    },
+    authors: [
+      { name: "Anderson D Farias", url: "https://adfdeveloper.com.br" },
+    ],
+    openGraph: {
+      images: "/logo.svg",
+      title: metadataConfig.openGraph.title,
+      description: metadataConfig.openGraph.description,
+      url: metadataConfig.openGraph.url,
+      siteName: metadataConfig.openGraph.siteName,
+      locale: metadataConfig.openGraph.locale,
+      type: "website",
+    },
+  };
+}
 
 export default async function LocaleLayout({
   children,
