@@ -10,6 +10,7 @@ export default function Contact() {
           alt="Contact"
           width={1920}
           height={1080}
+          priority
           className="object-cover w-full h-full max-h-[100vh] "
         />
       </section>

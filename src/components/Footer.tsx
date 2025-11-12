@@ -10,7 +10,13 @@ export default function Footer() {
       <div className="w-full h-full max-w-7xl mx-auto mb-5 flex flex-col md:flex-row gap-8">
         <div className="w-full md:max-w-[300px] lg:max-w-[500px]">
           <div className="flex flex-col gap-8 md:max-w-[300px]">
-            <Image src="/logo-footer.png" alt="Logo" width={80} height={80} />
+            <Image
+              src="/logo-footer.png"
+              alt="Logo"
+              width={80}
+              height={80}
+              priority
+            />
             <p className="text-sm">{t("description")}</p>
           </div>
         </div>

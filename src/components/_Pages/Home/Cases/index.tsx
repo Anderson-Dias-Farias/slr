@@ -250,6 +250,7 @@ export default function Cases() {
             src="/map-location.svg"
             alt="Map Location"
             fill
+            priority
             className="sm:object-cover object-contain scale-210  sm:scale-200  object-bottom -translate-y-[55%]  xs:-translate-y-[35%] md:-translate-y-[20%]   md:scale-150  translate-x-[2%] sm:-translate-x-[15%] md:translate-x-0 "
           />
         </div>
@@ -267,6 +268,7 @@ export default function Cases() {
               src={itensCorporativo[currentSlide].img}
               alt={itensCorporativo[currentSlide].title}
               fill
+              priority
               className="object-cover md:grayscale-100 grayscale-0 rounded-lg lg:rounded-none hover:grayscale-0 transition-all duration-300"
             />
           </motion.div>
@@ -407,6 +409,7 @@ export default function Cases() {
                   src={item.logo}
                   alt={item.title}
                   fill
+                  priority
                   className="object-contain"
                 />
               </div>
@@ -425,6 +428,7 @@ export default function Cases() {
                 src={item.img}
                 alt={item.title}
                 fill
+                priority
                 className="object-contain"
               />
             </div>

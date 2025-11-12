@@ -192,6 +192,7 @@ export default function NossoValores() {
               src="/logo-opcion.png"
               alt="Values"
               fill
+              priority
               className="xs:object-cover object-contain "
             />
             <motion.img
@@ -350,7 +351,7 @@ export default function NossoValores() {
               activeId === "intelligence-quotient-yellow"
                 ? "shadow-2xl shadow-yellow-300 bg-white scale-105"
                 : ""
-            }  hidden md:flex w-full h-auto p-4 rounded-lg transition-all duration-300  items-center justify-center flex-col text-center absolute xl:-top-25 -top-15 left-1/2 -translate-x-1/2 max-w-[400px] gap-4`}
+            }  hidden md:flex w-full h-auto p-4 rounded-lg transition-all duration-300  items-center justify-center flex-col text-center absolute xl:-top-25 -top-15 left-1/2 -translate-x-1/2 max-w-[440px] gap-4`}
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.8, delay: 0.9 }}
@@ -598,6 +599,7 @@ export default function NossoValores() {
                 src="/varejo.png"
                 alt="Varejo"
                 fill
+                priority
                 className="object-cover shadow-2xl md:grayscale-100 grayscale-0  hover:grayscale-0 transition-all duration-300 rounded-xl md:rounded-none"
               />
             </motion.div>
@@ -629,6 +631,7 @@ export default function NossoValores() {
                 src="/corporativo.png"
                 alt="Corporativo"
                 fill
+                priority
                 className="object-cover shadow-2xl md:grayscale-100 grayscale-0  hover:grayscale-0 transition-all duration-300 rounded-xl md:rounded-none"
               />
             </motion.div>

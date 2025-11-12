@@ -73,6 +73,7 @@ export default function Missao() {
               src="/missao.jpg"
               alt="Missao"
               fill
+              priority
               className="object-cover"
             />
           </motion.div>
@@ -545,6 +546,7 @@ export default function Missao() {
             alt="Time"
             width={3000}
             height={2000}
+            priority
             className="w-full h-full object-cover max-h-[600px]"
           />
         </motion.div>

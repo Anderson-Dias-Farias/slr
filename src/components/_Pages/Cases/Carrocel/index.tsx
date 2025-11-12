@@ -82,6 +82,7 @@ export default function Carrocel({ item }: CarrocelProps) {
             src={item?.img?.img}
             alt={item?.company}
             fill
+            priority
             className="object-cover md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
           />
@@ -125,6 +126,7 @@ export default function Carrocel({ item }: CarrocelProps) {
                 width={100}
                 height={100}
                 quality={100}
+              priority
                 className={cn(
                   "object-contain sm:h-12 sm:w-22 h-10 w-10",
                   item.company.toLowerCase() === "empresa de tecnologia" ||
@@ -155,6 +157,7 @@ export default function Carrocel({ item }: CarrocelProps) {
               src={item?.img?.img2}
               alt={item?.company}
               fill
+              priority
               className="object-cover md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300"
             />
           </div>
@@ -163,6 +166,7 @@ export default function Carrocel({ item }: CarrocelProps) {
               src={item?.img?.img3}
               alt={item?.company}
               fill
+              priority
               className="object-cover md:grayscale-100 grayscale-0 hover:grayscale-0 transition-all duration-300"
             />
           </div>

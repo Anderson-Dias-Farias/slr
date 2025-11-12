@@ -83,6 +83,7 @@ export default function Depoimentos() {
                         src="/depoimento1.png"
                         alt="Depoimento"
                         fill
+                        priority
                         className="object-cover"
                       />
                       <div className="absolute bottom-4 left-4 right-4 text-center">

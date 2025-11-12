@@ -135,6 +135,7 @@ export default function QuemSomos() {
               src="/quem-somos-img1.jpg"
               alt="About"
               fill
+              priority
               className="object-cover rounded-xl md:rounded-none"
             />
           </div>
@@ -185,7 +186,13 @@ export default function QuemSomos() {
                 delay: 1.0 + index * 0.1,
               }}
             >
-              <Image src={card.img} alt={card.title} width={70} height={70} />
+              <Image
+                src={card.img}
+                alt={card.title}
+                width={70}
+                height={70}
+                priority
+              />
             </motion.div>
             <div className="flex items-start gap-4 justify-start flex-col h-full pb-4">
               <motion.h3
