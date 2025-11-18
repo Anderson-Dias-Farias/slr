@@ -41,28 +41,51 @@ export default function FormWork() {
   });
 
   const onSubmit = async (data: FormData) => {
-    const formData = new FormData();
-    formData.append("nome", data.nome);
-    formData.append("telefone", data.telefone);
-    formData.append("email", data.email);
-    formData.append("mensagem", data.mensagem);
+    try {
+      console.log("[FORM WORK CLIENT] Enviando dados:", {
+        nome: data.nome,
+        email: data.email,
+        telefone: data.telefone,
+        mensagem: data.mensagem,
+        curriculo: data.curriculo ? `presente (${data.curriculo.length} arquivo(s))` : "ausente",
+      });
 
-    // Adicionar o arquivo do currículo
-    if (data.curriculo && data.curriculo.length > 0) {
-      formData.append("curriculo", data.curriculo[0]);
-    }
+      const formData = new FormData();
+      formData.append("nome", data.nome);
+      formData.append("telefone", data.telefone);
+      formData.append("email", data.email);
+      formData.append("mensagem", data.mensagem);
 
-    console.log("Dados do formulário:", formData);
+      // Adicionar o arquivo do currículo
+      if (data.curriculo && data.curriculo.length > 0) {
+        formData.append("curriculo", data.curriculo[0]);
+        console.log("[FORM WORK CLIENT] Arquivo anexado:", data.curriculo[0].name);
+      }
 
-    const response = await fetch("/api/send/work", {
-      method: "POST",
-      body: formData,
-    });
-    if (response.ok) {
-      reset();
-      toast.success(t("workSuccess"));
-    } else {
-      toast.error(t("workError"));
+      const response = await fetch("/api/send/work", {
+        method: "POST",
+        body: formData,
+      });
+
+      console.log("[FORM WORK CLIENT] Status da resposta:", response.status);
+      console.log("[FORM WORK CLIENT] Response ok:", response.ok);
+
+      const result = await response.json();
+      console.log("[FORM WORK CLIENT] Resposta da API:", result);
+
+      if (response.ok && result.success) {
+        reset();
+        toast.success(result.message || t("workSuccess"));
+        console.log("[FORM WORK CLIENT] Formulário enviado com sucesso!");
+      } else {
+        const errorMessage = result.message || result.error || t("workError");
+        console.error("[FORM WORK CLIENT] Erro ao enviar:", errorMessage);
+        toast.error(errorMessage);
+      }
+    } catch (error) {
+      console.error("[FORM WORK CLIENT] Erro na requisição:", error);
+      const errorMessage = error instanceof Error ? error.message : t("workError");
+      toast.error(errorMessage);
     }
   };
 
