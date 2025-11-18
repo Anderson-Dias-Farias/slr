@@ -89,15 +89,17 @@ export async function POST(request: Request) {
         { status: 500 }
       );
     }
-  } catch (error: any) {
+  } catch (error) {
     console.error("[WORK API] Erro ao processar requisição:", error);
-    console.error("[WORK API] Stack trace:", error.stack);
+    const errorMessage = error instanceof Error ? error.message : "Erro ao enviar mensagem";
+    const errorStack = error instanceof Error ? error.stack : undefined;
+    console.error("[WORK API] Stack trace:", errorStack);
     
     return Response.json(
       { 
         success: false,
-        message: error.message || "Erro ao enviar mensagem",
-        error: error.toString()
+        message: errorMessage,
+        error: error instanceof Error ? error.toString() : String(error)
       },
       { status: 500 }
     );
