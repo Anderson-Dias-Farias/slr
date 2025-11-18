@@ -156,8 +156,9 @@
     "description3": "Completa el formulario al lado o contáctanos a través de uno de nuestros canales."
   },
   "form": {
-    "title": "Ponte en Contacto",
+    "title": "Presupuesto",
     "title2": "Trabaja con nosotros",
+    "title3": "Sé Proveedor",
     "fields": {
       "nome": "Nombre Completo",
       "telefone": "Teléfono",
@@ -186,12 +187,29 @@
       "curriculo": "Selecciona tu currículum (PDF, DOC, DOCX)",
       "mensagem": "Cuéntanos sobre tu experiencia e interés en el puesto"
     },
+    "supplierFields": {
+      "nome": "Nombre Completo",
+      "telefone": "Teléfono",
+      "email": "Correo Electrónico",
+      "portfolio": "Portafolio",
+      "portfolioHint": "Acepta cualquier tipo de archivo (PDF, imágenes, documentos, etc.)",
+      "mensagem": "Mensaje"
+    },
+    "supplierPlaceholders": {
+      "nome": "Ingresa tu nombre completo",
+      "telefone": "(555) 123-4567",
+      "email": "tu@email.com",
+      "mensagem": "Cuéntanos sobre tus productos y servicios"
+    },
     "submit": "Quiero hablar con un especialista",
     "workSubmit": "Enviar Aplicación",
+    "supplierSubmit": "Enviar Propuesta",
     "sending": "Enviando Mensaje...",
     "workSending": "Enviando Aplicación...",
     "workSuccess": "¡Aplicación enviada con éxito!",
     "workError": "Error al enviar aplicación. Inténtalo de nuevo.",
+    "supplierSuccess": "¡Propuesta enviada con éxito!",
+    "supplierError": "Error al enviar propuesta. Inténtalo de nuevo.",
     "sendError": "Error al enviar mensaje. Inténtalo de nuevo.",
     "sendSuccess": "¡Mensaje enviado con éxito!"
   },

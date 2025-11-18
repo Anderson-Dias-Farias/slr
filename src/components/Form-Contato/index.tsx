@@ -21,16 +21,16 @@ export default function FormContato() {
     >
       <div className="w-full h-full max-w-7xl mx-auto  md:py-20 py-10 flex flex-col gap-10 items-start  md:justify-start justify-center  ">
         <motion.h1
-          className="sm:text-lg text-base font-normal text-gray-800 w-auto text-center rounded-full px-6 py-2 border-1 border-gray-400 xl:ml-16"
+          className="sm:text-lg text-base font-normal text-gray-800 w-auto text-center rounded-full px-6 py-2 border-1 border-gray-400 "
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8 }}
         >
           {t("badge")}
         </motion.h1>
-        <div className="w-full h-full flex md:flex-row flex-col items-center justify-center  md:gap-6 gap-10  xl:px-16">
+        <div className="w-full h-full flex md:flex-row flex-col items-center justify-center  md:gap-6 gap-10 ">
           <div className="w-full md:max-w-1/2">
-            <div className="w-full md:max-w-[450px] flex flex-col gap-8 items-center justify-center">
+            <div className="w-full  flex flex-col gap-8 items-center justify-center">
               <motion.h1
                 className="sm:text-4xl text-3xl font-semibold text-gray-500 w-full text-left  -mb-4 sm:mb-4"
                 initial={{ opacity: 0, y: 30 }}

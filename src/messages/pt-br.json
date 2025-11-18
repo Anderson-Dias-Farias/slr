@@ -138,8 +138,9 @@
     "description3": "Preencha o formulário ao lado ou entre em contato por um dos nossos canais."
   },
   "form": {
-    "title": "Entre em Contato",
+    "title": "Orçamento",
     "title2": "Trabalhe conosco",
+    "title3": "Seja Fornecedor",
     "fields": {
       "nome": "Nome Completo",
       "telefone": "Telefone",
@@ -168,12 +169,29 @@
       "curriculo": "Selecione seu currículo (PDF, DOC, DOCX)",
       "mensagem": "Conte-nos sobre sua experiência e interesse na vaga"
     },
+    "supplierFields": {
+      "nome": "Nome Completo",
+      "telefone": "Telefone",
+      "email": "E-mail",
+      "portfolio": "Portfólio",
+      "portfolioHint": "Aceita qualquer tipo de arquivo (PDF, imagens, documentos, etc.)",
+      "mensagem": "Mensagem"
+    },
+    "supplierPlaceholders": {
+      "nome": "Digite seu nome completo",
+      "telefone": "(11) 99999-9999",
+      "email": "seu@email.com",
+      "mensagem": "Conte-nos sobre seus produtos e serviços"
+    },
     "submit": "Quero falar com um especialista",
     "workSubmit": "Enviar Candidatura",
+    "supplierSubmit": "Enviar Proposta",
     "sending": "Enviando Mensagem...",
     "workSending": "Enviando Candidatura...",
     "workSuccess": "Candidatura enviada com sucesso!",
     "workError": "Erro ao enviar candidatura. Tente novamente.",
+    "supplierSuccess": "Proposta enviada com sucesso!",
+    "supplierError": "Erro ao enviar proposta. Tente novamente.",
     "sendError": "Erro ao enviar mensagem. Tente novamente.",
     "sendSuccess": "Mensagem enviada com sucesso!"
   },
