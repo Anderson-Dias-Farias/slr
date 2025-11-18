@@ -33,15 +33,36 @@ export default function FormContatct() {
   });
 
   const onSubmit = async (data: FormData) => {
-    const response = await fetch("/api/send/contact", {
-      method: "POST",
-      body: JSON.stringify(data),
-    });
-    if (response.ok) {
-      reset();
-      toast.success(t("sendSuccess"));
-    } else {
-      toast.error(t("sendError"));
+    try {
+      console.log("[FORM CLIENT] Enviando dados:", data);
+      
+      const response = await fetch("/api/send/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      console.log("[FORM CLIENT] Status da resposta:", response.status);
+      console.log("[FORM CLIENT] Response ok:", response.ok);
+
+      const result = await response.json();
+      console.log("[FORM CLIENT] Resposta da API:", result);
+
+      if (response.ok && result.success) {
+        reset();
+        toast.success(result.message || t("sendSuccess"));
+        console.log("[FORM CLIENT] Formulário enviado com sucesso!");
+      } else {
+        const errorMessage = result.message || result.error || t("sendError");
+        console.error("[FORM CLIENT] Erro ao enviar:", errorMessage);
+        toast.error(errorMessage);
+      }
+    } catch (error) {
+      console.error("[FORM CLIENT] Erro na requisição:", error);
+      const errorMessage = error instanceof Error ? error.message : t("sendError");
+      toast.error(errorMessage);
     }
   };
 
