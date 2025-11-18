@@ -46,6 +46,22 @@ export default function FormContatct() {
 
       console.log("[FORM CLIENT] Status da resposta:", response.status);
       console.log("[FORM CLIENT] Response ok:", response.ok);
+      console.log(
+        "[FORM CLIENT] Content-Type:",
+        response.headers.get("content-type")
+      );
+
+      // Verificar se a resposta é JSON antes de tentar fazer parse
+      const contentType = response.headers.get("content-type");
+      if (!contentType || !contentType.includes("application/json")) {
+        const text = await response.text();
+        console.error(
+          "[FORM CLIENT] Resposta não é JSON:",
+          text.substring(0, 200)
+        );
+        toast.error("Erro ao processar resposta do servidor");
+        return;
+      }
 
       const result = await response.json();
       console.log("[FORM CLIENT] Resposta da API:", result);
