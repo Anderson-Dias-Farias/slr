@@ -35,7 +35,7 @@ export default function FormContatct() {
   const onSubmit = async (data: FormData) => {
     try {
       console.log("[FORM CLIENT] Enviando dados:", data);
-      
+
       const response = await fetch("/api/send/contact", {
         method: "POST",
         headers: {
@@ -61,7 +61,8 @@ export default function FormContatct() {
       }
     } catch (error) {
       console.error("[FORM CLIENT] Erro na requisição:", error);
-      const errorMessage = error instanceof Error ? error.message : t("sendError");
+      const errorMessage =
+        error instanceof Error ? error.message : t("sendError");
       toast.error(errorMessage);
     }
   };
