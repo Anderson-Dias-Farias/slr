@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/routing";
+import { Instagram, Linkedin } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import NextLink from "next/link";
@@ -74,12 +75,20 @@ export default function Footer() {
             >
               {t("links3.link2")}: comercial@slrengenharia.com
             </NextLink>
-            <NextLink
-              href="https://www.instagram.com/slrengenharia/"
-              className="text-sm font-normal"
-            >
-              {t("links3.link3")}
-            </NextLink>
+            <div className="flex items-center gap-2">
+              <NextLink
+                href="https://www.instagram.com/slrengenharia/"
+                className="text-sm font-normal"
+              >
+                <Instagram className="w-4 h-4" />
+              </NextLink>
+              <NextLink
+                href="https://www.linkedin.com/company/slr-engenharia/"
+                className="text-sm font-normal"
+              >
+                <Linkedin className="w-4 h-4" />
+              </NextLink>
+            </div>
           </div>
         </div>
       </div>
