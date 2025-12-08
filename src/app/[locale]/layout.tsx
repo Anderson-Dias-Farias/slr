@@ -92,7 +92,7 @@ export async function generateMetadata({
       icon: "/logo.svg",
     },
     authors: [
-      { name: "Anderson D Farias", url: "https://adfdeveloper.com.br" },
+      { name: "Anderson Dias Farias", url: "https://adfdeveloper.com.br" },
     ],
     openGraph: {
       images: "/logo.svg",
