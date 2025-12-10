@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  meu_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: slr-app
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/app
