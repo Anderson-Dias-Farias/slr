@@ -1,33 +1,28 @@
-# ---------- STAGE 1: Build ----------
-    FROM node:20-alpine AS builder
+# Builder
+FROM node:20-alpine AS builder
+WORKDIR /app
 
-    WORKDIR /app
-    
-    COPY package*.json ./
-    COPY pnpm-lock.yaml ./
-    COPY .npmrc ./
-    
-    RUN npm install -g pnpm
-    
-    RUN pnpm install --frozen-lockfile
-    
-    COPY . .
-    
-    RUN pnpm build
-    
-    # ---------- STAGE 2: Production ----------
-    FROM node:20-alpine AS runner
-    
-    WORKDIR /app
-    
-    ENV NODE_ENV=production
-    
-    COPY --from=builder /app/package*.json ./
-    COPY --from=builder /app/.next ./.next
-    COPY --from=builder /app/public ./public
-    COPY --from=builder /app/node_modules ./node_modules
-    
-    EXPOSE 3000
-    
-    CMD ["pnpm", "start"]
-    
+# Copia arquivos essenciais
+COPY package.json pnpm-lock.yaml ./
+
+# Instala pnpm
+RUN npm install -g pnpm
+
+# Instala dependências
+RUN pnpm install --frozen-lockfile
+
+# Copia restante do projeto
+COPY . .
+
+# Build do Next
+RUN pnpm build
+
+# Runner
+FROM node:20-alpine AS runner
+WORKDIR /app
+
+# Copiar apenas o build e node_modules necessários
+COPY --from=builder /app ./
+
+EXPOSE 3000
+CMD ["pnpm", "start"]
