@@ -7,7 +7,7 @@ import { getLocale } from "next-intl/server";
 export default async function Page({
   params,
 }: {
-  params: { slug: string; locale: string };
+  params: Promise<{ slug: string[]; locale: string }>;
 }) {
   const { slug } = await params;
   const locale = await getLocale();

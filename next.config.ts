@@ -2,9 +2,6 @@ import { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
-  // Desabilitar telemetria por segurança
-  telemetry: false,
-  
   // Headers de segurança
   async headers() {
     return [
