@@ -23,21 +23,17 @@ export default function Cases() {
     margin: "0px",
   });
 
-  // Valores traduzidos para comparação
-  const corporativoValue = t("badge1").toLowerCase();
-  const varejoValue = t("badge2").toLowerCase();
-
-  // Inicializar tab baseada no service traduzido
+  // Inicializar tab baseada no service da URL
   useEffect(() => {
     if (service) {
       const serviceLower = service.toLowerCase();
-      if (serviceLower === corporativoValue) {
+      if (serviceLower === "corporativo") {
         setTab("corporativo");
-      } else if (serviceLower === varejoValue) {
+      } else if (serviceLower === "varejo") {
         setTab("varejo");
       }
     }
-  }, [service, corporativoValue, varejoValue]);
+  }, [service]);
 
   const itensCases = Array.from({ length: 23 }, (_, index) => {
     const itemNumber = index + 1;

@@ -46,16 +46,28 @@ export default function Footer() {
             <h2 className="text-lg font-bold text-yellow-500">
               {t("links2.title")}
             </h2>
-            <Link href="/abt" className="text-sm font-normal">
+            <Link
+              href={{ pathname: "/services", hash: "design-build" }}
+              className="text-sm font-normal"
+            >
               {t("links2.link1")}
             </Link>
-            <Link href="/abt" className="text-sm font-normal">
+            <Link
+              href={{ pathname: "/services", hash: "turnkey" }}
+              className="text-sm font-normal"
+            >
               {t("links2.link2")}
             </Link>
-            <Link href="/abt" className="text-sm font-normal">
+            <Link
+              href={{ pathname: "/cases", query: { service: "varejo" } }}
+              className="text-sm font-normal"
+            >
               {t("links2.link3")}
             </Link>
-            <Link href="/abt" className="text-sm font-normal">
+            <Link
+              href={{ pathname: "/cases", query: { service: "corporativo" } }}
+              className="text-sm font-normal"
+            >
               {t("links2.link4")}
             </Link>
           </div>

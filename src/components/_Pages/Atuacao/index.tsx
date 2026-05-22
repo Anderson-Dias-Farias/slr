@@ -79,6 +79,7 @@ export default function Atuacao() {
 
       {/* Turn Key Hero */}
       <section
+        id="turnkey"
         ref={ref2}
         className="w-full h-full overflow-hidden "
         style={{
@@ -214,6 +215,7 @@ export default function Atuacao() {
 
       {/* Design Build Hero */}
       <section
+        id="design-build"
         ref={ref5}
         className="w-full h-full overflow-hidden "
         style={{
